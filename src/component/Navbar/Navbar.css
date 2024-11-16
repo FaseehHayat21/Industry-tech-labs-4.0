@@ -1,0 +1,57 @@
+
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: rgb(155, 0, 0);
+}
+.nav-link.active {
+  font-weight: bold;
+  color: #007bff;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-logo {
+  height: 10vh;
+}
+.nav-heading {
+  color: #ffffff;
+  font-family: "kallisto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 0px;
+}
+#navbarSupportedContent.navbar-collapse.navbar-e.collapse.show {
+  backdrop-filter: blur(23px);
+  color: black;
+}
+.navbar-background {
+  background-color: transparent;
+  height: 15vh;
+  transition: height 1.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-background.scrolled {
+  height: 10vh;
+  background-color: #000000;
+}
+
+.navbar-toggler {
+  border-color: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #ff6f61;
+}

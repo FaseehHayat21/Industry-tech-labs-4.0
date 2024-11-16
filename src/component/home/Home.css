@@ -1,0 +1,76 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Fullscreen video background */
+.hero video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width:100%;
+  min-height: 100%;
+  
+  z-index: -2; /* Place video behind the overlay */
+  transform: translate(-50%, -50%);
+  object-fit: cover; /* Ensures the video covers the entire background */
+}
+video{
+  width:100%;
+
+}
+/* Overlay on the video */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* This is the overlay (60% opacity black) */
+  z-index: -1; /* Place it behind the content */
+}
+
+.hero .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2; /* Ensure the content is on top of the overlay */
+}
+
+.hero-text {
+  max-width: 80%;
+  position: relative;
+  align-self: center;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #ff5a5f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+

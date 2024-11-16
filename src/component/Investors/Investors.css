@@ -1,0 +1,57 @@
+.founders-section {
+    font-family: Arial, sans-serif;
+  }
+  
+  .banner {
+    background-image: url('../../assets/bgbanner.png'); 
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 10vh;
+  }
+  
+  .banner h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .content {
+    max-width: 70%;
+    margin: 40px auto;
+    padding: 0 0;
+    text-align: justify;
+    color: #333;
+  }
+  
+  .content p {
+    font-size: 1.7rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .content strong {
+    color: #00838f; 
+  }
+  
+  .links {
+    max-width: 70%;
+    margin: 40px auto;
+    padding: 0 0;
+    text-align: left;
+  }
+  
+  .links a {
+    margin:  0px;
+    font-size: 1rem;
+    color: #00838f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .links a:hover {
+    color: #005f6a; /* Darker shade on hover */
+  }
+  
