@@ -5,11 +5,11 @@ export default function BioTechnology() {
   return (
     <section className="founders-section">
       <div className="banner">
-        <h1>Climate Tech</h1>
+        <h1>Biotechnology</h1>
       </div>
       <div className="content">
      
-        <p>Biotechnology is reshaping the boundaries of innovation, enabling breakthroughs
+        <p> <strong>Biotechnology</strong> is reshaping the boundaries of innovation, enabling breakthroughs
         that transform healthcare, agriculture, and environmental sustainability. At Infinity
         Tech Labs, we harness the power of cutting-edge biotechnological solutions to
         address complex challenges, from genetic engineering to bioinformatics. With

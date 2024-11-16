@@ -10,10 +10,17 @@ export default function HealthCare() {
       </div>
       <div className="content">
      
-        <p><strong>Cybersecurity and cryptography</strong> are at the forefront of the digital revolution, addressing critical issues in data protection and financial systems. As cyber threats grow in complexity, businesses need robust security solutions to safeguard sensitive information and maintain trust. Meanwhile, the rise of blockchain and cryptocurrencies is reshaping financial transactions, enabling decentralized systems and new opportunities for secure, transparent, and efficient digital exchanges.</p>
+        <p> The Infinity Tech Labs <strong>Healthcare</strong>community brings together experts from diverse fields to drive innovation in healthcare through entrepreneurship. In partnership with organizations like National Institute of Health (NIH), it can connect promising healthcare startups with influential leaders to address key challenges in health and wellness.</p>
         <p>
-        Infinity Tech Labs supports startups in the cyber and crypto sectors by providing access to cutting-edge technologies, expert guidance, and valuable industry connections. Whether it's developing secure systems, exploring blockchain applications, or navigating regulatory landscapes, we help startups drive innovation in cybersecurity and crypto solutions. With the strength of our global network, cyber and crypto startups can scale rapidly, creating a safer, more decentralized future for businesses and consumers alike.
+        The Infinity Tech Labs offers a variety of healthcare-focused programs aimed at fostering innovation and improving lives through technology:
         </p>
+        <ul>
+          <li> <p><strong>•	Bio-Tech: </strong> Supports startups combining science and engineering to create innovative deep-tech solutions that enhance human well-being.</p></li>
+          <li> <p><strong>•	Med-Tech: </strong> Builds med-tech and life sciences heritage to support startups in improving healthcare offerings.</p></li>
+          <li> <p><strong>•	Calamity-Tech:  </strong> Focuses on preventing and mitigating large-scale disasters and supporting post-calamity recovery efforts, such as clean water and humanitarian aid.</p></li>
+          <li> <p><strong>•	Seniors’ Tech: </strong> Advances technologies to improve the lives of the aging population, offering more connected, tech-driven solutions</p></li>
+
+        </ul>
       </div>
       <div className="links">
         <a href="#experience">Founder Experience</a>
