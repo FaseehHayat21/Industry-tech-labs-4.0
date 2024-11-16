@@ -75,9 +75,10 @@
     background: none;
     border: none;
     color: #d81b60;
-    font-size: 2rem;
+    font-size: 6rem;
     cursor: pointer;
     margin: 0 20px;
+    margin: 10px;
     transition: color 0.3s;
   }
   

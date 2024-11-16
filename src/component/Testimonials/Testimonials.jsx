@@ -7,21 +7,27 @@ const testimonials = [
     text: "My internship at Infinity Tech Labs was an incredibly rewarding experience thatpushed me beyond my comfort zone and allowed me to take on meaningful responsibilities. I had the opportunity to work on cutting-edge projects, ...",
     name: "Ammar Hussain",
     title: "National University of Science and Technology",
-    image: image // Replace with actual image path
+    image: image 
   },
   {
     text: "Our goal was to unlock untapped potential by bringing diverse perspectives into one collaborative space. With Infinity Tech Labs, we fostered an environment where creative minds could converge, driving innovation and redefining our approach to problem-solving.",
     name: ".......",
     title: "..............",
-    image: image1 // Replace with actual image path
+    image: image1 
   },
   {
     text: "By partnering with Infinity Tech Labs, we gained access to a network of forward-thinking innovators. This partnership allowed us to approach challenges with fresh insights and unconventional strategies, transforming obstacles into opportunities for growth.",
     name: ".......",
     title: "..............",
-    image: image1 // Replace with actual image path
+    image: image1
   },
-  // Add more testimonials if needed
+  {
+    text: "By partnering with Infinity Tech Labs, we gained access to a network of forward-thinking innovators. This partnership allowed us to approach challenges with fresh insights and unconventional strategies, transforming obstacles into opportunities for growth.",
+    name: ".......",
+    title: "..............",
+    image: image1 
+  },
+
 ];
 
 export default function Testimonials() {
