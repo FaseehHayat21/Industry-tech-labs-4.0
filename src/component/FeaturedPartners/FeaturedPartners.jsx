@@ -21,7 +21,7 @@ const partners = [
 export default function FeaturedPartners() {
   return (
     <section className="featured-partners-section">
-      <h2>Highlighted Partners</h2>
+      <h2>Significant Partners</h2>
       <div className="partners-grid">
         {partners.map((partner, index) => (
           <div className="partner-card" key={index}>

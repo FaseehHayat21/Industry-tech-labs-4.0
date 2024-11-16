@@ -151,8 +151,9 @@ Link{
 }
 
 .dropdown-item:hover {
-    border-bottom: 1px solid black;
-    color: #00838f;
+    border-bottom: 2px solid black;
+    color: #000000;
+    font-weight: bold;
   }
   li{
     text-decoration: none;
