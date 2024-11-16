@@ -3,7 +3,7 @@
 }
 
 .banner {
-  background-image: url('../../assets/bgbanner.png'); 
+  background-image: url('../../../assets/bgbanner.png'); 
   background-size: cover;
   background-position: center;
   padding: 60px 20px;
