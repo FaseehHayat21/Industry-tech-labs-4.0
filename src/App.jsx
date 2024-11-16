@@ -65,14 +65,14 @@ import Footer from './component/footer/Footer';
 import Applications from './component/Application/Applications';
 import Testimonials from './component/Testimonials/Testimonials';
 import FeaturedPartners from './component/FeaturedPartners/FeaturedPartners';
-import Founders from './component/Founder/Founders';
+import Founders from './component/Community/Founder/Founders';
 import "./App.css";
 import LandingPage from './pages/LandingPage';
-import Expert from './component/Experts/Expert';
-import Investors from './component/Investors/Investors';
-import Joins from './component/Joins/Joins';
-import ClimateTech from './component/ClimateTech/ClimateTech';
-import DualUse from './component/DualUse/DualUse';
+import Expert from './component/Community/Experts/Expert';
+import Investors from './component/Community/Investors/Investors';
+import Joins from './component/Community/Joins/Joins';
+import ClimateTech from './component/Verticals/ClimateTech/ClimateTech';
+import DualUse from './component/Verticals/DualUse/DualUse';
 
 function App() {
   return (
@@ -80,7 +80,6 @@ function App() {
       <div className="header">
         <Header />
       </div>
-     
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/founders" element={<Founders />} />
