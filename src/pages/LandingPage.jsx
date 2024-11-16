@@ -16,9 +16,9 @@ export default function LandingPage() {
     </div>
      <SolveWithUs/>
         <WhoWeAre/>
-        <FeaturedPartners/>
         <Applications/>
         <Testimonials/>
+        <FeaturedPartners/>
         <Business/>
         <ContactUs/>
    </>

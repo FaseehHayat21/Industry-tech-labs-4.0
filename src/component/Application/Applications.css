@@ -1,17 +1,18 @@
 .applications-section {
     background-color: #f0fbfc; /* Light background color */
     text-align: center;
-    padding: 60px 20px;
+    padding: 80px 20px;
+    padding-bottom: 15vh;
   }
   
   .applications-section h2 {
-    font-size: 2rem;
+    font-size: 4rem;
     color: #00838f; /* Adjust color to match */
     margin-bottom: 10px;
   }
   
   .applications-section p {
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: #555;
     line-height: 1.6;
     max-width: 600px;

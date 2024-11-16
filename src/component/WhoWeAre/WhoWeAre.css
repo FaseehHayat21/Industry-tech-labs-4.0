@@ -1,12 +1,23 @@
 .who-is-mass-challenge {
   padding: 40px;
+  justify-content: center;
+  width: 100%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
-.who-is-mass-challenge h2 {
-  font-size: 2.6rem;
-  color: #00838f; /* Adjust color to match */
-  margin-bottom: 20px;
+.heading-who-div{
+  width: 100%;
+  max-width: 70%;
+}
+.heading-who {
+  font-size: 4rem; 
+  align-self: start;
+  color: #00838f; 
+  margin-bottom: 4vh;
+  text-align: start;
 }
 
 .image-container {
@@ -17,15 +28,15 @@
 
 .image-container img {
   width: 100%;
-  max-width: 300px; 
+  max-width: 75%; 
   border-radius: 8px;
 }
 
 .description {
-  max-width: 800px;
+  max-width: 70%;
   margin: 0 auto;
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 2rem;
   color: #555;
   line-height: 1.6;
 }
