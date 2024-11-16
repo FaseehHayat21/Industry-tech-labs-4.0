@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './SolveWithUs.css';
-import image from "../../assets/thumbnail.png"; // Placeholder for video thumbnail
+import image from "../../../assets/thumbnail.png"; // Placeholder for video thumbnail
 
 const SolveWithUs = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);

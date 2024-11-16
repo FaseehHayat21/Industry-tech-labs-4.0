@@ -2,8 +2,8 @@ import React, { useEffect} from 'react'
 import "./Team.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
-import sirazhar from "../../assets/sirazhar.jpg"
-import sirmansoor from "../../assets/sirmansoor.jpg"
+import sirazhar from "../../../assets/sirazhar.jpg"
+import sirmansoor from "../../../assets/sirmansoor.jpg"
 export default function Team() {
   useEffect(()=> {
     Aos.init({duration: 1000});

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Testimonials.css';
-import  image  from "../../assets/2.png"
-import  image1  from "../../assets/1.png"
+import  image  from "../../../assets/2.png"
+import  image1  from "../../../assets/1.png"
 const testimonials = [
   {
     text: "My internship at Infinity Tech Labs was an incredibly rewarding experience thatpushed me beyond my comfort zone and allowed me to take on meaningful responsibilities. I had the opportunity to work on cutting-edge projects, ...",

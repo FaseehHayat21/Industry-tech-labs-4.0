@@ -55,16 +55,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import TechnologyVerticals from './component/TechnologyVerticals/TechnologyVerticals';
-import Team from './component/Team/Team';
-import Header from './component/Header/Header';
-import Business from './component/Business/Business';
-import ContactUs from './component/ContactUs/ContactUs';
-import WhoWeAre from './component/WhoWeAre/WhoWeAre';
-import SolveWithUs from './component/SolveWithUs/SolveWithUs';
-import Footer from './component/footer/Footer';
-import Applications from './component/Application/Applications';
-import Testimonials from './component/Testimonials/Testimonials';
-import FeaturedPartners from './component/FeaturedPartners/FeaturedPartners';
+import Team from './component/LandingPage/Team/Team';
+import Header from './component/LandingPage/Header/Header';
+import Business from './component/LandingPage/Business/Business';
+import ContactUs from './component/LandingPage/ContactUs/ContactUs';
+import WhoWeAre from './component/LandingPage/WhoWeAre/WhoWeAre';
+import SolveWithUs from './component/LandingPage/SolveWithUs/SolveWithUs';
+import Footer from './component/LandingPage/footer/Footer';
+import Applications from './component/LandingPage/Application/Applications';
+import Testimonials from './component/LandingPage/Testimonials/Testimonials';
+import FeaturedPartners from './component/LandingPage/FeaturedPartners/FeaturedPartners';
 import Founders from './component/Community/Founder/Founders';
 import "./App.css";
 import LandingPage from './pages/LandingPage';
@@ -84,6 +84,8 @@ import AiandBigData from "./component/Verticals/AIandBigData/AiandBigData"
 import Corporate from './component/Collaborations/Corporate/Corporate';
 import Government from './component/Collaborations/Government/Government';
 import Universities from './component/Collaborations/Universities/Universities';
+import AboutUs from './component/AboutUs/AboutUs/AboutsUs';
+import Diversity from './component/AboutUs/Diversity/Diversity';
 function App() {
   return (
     <Router>
@@ -126,8 +128,11 @@ function App() {
           {/* Collaborations */}
           <Route path="/Corporate" element={<Corporate/>} />
           <Route path="/Government" element={<Government/>} />
-          <Route path="/Universities" element={<Universities/>
-} />
+          <Route path="/Universities" element={<Universities/>}/>
+
+          {/* AboutUs */}
+          <Route path="/AboutUs" element={<AboutUs/>}/>
+          <Route path="/Diversity" element={<Diversity/>}/>
           
          
           

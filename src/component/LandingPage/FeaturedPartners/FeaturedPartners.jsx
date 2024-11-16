@@ -1,12 +1,12 @@
 import React from 'react';
 import './FeaturedPartners.css';
-import airuniversity from "../../assets/airuniversity.jpg"
-import auc from "../../assets/auc.png"
-import casee from "../../assets/case.png"
-import skybees from "../../assets/skybees.png"
-import foxit from "../../assets/foxit.jpg"
-import densefusion from "../../assets/densefusion.jpg"
-import nih from "../../assets/nih.png"
+import airuniversity from "../../../assets/airuniversity.jpg"
+import auc from "../../../assets/auc.png"
+import casee from "../../../assets/case.png"
+import skybees from "../../../assets/skybees.png"
+import foxit from "../../../assets/foxit.jpg"
+import densefusion from "../../../assets/densefusion.jpg"
+import nih from "../../../assets/nih.png"
 // Array of partner logos (replace with actual paths to images)
 const partners = [
   { src: airuniversity, alt: "Air Universirty" },

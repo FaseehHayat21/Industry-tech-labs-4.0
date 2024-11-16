@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 
 // Importing the logo image
-import Logo from '../../assets/ILlogo_bg_removed.png';
+import Logo from '../../../assets/ILlogo_bg_removed.png';
 
 const Footer = () => {
     return (

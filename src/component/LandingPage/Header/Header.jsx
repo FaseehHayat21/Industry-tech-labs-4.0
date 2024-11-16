@@ -62,7 +62,7 @@
 
 import React, { useState } from 'react';
 import './Header.css';
-import logo from "../../assets/logobg.png";
+import logo from "../../../assets/logobg.png";
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -79,8 +79,8 @@ const Header = () => {
 
   return (
     <header className={`main-header ${isNavOpen ? 'open-nav' : ''}`}>
-      <Link className="logo" to="/">
-        <img className="logo-img" src={logo} alt="logo" />
+      <Link className="logo-header" to="/">
+        <img className="logo-header-img" src={logo} alt="logo" />
       </Link>
       <nav className="main-nav">
         <ul className="nav-list">
@@ -168,8 +168,8 @@ const Header = () => {
             <span className="nav-link dropdown-toggle">About Us</span>
             {isDropdownOpen && (
               <ul className="dropdown-menu">
-                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >About Us</a></Link></li>
-                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Diversity</a></Link></li>
+                <li><Link to="/AboutUs" className="dropdown-item"><a to="/founders" >About Us</a></Link></li>
+                <li><Link to="/Diversity" className="dropdown-item"><a to="/founders" >Diversity</a></Link></li>
                 <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Innovation Blog</a></Link></li>
               
                

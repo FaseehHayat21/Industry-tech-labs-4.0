@@ -12,8 +12,8 @@ export default function ContactUs() {
   //   e.preventDefault();
 
   //   emailjs
-  //     .sendForm('service_ofg8hj7', 'template_rha4jkl', form.current, {
-  //       publicKey: 'X_tpTc1ZeOlRDRjT8',
+  //     .sendForm('', '', form.current, {
+  //       publicKey: '',
   //     })
   //     .then(
   //       (result) => {

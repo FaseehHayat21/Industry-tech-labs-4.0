@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import './Business.css'; // Importing the CSS file
-import image from "../../assets/industry-a.jpg"
+import image from "../../../assets/industry-a.jpg"
 const AccordionItem = ({ title, content, isOpen, onClick }) => {
   const contentRef = useRef(null);
 
