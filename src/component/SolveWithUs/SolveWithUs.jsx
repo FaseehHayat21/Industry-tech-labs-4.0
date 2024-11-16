@@ -20,7 +20,7 @@ const SolveWithUs = () => {
            
             <div className="text-section">
                 <h1>Join Us to Create Solutions!</h1>
-                <p>Infinity Tech Labs is <em>a</em> global hub for innovators dedicated to tackling monumental challenges.</p>
+                <p>Infinity Tech Labs is <em>a</em> national hub for innovators dedicated to tackling monumental challenges.</p>
                 <div className="button-group">
                     <button className="join-network">JOIN THE NETWORK</button>
                 </div>

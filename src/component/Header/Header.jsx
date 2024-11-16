@@ -107,18 +107,20 @@ const Header = () => {
             onMouseEnter={() => setIsDropdownOpen(true)} 
             onMouseLeave={() => setIsDropdownOpen(false)}
           >
-            <span className="nav-link dropdown-toggle">Industry</span>
+            <span className="nav-link dropdown-toggle">Verticals</span>
+          
             {isDropdownOpen && (
               <ul className="dropdown-menu">
-                <li><Link to="/climateTech"><a to="/dualuse" className="dropdown-item">Climate Tech</a></Link></li>
+                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Ai and Big Data</a></Link></li>
+                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Cyber Secuirty</a></Link></li>
+                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Robotics & Autonmous Systems </a></Link></li>
+                <li><Link to="/founders"><a to="/founders" className="dropdown-item">3D Printing</a></Link></li>
+                <li><Link to="/founders"><a to="/founders" className="dropdown-item">AR & VR</a></Link></li>
+                <li><Link to="/founders"><a to="/founders" className="dropdown-item">BioTechnology</a></Link></li>
+                <li><Link to="/climateTech"><a to="/climateTech" className="dropdown-item">Climate Tech</a></Link></li>
                 <li><Link to="/dualuse"><a to="/dualuse" className="dropdown-item">Dual Use</a></Link></li>
                 <li><Link to="/Investors"><a to="/Investors" className="dropdown-item">Health Care</a></Link></li>
                 <li><Link to="/founders"><a to="/founders" className="dropdown-item">Sustainable Food Chain</a></Link></li>
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">3D Printing</a></Link></li>
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Ai and Big Data</a></Link></li>
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">AR & VR</a></Link></li>
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Cyber Secuirty</a></Link></li>
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Robotics & Autonmous Systems </a></Link></li>
                
               </ul>
             )}

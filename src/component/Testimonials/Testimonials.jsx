@@ -4,9 +4,9 @@ import  image  from "../../assets/2.png"
 import  image1  from "../../assets/1.png"
 const testimonials = [
   {
-    text: "We aimed to bring together creative and talented individuals from various roles and departments to form a team of focused, innovative thinkers. Through Infinity Tech Labs, we successfully identified and addressed business challenges across the organization.",
-    name: ".......",
-    title: "..............",
+    text: "My internship at Infinity Tech Labs was an incredibly rewarding experience thatpushed me beyond my comfort zone and allowed me to take on meaningful responsibilities. I had the opportunity to work on cutting-edge projects, ...",
+    name: "Ammar Hussain",
+    title: "National University of Science and Technology",
     image: image // Replace with actual image path
   },
   {
