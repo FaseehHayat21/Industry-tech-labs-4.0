@@ -17,6 +17,9 @@
   padding: 20px 60px 30px 40px;
   z-index: 1;
 }
+.text{
+color: transparent;
+}
 .container-c::before {
   content: "";
   position: absolute;

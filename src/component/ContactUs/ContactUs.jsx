@@ -57,8 +57,8 @@ export default function ContactUs() {
             </div>
           </div>
           <div className="right-side">
-            <div className="topic-text">Send a message</div>
-            <p>If you have any work for me or any types of queries related to my skills, you can send me a message from here. It's my pleasure to help you.</p>
+            <div className="topic-text"></div>
+            <p className='text'>If you have any work for me or any types of queries related to my skills, you can send me a message from here. It's my pleasure to help you.</p>
             <form ref={form} onSubmit={"sendEmail"}>
               <div className="input-box">
                 <input type="text" name="user_name" placeholder="Enter your name" required />
