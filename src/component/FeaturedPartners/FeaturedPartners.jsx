@@ -1,23 +1,21 @@
 import React from 'react';
 import './FeaturedPartners.css';
-import image from "../../assets/1.png"
-import image2 from "../../assets/1.png"
-import image3 from "../../assets/1.png"
-import image4 from "../../assets/1.png"
-import image5 from "../../assets/1.png"
-import image6 from "../../assets/1.png"
+import airuniversity from "../../assets/airuniversity.jpg"
+import auc from "../../assets/auc.png"
+import casee from "../../assets/case.png"
+import skybees from "../../assets/skybees.png"
+import foxit from "../../assets/foxit.jpg"
+import densefusion from "../../assets/densefusion.jpg"
+import nih from "../../assets/nih.png"
 // Array of partner logos (replace with actual paths to images)
 const partners = [
-  { src: image, alt: "BAE Systems" },
-  { src: image, alt: "Buhler" },
-  { src: image, alt: "ISS National Laboratory" },
-  { src: image, alt: "KPMG" },
-  { src: image, alt: "LDC" },
-  { src: image, alt: "MassMutual" },
-  { src: image, alt: "MITRE" },
-  { src: image, alt: "Point32Health" },
-  { src: image, alt: "Putnam Investments" },
-  { src: image, alt: "US Air Force" }
+  { src: airuniversity, alt: "Air Universirty" },
+  { src: auc, alt: "Buhler" },
+  { src: casee, alt: "ISS National Laboratory" },
+  { src: skybees, alt: "KPMG" },
+  { src: foxit, alt: "LDC" },
+  { src: nih, alt: "LDC" },
+  { src: densefusion, alt: "MassMutual" }
 ];
 
 export default function FeaturedPartners() {

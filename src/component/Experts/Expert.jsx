@@ -8,10 +8,24 @@ export default function Expert() {
         <h1>Experts</h1>
       </div>
       <div className="content">
+      <h1><strong>A National Network of Expert Support</strong></h1>
+        <p>The expert community at Infinity Tech Labs forms the backbone of our national network,
+        consisting of accomplished entrepreneurs, seasoned industry leaders, and
+        professionals committed to driving startup success. These mentors and experts bring
+        invaluable experience, offering critical insights, strategic guidance, and constructive
+        feedback to startups. Their diverse expertise spans across various industries, enabling
+        them to support founders in every stage of the incubator/accelerator program. With their
+        mentorship, startups gain the knowledge and confidence needed to navigate
+        challenges, scale effectively, and achieve sustainable growth.</p>
+      
+      </div>
+      <div className="content">
       <h1><strong>Become an Infinity Tech Labs Expert</strong></h1>
-        <p>The expert community at Infinity Tech Labs is a national network of accomplished entrepreneurs, experienced industry leaders, and professionals dedicated to helping startups thrive. Our experts and mentors are the core of our network, offering essential insights, guidance, and feedback. They support startups in various roles and capacities throughout the incubator / accelerator program.</p>
-        <p>
-        As a founder, being strategic with your time and energy is crucial. Our vast network provides mentorship and resources to support founders at every stage of the startup journey.
+        <p>The expert community at Infinity Tech Labs is a national network of accomplished
+        entrepreneurs, experienced industry leaders, and professionals dedicated to helping
+        startups thrive. Our experts and mentors are the core of our network, offering essential
+        insights, guidance, and feedback. They support startups in various roles and capacities
+        throughout the incubator / accelerator program.
         </p>
       </div>
       <div className="links">
