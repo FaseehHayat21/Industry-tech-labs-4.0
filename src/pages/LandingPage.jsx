@@ -7,6 +7,7 @@ import "./LandingPage.css"
 import FeaturedPartners from '../component/FeaturedPartners/FeaturedPartners'
 import Testimonials from '../component/Testimonials/Testimonials'
 import ContactUs from '../component/ContactUs/ContactUs'
+import Footer from '../component/footer/Footer'
 export default function LandingPage() {
   return (
    
@@ -21,6 +22,7 @@ export default function LandingPage() {
         <FeaturedPartners/>
         <Business/>
         <ContactUs/>
+        <Footer />
    </>
   )
 }
