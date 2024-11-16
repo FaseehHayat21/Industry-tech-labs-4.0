@@ -1,88 +1,173 @@
 .footer {
-    background-color: #555555; /* Dark gray background */
-    color: #dcdcdc; /* Light gray text */
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   width: 100%;
+    background-color: #666666;
+    color: white;
+    padding: 70px 80px 20px;
+    font-family: 'Montserrat', sans-serif; /* Set the Montserrat font */
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
 }
 
-.footer-section {
+.footer-left {
+    flex: 2;
+    padding-left: 9rem;
+}
+
+.footer-center {
     flex: 1;
-    min-width: 200px;
+    padding-right: 2rem;
 }
 
-.mission h2 {
-    font-size: 1.5rem;
+.footer-right {
+    padding-right: 5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 2px; /* Adds space between the logo and text */
+    padding-bottom: 3rem;
+}
+
+.logo-img {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+.separator {
+    margin: 0 10px; /* Adds space around the separator */
+    font-weight: bold;
+    font-size: 1.5rem; /* Adjust size as necessary */
+}
+
+.infinity-lab {
+    font-family: 'Montserrat', sans-serif; /* Ensuring Montserrat is applied here too */
+    font-weight: bold;
+    font-size: 1.5rem; /* Adjust size as necessary */
+}
+
+.footer h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.footer h2 {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.footer p {
+    white-space: normal; /* Allows text to wrap naturally */
+    line-height: 1.5; /* Adjusts line spacing */
+    word-wrap: break-word; /* Ensures words break appropriately if needed */
+    max-width: 400px; /* Adjust this to control where the wrapping happens */
+    font-size: large;
+    padding-bottom: 3rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: large;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #cccccc;
+}
+
+.contact-info {
+    padding-right: 40px;
+    padding-top: 160px;
     margin-bottom: 10px;
 }
 
-.mission h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    color: #ffffff; /* White for emphasis */
+.contact-info a {
+    color: #D3D3D3;
+    text-decoration: none;
+    display: block;
+    font-size: large;
 }
 
-.mission p {
-    font-size: 1rem;
-    color: #dcdcdc;
-    margin-bottom: 20px;
-}
-
-.contact p {
-    margin: 5px 0;
-    font-size: 1rem;
+.contact-info p {
+    margin: 3px 0;
+    font-size: medium;
+    padding-top: 0;
+    font-size: large;
+    color: #D3D3D3;
 }
 
 .social-icons {
     display: flex;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.social-icon {
-    font-size: 1.5rem;
-    color: #dcdcdc;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-.social-icon:hover {
-    color: #ffffff;
-}
-
-.links {
-    display: flex;
     gap: 20px;
 }
 
-.link-column {
+.social-icon {
+    width: 30px;
+    height: 30px;
+    color: white;
+    transition: color 0.2s;
+}
+
+.social-icon:hover {
+    color: #cccccc;
+}
+
+.nav-links {
+    padding-top: 160px;
+    padding-right: 80px;
+    display: flex;
+    gap: 40px;
+    font-size: large;
+}
+
+.nav-column {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
-.link-column a {
-    color: #dcdcdc;
+.nav-column a {
+    color: white;
     text-decoration: none;
-    font-size: 1rem;
-    margin: 5px 0;
+    transition: color 0.2s;
 }
 
-.link-column a:hover {
-    text-decoration: underline;
+.nav-column a:hover {
+    color: #cccccc;
+}
+
+.copyright {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 550px;
+    font-size: small;
     color: #ffffff;
 }
 
-.footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9rem;
-    color: #dcdcdc;
+@media (max-width: 768px) {
+    .footer {
+        padding: 40px 20px 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
