@@ -6,7 +6,6 @@ import Business from '../component/Business/Business'
 import "./LandingPage.css"
 import FeaturedPartners from '../component/FeaturedPartners/FeaturedPartners'
 import Testimonials from '../component/Testimonials/Testimonials'
-import ContactPage from '../component/ContactPage/ContactPage'
 import ContactUs from '../component/ContactUs/ContactUs'
 export default function LandingPage() {
   return (

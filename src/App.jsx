@@ -54,16 +54,9 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-import Home from './component/home/Home';
 import TechnologyVerticals from './component/TechnologyVerticals/TechnologyVerticals';
 import Team from './component/Team/Team';
 import Header from './component/Header/Header';
-import VisionMission from './component/VissionMission/VisionMission';
-import AboutUs from './component/AboutUs/AboutUs';
-import Different from './component/Different/Different';
-import AdvisoryandLeadership from './component/AdvisoryandLeadership/AdvisoryandLeadership';
-import ContactPage from './component/ContactPage/ContactPage';
 import Business from './component/Business/Business';
 import ContactUs from './component/ContactUs/ContactUs';
 import WhoWeAre from './component/WhoWeAre/WhoWeAre';
@@ -99,7 +92,6 @@ function App() {
           <Route path="/featured-partners" element={<FeaturedPartners />} />
           <Route path="/technology-verticals" element={<TechnologyVerticals />} />
           <Route path="/team" element={<Team />} />
-          <Route path="/advisory-and-leadership" element={<AdvisoryandLeadership />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/footer" element={<Footer />} />
           <Route path="/Experts" element={<Expert />} />
