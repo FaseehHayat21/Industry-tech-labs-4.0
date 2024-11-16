@@ -93,10 +93,10 @@ const Header = () => {
             <span className="nav-link dropdown-toggle">Community</span>
             {isDropdownOpen && (
               <ul className="dropdown-menu">
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Founders</a></Link></li>
-                <li><Link to="/Experts"><a to="/Experts" className="dropdown-item">Experts</a></Link></li>
-                <li><Link to="/Investors"><a to="/Investors" className="dropdown-item">Investors</a></Link></li>
-                <li><Link to="/join"><a to="/join" className="dropdown-item">Join</a></Link></li>
+                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Founders</a></Link></li>
+                <li><Link to="/Experts" className="dropdown-item"><a to="/Experts" >Experts</a></Link></li>
+                <li><Link to="/Investors" className="dropdown-item"><a to="/Investors" >Investors</a></Link></li>
+                <li><Link to="/join" className="dropdown-item"><a to="/join" >Join</a></Link></li>
                
               </ul>
             )}
@@ -111,16 +111,16 @@ const Header = () => {
           
             {isDropdownOpen && (
               <ul className="dropdown-menu">
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Ai and Big Data</a></Link></li>
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Cyber Secuirty</a></Link></li>
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Robotics & Autonmous Systems </a></Link></li>
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">3D Printing</a></Link></li>
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">AR & VR</a></Link></li>
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">BioTechnology</a></Link></li>
-                <li><Link to="/climateTech"><a to="/climateTech" className="dropdown-item">Climate Tech</a></Link></li>
-                <li><Link to="/dualuse"><a to="/dualuse" className="dropdown-item">Dual Use</a></Link></li>
-                <li><Link to="/Investors"><a to="/Investors" className="dropdown-item">Health Care</a></Link></li>
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Sustainable Food Chain</a></Link></li>
+                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Ai and Big Data</a></Link></li>
+                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Cyber Secuirty</a></Link></li>
+                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Robotics & Autonmous Systems </a></Link></li>
+                <li><Link to="/founders" className="dropdown-item"><a to="/founders">3D Printing</a></Link></li>
+                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >AR & VR</a></Link></li>
+                <li><Link to="/founders" className="dropdown-item"> <a to="/founders" >BioTechnology</a></Link></li>
+                <li><Link to="/climateTech" className="dropdown-item"><a to="/climateTech" >Climate Tech</a></Link></li>
+                <li><Link to="/dualuse" className="dropdown-item"><a to="/dualuse" >Dual Use</a></Link></li>
+                <li><Link to="/Investors" className="dropdown-item"><a to="/Investors" >Health Care</a></Link></li>
+                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Sustainable Food Chain</a></Link></li>
                
               </ul>
             )}
@@ -134,10 +134,10 @@ const Header = () => {
             <span className="nav-link dropdown-toggle">Accelerators</span>
             {isDropdownOpen && (
               <ul className="dropdown-menu">
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Incubation Programs</a></Link></li>
-                <li><Link to="/Experts"><a to="/Experts" className="dropdown-item">Early Stage Accelerators</a></Link></li>
-                <li><Link to="/Investors"><a to="/Investors" className="dropdown-item">Bootcamp Program</a></Link></li>
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Specialized Courses</a></Link></li>
+                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Incubation Programs</a></Link></li>
+                <li><Link to="/Experts" className="dropdown-item"><a to="/Experts" >Early Stage Accelerators</a></Link></li>
+                <li><Link to="/Investors" className="dropdown-item"><a to="/Investors">Bootcamp Program</a></Link></li>
+                <li><Link to="/founders" className="dropdown-item"><a to="/founders">Specialized Courses</a></Link></li>
                
               </ul>
             )}
@@ -151,9 +151,9 @@ const Header = () => {
             <span className="nav-link dropdown-toggle">Collaborations</span>
             {isDropdownOpen && (
               <ul className="dropdown-menu">
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">Universities</a></Link></li>
-                <li><Link to="/Experts"><a to="/Experts" className="dropdown-item">Corporate</a></Link></li>
-                <li><Link to="/Investors"><a to="/Investors" className="dropdown-item">Government</a></Link></li>
+                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Universities</a></Link></li>
+                <li><Link to="/Experts" className="dropdown-item"><a to="/Experts" >Corporate</a></Link></li>
+                <li><Link to="/Investors" className="dropdown-item"><a to="/Investors" >Government</a></Link></li>
                
                
               </ul>
@@ -168,7 +168,7 @@ const Header = () => {
             <span className="nav-link dropdown-toggle">About Us</span>
             {isDropdownOpen && (
               <ul className="dropdown-menu">
-                <li><Link to="/founders"><a to="/founders" className="dropdown-item">About Us</a></Link></li>
+                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >About Us</a></Link></li>
               
                
               </ul>
