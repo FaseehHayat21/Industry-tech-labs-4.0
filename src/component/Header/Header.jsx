@@ -111,16 +111,16 @@ const Header = () => {
           
             {isDropdownOpen && (
               <ul className="dropdown-menu">
-                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Ai and Big Data</a></Link></li>
-                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Cyber Secuirty</a></Link></li>
-                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Robotics & Autonmous Systems </a></Link></li>
-                <li><Link to="/founders" className="dropdown-item"><a to="/founders">3D Printing</a></Link></li>
-                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >AR & VR</a></Link></li>
-                <li><Link to="/founders" className="dropdown-item"> <a to="/founders" >BioTechnology</a></Link></li>
+                <li><Link to="/AiandBigData" className="dropdown-item"><a to="/AiandBigData" >Ai and Big Data</a></Link></li>
+                <li><Link to="/ArAndVr" className="dropdown-item"><a to="/ArAndVr" >Cyber Secuirty</a></Link></li>
+                <li><Link to="/Robotics" className="dropdown-item"><a to="/Robotics" >Robotics & Autonmous Systems </a></Link></li>
+                <li><Link to="/ThreeDPrinting" className="dropdown-item"><a to="/ThreeDPrinting">3D Printing</a></Link></li>
+                <li><Link to="/ArAndVr" className="dropdown-item"><a to="/ArAndVr" >AR & VR</a></Link></li>
+                <li><Link to="/BioTechnology" className="dropdown-item"> <a to="/BioTechnology" >BioTechnology</a></Link></li>
                 <li><Link to="/climateTech" className="dropdown-item"><a to="/climateTech" >Climate Tech</a></Link></li>
                 <li><Link to="/dualuse" className="dropdown-item"><a to="/dualuse" >Dual Use</a></Link></li>
-                <li><Link to="/Investors" className="dropdown-item"><a to="/Investors" >Health Care</a></Link></li>
-                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Sustainable Food Chain</a></Link></li>
+                <li><Link to="/HealthCare" className="dropdown-item"><a to="/HealthCare" >Health Care</a></Link></li>
+                <li><Link to="/SustainableFood" className="dropdown-item"><a to="/SustainableFood" >Sustainable Food Chain</a></Link></li>
                
               </ul>
             )}

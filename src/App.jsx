@@ -73,13 +73,25 @@ import Investors from './component/Community/Investors/Investors';
 import Joins from './component/Community/Joins/Joins';
 import ClimateTech from './component/Verticals/ClimateTech/ClimateTech';
 import DualUse from './component/Verticals/DualUse/DualUse';
-
+import SustainableFood from "./component/Verticals/SustainableFood/SustainableFood"
+import HealthCare from "./component/Verticals/HealthCare/HealthCare"
+import Robotics from "./component/Verticals/Robotics/Robotics"
+import ThreeDPrinting from "./component/Verticals/ThreeDPrinting/ThreeDPrinting"
+import CyberSecurity from "./component/Verticals/CyberSecurity/CyberSecurity"
+import BioTechnology from "./component/Verticals/BioTechnology/BioTechnology"
+import ArAndVr from "./component/Verticals/ARAndVR/ArAndVr"
+import AiandBigData from "./component/Verticals/AIandBigData/AiandBigData"
 function App() {
   return (
     <Router>
       <div className="header">
         <Header />
       </div>
+      
+      
+      
+     
+     
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/founders" element={<Founders />} />
@@ -96,9 +108,19 @@ function App() {
           <Route path="/Experts" element={<Expert />} />
           <Route path="/Investors" element={<Investors/>} />
           <Route path="/join" element={<Joins/>} />
+
+          {/* VERTICAL ROUTES */}
+          <Route path="/AiandBigData" element={<AiandBigData/>} />
+          <Route path="/ArAndVr" element={<ArAndVr/>} />
           <Route path="/climateTech" element={<ClimateTech/>} />
           <Route path="/dualuse" element={<DualUse/>} />
-         
+          <Route path="/SustainableFood" element={<SustainableFood/>} />
+          <Route path="/HealthCare" element={<HealthCare/>} />
+          <Route path="/Robotics" element={<Robotics/>} />
+          <Route path="/ThreeDPrinting" element={<ThreeDPrinting/>} />
+          <Route path="/CyberSecurity" element={ <CyberSecurity/>} />
+          <Route path="/BioTechnology" element={ <BioTechnology/>} />
+          
     
         </Routes>
         </Router>
