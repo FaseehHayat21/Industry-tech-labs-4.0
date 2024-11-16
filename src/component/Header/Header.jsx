@@ -131,7 +131,7 @@ const Header = () => {
             onMouseEnter={() => setIsDropdownOpen(true)} 
             onMouseLeave={() => setIsDropdownOpen(false)}
           >
-            <span className="nav-link dropdown-toggle">Accelerators</span>
+            <span className="nav-link dropdown-toggle">Programs</span>
             {isDropdownOpen && (
               <ul className="dropdown-menu">
                 <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Incubation Programs</a></Link></li>
@@ -151,9 +151,9 @@ const Header = () => {
             <span className="nav-link dropdown-toggle">Collaborations</span>
             {isDropdownOpen && (
               <ul className="dropdown-menu">
-                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Universities</a></Link></li>
-                <li><Link to="/Experts" className="dropdown-item"><a to="/Experts" >Corporate</a></Link></li>
-                <li><Link to="/Investors" className="dropdown-item"><a to="/Investors" >Government</a></Link></li>
+                <li><Link to="/Universities" className="dropdown-item"><a to="/founders" >Universities</a></Link></li>
+                <li><Link to="/Corporate" className="dropdown-item"><a to="/Experts" >Corporate</a></Link></li>
+                <li><Link to="/Government" className="dropdown-item"><a to="/Investors" >Government</a></Link></li>
                
                
               </ul>

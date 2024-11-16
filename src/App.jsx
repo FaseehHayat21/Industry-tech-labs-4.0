@@ -81,6 +81,9 @@ import CyberSecurity from "./component/Verticals/CyberSecurity/CyberSecurity"
 import BioTechnology from "./component/Verticals/BioTechnology/BioTechnology"
 import ArAndVr from "./component/Verticals/ARAndVR/ArAndVr"
 import AiandBigData from "./component/Verticals/AIandBigData/AiandBigData"
+import Corporate from './component/Collaborations/Corporate/Corporate';
+import Government from './component/Collaborations/Government/Government';
+import Universities from './component/Collaborations/Universities/Universities';
 function App() {
   return (
     <Router>
@@ -120,8 +123,14 @@ function App() {
           <Route path="/ThreeDPrinting" element={<ThreeDPrinting/>} />
           <Route path="/CyberSecurity" element={ <CyberSecurity/>} />
           <Route path="/BioTechnology" element={ <BioTechnology/>} />
+          {/* Collaborations */}
+          <Route path="/Corporate" element={<Corporate/>} />
+          <Route path="/Government" element={<Government/>} />
+          <Route path="/Universities" element={<Universities/>
+} />
           
-    
+         
+          
         </Routes>
         </Router>
   );
