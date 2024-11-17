@@ -4,7 +4,7 @@ import printing from '../../../assets/3Dprinting.png';
 import dataScience from '../../../assets/DataScienceandAi.png';
 import gameDevelopment from '../../../assets/GameBootcamp.png';
 import roboticsUAV from '../../../assets/Robotics.jpg';
-import cyberSecurity from '../../../assets/cybersecurity.jpeg';
+import cyberSecurity from '../../../assets/CyberSecurity.jpeg';
 import biotechHealthtech from '../../../assets/BioTech.png';
 import droneFlying from '../../../assets/DroneTraining.png'; 
 import { useNavigate } from 'react-router-dom';
