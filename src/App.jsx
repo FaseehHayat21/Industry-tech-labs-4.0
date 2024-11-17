@@ -85,7 +85,6 @@ import Government from './component/Collaborations/Government/Government';
 import Universities from './component/Collaborations/Universities/Universities';
 import AboutUs from './component/AboutUs/AboutUs/AboutsUs';
 import Diversity from './component/AboutUs/Diversity/Diversity';
-import ThreeDPrinting from './component/Verticals/ThreeDPrinting/ThreeDPrinting';
 function App() {
   return (
     <Router>
@@ -121,7 +120,6 @@ function App() {
           <Route path="/SustainableFood" element={<SustainableFood/>} />
           <Route path="/HealthCare" element={<HealthCare/>} />
           <Route path="/Robotics" element={<Robotics/>} />
-          <Route path="/ThreeDPrinting" element={<ThreeDPrinting/>} />
           <Route path="/CyberSecurity" element={ <CyberSecurity/>} />
           <Route path="/BioTechnology" element={ <BioTechnology/>} />
           {/* Collaborations */}
