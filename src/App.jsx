@@ -80,6 +80,9 @@ import SpecializedCourses from './component/Programs/SpecializedCourses/Speciali
 import InnovationBlog from './component/AboutUs/InnovationBlog/InnovationBlog';
 import BlogPost from './component/AboutUs/InnovationBlog/Blog/Blogpost'; 
 import Tprintings from './component/Programs/SpecializedCourses/Courses/Tprintings/Tprintings';
+import IncubationProgram from './component/Programs/IncubationProgram/IncubationProgram';
+import EarlyStage from './component/Programs/EarlyStageAccelrators/EarlyStage';
+import BootcampProgram from './component/Programs/BootcampProgram/BootcampProgram';
 
 function App() {
   return (
@@ -120,6 +123,12 @@ function App() {
           
          {/*Programs*/}
           <Route path="/SpecializedCourses" element={<SpecializedCourses/>}/>
+          <Route path="/BootcampProgram" element={ <BootcampProgram/>}/>
+          <Route path="/EarlyStage" element={ <EarlyStage/>}/>
+          <Route path="/Incubation" element={<IncubationProgram/>}/>
+          
+         
+         
          {/*COURSES*/}
           <Route path="/Tprintings" element={<Tprintings/>}/>
          
