@@ -56,7 +56,7 @@
 // export default SolveWithUs;
 import React, { useState } from 'react';
 import './SolveWithUs.css';
-import thumbnailImage from "../../../assets/thumbnail.png"; // Placeholder for video thumbnail
+import thumbnailImage from "../../../assets/thumb.png"; // Placeholder for video thumbnail
 import sampleVideo from "../../../assets/bg.mp4"; // Replace with the path to your video file
 
 const SolveWithUs = () => {
