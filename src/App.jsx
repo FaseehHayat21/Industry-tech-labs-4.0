@@ -75,7 +75,7 @@ import Government from './component/Collaborations/Government/Government';
 import Universities from './component/Collaborations/Universities/Universities';
 import AboutUs from './component/AboutUs/AboutUs/AboutsUs';
 import Diversity from './component/AboutUs/Diversity/Diversity';
-import ThreeDprinting from './component/Verticals/ThreeDPrinting/ThreeDPrinting';
+import Tprinting from './component/Verticals/Tprinting/Tprinting';
 function App() {
   return (
     <Router>
@@ -98,7 +98,7 @@ function App() {
           <Route path="/dualuse" element={<DualUse/>} />
           <Route path="/SustainableFood" element={<SustainableFood/>} />
           <Route path="/HealthCare" element={<HealthCare/>} />
-          <Route path="/ThreeDprinting" element={<ThreeDprinting/>} />
+          <Route path="/ThreeDprinting" element={<Tprinting/>} />
           <Route path="/Robotics" element={<Robotics/>} />
           <Route path="/CyberSecurity" element={ <CyberSecurity/>} />
           <Route path="/BioTechnology" element={ <BioTechnology/>} />
