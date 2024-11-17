@@ -101,7 +101,7 @@ const Header = () => {
               </ul>
             )}
           </li>
-          {/* Dropdown Menu Industry*/}
+          {/* Dropdown Menu Verticals*/}
           <li 
             className="dropdown" 
             onMouseEnter={() => setIsDropdownOpen(true)} 
@@ -125,7 +125,7 @@ const Header = () => {
               </ul>
             )}
           </li>
-          {/* Dropdown Menu Accelerators*/}
+          {/* Dropdown Menu Programs*/}
           <li 
             className="dropdown" 
             onMouseEnter={() => setIsDropdownOpen(true)} 
@@ -142,7 +142,7 @@ const Header = () => {
               </ul>
             )}
           </li>
-          {/* Dropdown Menu Partnership*/}
+          {/* Dropdown Menu Collaborations*/}
           <li 
             className="dropdown" 
             onMouseEnter={() => setIsDropdownOpen(true)} 
