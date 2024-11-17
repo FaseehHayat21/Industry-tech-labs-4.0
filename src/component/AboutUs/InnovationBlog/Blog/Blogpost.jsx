@@ -192,7 +192,7 @@ const BlogPost = () => {
             <img 
               src="${ecommerce3D}" 
               alt="3D Modeling in E-commerce" 
-              class="large-img"
+              class="w-3/7 h-auto rounded-lg shadow-lg mb-4"
             />
           </div>
           <section class="mb-8">
