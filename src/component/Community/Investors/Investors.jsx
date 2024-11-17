@@ -17,12 +17,7 @@ export default function Investors() {
 The ITL Investor Network connects accredited investors with ITL startups and alumni who are actively raising funds. Investors in the network receive monthly portfolio updates during the final week of each month.
         </p>
       </div>
-      <div className="links">
-        <a href="#experience">Founder Experience</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#events">Upcoming Events</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+    
     </section>
   );
 }

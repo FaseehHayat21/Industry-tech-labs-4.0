@@ -29,12 +29,7 @@ export default function BootcampProgram() {
             <li>• All Semi-Finalists receive detailed feedback from expert judges on their in-person pitches.</li>
         </ul>
       </div>
-      <div className="links">
-        <a href="#experience">Founder Experience</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#events">Upcoming Events</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+      
     </section>
   );
 }

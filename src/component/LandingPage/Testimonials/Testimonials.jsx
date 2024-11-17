@@ -4,27 +4,27 @@ import  image  from "../../../assets/2.png"
 import  image1  from "../../../assets/1.png"
 const testimonials = [
   {
-    text: "My internship at Infinity Tech Labs was an incredibly rewarding experience thatpushed me beyond my comfort zone and allowed me to take on meaningful responsibilities. I had the opportunity to work on cutting-edge projects, ...",
+    text: "My internship at Infinity Tech Labs was an incredibly rewarding experience that pushed me beyond my comfort zone and allowed me to take on meaningful responsibilities. I had the opportunity to work on cutting-edge projects, including designing and implementing a real-time drone object tracking system using YOLO and the Jetson Xavier platform. I gained hands-on experience in data collection, model training, and system optimization, while also exploring innovative applications like tracking players in a football match from aerial views. This experience significantly enhanced my technical skills and gave me a deeper understanding of the real-world applications of AI and drone technology.",
     name: "Ammar Hussain",
     title: "National University of Science and Technology",
     image: image 
   },
   {
-    text: "Our goal was to unlock untapped potential by bringing diverse perspectives into one collaborative space. With Infinity Tech Labs, we fostered an environment where creative minds could converge, driving innovation and redefining our approach to problem-solving.",
-    name: ".......",
-    title: "..............",
+    text: "During my internship at Infinity Tech Labs, I worked on an Industry 4.0 project focused on disruptive technologies. This research-driven R&amp;D task pushed me to sharpen my critical thinking and problem-solving skills. I also participated in design thinking workshops that emphasized transforming innovative concepts into viable startups. The two-month experience was both demanding and rewarding, providing me with valuable insights into cutting-edge technology and its potential for business development.",
+    name: "Arooj Fatima",
+    title: "Institute Of Space Technology",
     image: image1 
   },
   {
-    text: "By partnering with Infinity Tech Labs, we gained access to a network of forward-thinking innovators. This partnership allowed us to approach challenges with fresh insights and unconventional strategies, transforming obstacles into opportunities for growth.",
-    name: ".......",
-    title: "..............",
+    text: "My internship at the Infinity Tech Labs has been an enriching experience, offering invaluable hands-on exposure to advanced aerospace systems. Working on the autopilot of the Pixhawk 6C allowed me to develop critical technical skills, collaborate with a talented team, and contribute to real-world projects. This experience has deepened my understanding of flight control systems and boosted my confidence as a graduate Electrical Engineer.",
+    name: "Muhammad Junaid",
+    title: "Air University",
     image: image1
   },
   {
-    text: "By partnering with Infinity Tech Labs, we gained access to a network of forward-thinking innovators. This partnership allowed us to approach challenges with fresh insights and unconventional strategies, transforming obstacles into opportunities for growth.",
-    name: ".......",
-    title: "..............",
+    text: "As an intern at Infinity Tech Labs, I had the unique opportunity to immerse myself inthe forefront of Industry 4.0 technologies, bridging the gap between academic research and practical industrial solutions. This experience sharpened my problem-solving abilities and gave me a head start inentrepreneurship, fostering a mindsetfor innovation and self-driven growth in the evolving tech landscape.",
+    name: "Amna Qizilbash",
+    title: "Institute of Space Technology",
     image: image1 
   },
 

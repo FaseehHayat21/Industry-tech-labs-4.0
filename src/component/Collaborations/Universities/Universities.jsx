@@ -14,12 +14,7 @@ export default function Universities() {
         Rooted in an industry-academia model, Infinity Tech Labs offers tailored solutions to universities, bridging the gap between academia and industry. We encourage pushing boundaries to connect university researchers, entrepreneurs, and businesses, fostering innovation that drives growth and transforms economies.
         </p>
       </div>
-      <div className="links">
-        <a href="#experience">Founder Experience</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#events">Upcoming Events</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+      
     </section>
   );
 }
