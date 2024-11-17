@@ -92,11 +92,7 @@ export default function DataScienceandAI() {
           trends, this program will empower you to stay ahead and future-proof your career.
         </p>
       </div>
-      <div className="links">
-        <a href="#projects">Projects</a>
-        <a href="#community">Join Our Community</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+      
     </section>
   );
 }

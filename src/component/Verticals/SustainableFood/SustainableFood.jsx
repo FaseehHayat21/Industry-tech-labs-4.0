@@ -15,12 +15,7 @@ export default function SustainableFood() {
         Infinity Tech Labs is collaborating with leading food corporations to accelerate startups that are driving transformative change in the food industry. Through these partnerships, we foster growth and empower impactful solutions aimed at creating a sustainable, resilient food system for the future.
         </p>
       </div>
-      <div className="links">
-        <a href="#experience">Founder Experience</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#events">Upcoming Events</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+     
     </section>
   );
 }

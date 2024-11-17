@@ -31,7 +31,7 @@ const Footer = () => {
                 {/* Column 2 */}
                 <div className="footer-center">
                     <div className="contact-info">
-                        <a href="mailto:contact@masschallenge.org">contact@masschallenge.org</a>
+                        <a href="mailto:contact@masschallenge.org">contact@industrylabtach.org</a>
                         <p>10 Fan Pier Blvd, 3rd floor Boston, MA 02210 USA</p>
                         
                     </div>
@@ -75,7 +75,7 @@ const Footer = () => {
             </div>
 
             <div className="copyright">
-                <p>© 2024 MC MassChallenge. All Rights Reserved</p>
+                <p>© 2024 Industry tech Labs. All Rights Reserved</p>
             </div>
         </footer>
     );

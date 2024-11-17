@@ -62,7 +62,7 @@
 
 import React, { useState } from 'react';
 import './Header.css';
-import logo from "../../../assets/logobg.png";
+import logo from "../../../assets/ILlogo_bg_removed.png";
 import { Link } from 'react-router-dom';
 
 const Header = () => {

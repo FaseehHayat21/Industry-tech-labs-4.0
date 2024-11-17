@@ -175,11 +175,7 @@ export default function DroneFlying() {
           <li><p>• Aspiring deep tech founders and entrepreneurs in the drone industry</p></li>
         </ul>
       </div>
-      <div className="links">
-        <a href="#projects">Projects</a>
-        <a href="#community">Join Our Community</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+      
     </section>
   );
 }

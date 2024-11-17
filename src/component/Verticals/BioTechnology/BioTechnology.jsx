@@ -32,12 +32,7 @@ export default function BioTechnology() {
         unlock the potential of life sciences for a better future.
         </p>
       </div>
-      <div className="links">
-        <a href="#experience">Founder Experience</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#events">Upcoming Events</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+     
     </section>
   );
 }

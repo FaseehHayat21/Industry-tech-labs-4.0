@@ -14,12 +14,7 @@ export default function Government() {
         Infinity Tech Labs works with government organizations to connect innovative startups with opportunities to solve critical societal issues. By facilitating these partnerships, we help shape policies and create environments where both startups and governments can thrive, driving long-term economic and social impact.
         </p>
       </div>
-      <div className="links">
-        <a href="#experience">Founder Experience</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#events">Upcoming Events</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+     
     </section>
   );
 }

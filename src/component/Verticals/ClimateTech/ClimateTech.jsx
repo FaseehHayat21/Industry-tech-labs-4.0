@@ -14,12 +14,7 @@ export default function ClimateTech() {
         Infinity Tech Labs is committed to supporting climate tech entrepreneurs who are tackling these complex issues. Through our Innovation Network, we provide startups with access to critical resources, mentorship, and collaboration opportunities. Our goal is to empower visionary teams to accelerate their impact and bring scalable solutions to market, ultimately contributing to a healthier planet and a sustainable economy."
         </p>
       </div>
-      <div className="links">
-        <a href="#experience">Founder Experience</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#events">Upcoming Events</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+     
     </section>
   );
 }

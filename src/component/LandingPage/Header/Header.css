@@ -1,6 +1,8 @@
 
 .logo-header-img{
     width: 70px;
+    
+    margin-bottom: 15px;
     padding: 2px 3px;
 
 }
@@ -19,7 +21,7 @@
     z-index: 1000;
     transition: background-color 0.3s ease-in-out;
     background-color: transparent;  
-    background-color: #00838f; /* Add background when scrolled */
+    background-color: #ffffff; /* Add background when scrolled */
 }
 
 .nav-list {
@@ -33,7 +35,7 @@ Link{
 }
 .nav-link:link,
 .nav-link:visited {
-    color: rgb(203, 213, 224);
+    color: rgb(0, 0, 0);
     font-size: 1.2rem;
     font-weight: 400;
     text-decoration: none;
@@ -71,7 +73,7 @@ Link{
     width: 2.5rem;
 }
 .nav-link{
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 700;
     font-size: 1.1em ;
 }

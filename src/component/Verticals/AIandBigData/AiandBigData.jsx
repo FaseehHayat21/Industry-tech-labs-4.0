@@ -14,12 +14,7 @@ export default function AiandBigData() {
         At Infinity Tech Labs, we support AI and Big Data startups by providing access to advanced tools, expert guidance, and strategic partnerships. Whether it's building intelligent systems, improving data management practices, or driving data-centric innovations, we help startups leverage the full potential of these technologies to scale their impact. Through our global network, AI and Big Data startups can accelerate their growth and create transformative solutions for industries worldwide.
         </p>
       </div>
-      <div className="links">
-        <a href="#experience">Founder Experience</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#events">Upcoming Events</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+    
     </section>
   );
 }

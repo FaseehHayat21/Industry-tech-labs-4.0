@@ -23,12 +23,7 @@ export default function AboutUs() {
         </video>
         </div>
 
-      <div className="links">
-        <a href="#experience">Founder Experience</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#events">Upcoming Events</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+    
     </section>
   );
 }

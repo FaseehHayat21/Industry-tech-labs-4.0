@@ -7,6 +7,7 @@ import skybees from "../../../assets/skybees.png"
 import foxit from "../../../assets/foxit.jpg"
 import densefusion from "../../../assets/densefusion.jpg"
 import nih from "../../../assets/nih.png"
+import logo128 from "../../../assets/128logo.jpg"
 // Array of partner logos (replace with actual paths to images)
 const partners = [
   { src: airuniversity, alt: "Air Universirty" },
@@ -15,7 +16,8 @@ const partners = [
   { src: skybees, alt: "KPMG" },
   { src: foxit, alt: "LDC" },
   { src: nih, alt: "LDC" },
-  { src: densefusion, alt: "MassMutual" }
+  { src: densefusion, alt: "MassMutual" },
+  { src: logo128, alt: "128 Technologies" }
 ];
 
 export default function FeaturedPartners() {

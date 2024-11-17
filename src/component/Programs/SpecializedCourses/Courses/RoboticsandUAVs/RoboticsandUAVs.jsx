@@ -89,11 +89,7 @@ export default function RoboticsandUAVs() {
         </ul>
       </div>
 
-      <div className="links">
-        <a href="#projects">Projects</a>
-        <a href="#community">Join Our Community</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+     
     </section>
   );
 }
