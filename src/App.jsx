@@ -87,6 +87,7 @@ import DataScienceandAI from './component/Programs/SpecializedCourses/Courses/Da
 import GameDevelopment from './component/Programs/SpecializedCourses/Courses/GameDevelopment/GameDevelopment';
 import RoboticsandUAVs from './component/Programs/SpecializedCourses/Courses/RoboticsandUAVs/RoboticsandUAVs';
 import CyberSecurityy from './component/Programs/SpecializedCourses/Courses/CyberSecurity/CyberSecurity';
+import BioTechandHealthTech from './component/Programs/SpecializedCourses/Courses/BioTechandHealthTech/BioTechandHealthTech';
 
 function App() {
   return (
@@ -139,6 +140,7 @@ function App() {
           <Route path="/GameDevelopment" element={<GameDevelopment/>}/>
           <Route path="/RoboticsandUAVs" element={<RoboticsandUAVs/>}/>
           <Route path="/CyberSecurityy" element={<CyberSecurityy/>}/>
+          <Route path="/BioTechandHealthTech" element={<BioTechandHealthTech/>}/>
 
         </Routes>
         </Router>
