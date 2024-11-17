@@ -41,7 +41,7 @@ const InnovationBlog = () => {
       <div className="banner">
         <h1>Innovation Blog</h1>
       </div>
-      
+      {/*  */}
       <div className="course-slider">
         <h2>Insights <span>for You</span></h2>
         <p>Stay informed and inspired!</p>
