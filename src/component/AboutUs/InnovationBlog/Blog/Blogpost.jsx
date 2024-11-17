@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import aiOrganization from '../../../../assets/ScalingAI.png';
 import ecommerce3D from '../../../../assets/ModellingEffect.png';
+import './Blogpost.css'
 
 const BlogPost = () => {
   const { id } = useParams();
@@ -11,14 +12,15 @@ const BlogPost = () => {
       title: "A Leader's Guide to Scaling AI in Your Organization",
       content: `
         <article class="blog-post">
-          <h1 class="text-3xl font-bold mb-8">A Leader's Guide to Scaling AI in Your Organization</h1>
-           <div class="mb-8">
-            <img 
-              src="${aiOrganization}" 
-              alt="AI Organization Scaling" 
-              class="w-full h-auto rounded-lg shadow-lg mb-4"
-            />
-          </div>
+         <h1 class="text-4xl font-bolder mb-8">A Leader's Guide to Scaling AI in Your Organization</h1>
+         <p><strong>Published on: </strong> 2024-03-05</p>
+  <div class="mb-8">
+    <img 
+      src="${aiOrganization}" 
+      alt="AI Organization Scaling" 
+      class="w-3/7 h-auto rounded-lg shadow-lg mb-4"
+    />
+  </div>
           
           <section class="mb-8">
             <p class="mb-4">
@@ -178,8 +180,6 @@ const BlogPost = () => {
           </section>
         </article>
       `,
-      author: 'John Doe',
-      date: '2024-03-15'
     },
    
     '3d-modeling-ecommerce': {
@@ -187,11 +187,12 @@ const BlogPost = () => {
       content: `
         <article class="blog-post">
           <h1 class="text-3xl font-bold mb-8">3D Modeling's Effects on the E-commerce Industry</h1>
+          <p><strong>Published on: </strong> 2024-03-20</p>
           <div class="mb-8">
             <img 
               src="${ecommerce3D}" 
               alt="3D Modeling in E-commerce" 
-              class="w-full h-auto rounded-lg shadow-lg mb-4"
+              class="large-img"
             />
           </div>
           <section class="mb-8">
@@ -267,8 +268,7 @@ const BlogPost = () => {
           </section>
         </article>
       `,
-      author: 'Jane Smith',
-      date: '2024-03-20'
+      
     }
   };
 
@@ -279,7 +279,7 @@ const BlogPost = () => {
     return (
       <div className="p-4">
         <h2>Blog post not found</h2>
-        <Link to="/innovation-blog" className="text-blue-500 hover:underline">
+        <Link to="/InnovationBlog" className="text-blue-500 hover:underline">
           Return to blogs
         </Link>
       </div>
@@ -292,15 +292,14 @@ const BlogPost = () => {
         <h1>Innovation Blog</h1>
       </div>
     <div className="max-w-4xl mx-auto p-6">
-      <Link to="/InnovationBlog" className="text-blue-500 hover:underline mb-4 inline-block">
-        ← Back to blogs
-      </Link>
+     
       <article className="prose lg:prose-xl">
-        <div className="text-gray-600 mb-4">
-          <span>{blogPost.author}</span> • <span>{blogPost.date}</span>
-        </div>
-        <div dangerouslySetInnerHTML={{ __html: blogPost.content }} />
-      </article>
+  <div className="text-gray-600 mb-4">
+    <span>{blogPost.author}</span> • <span>{blogPost.date}</span>
+  </div>
+  <div dangerouslySetInnerHTML={{ __html: blogPost.content }} />
+</article>
+
     </div>
     </section>
   );

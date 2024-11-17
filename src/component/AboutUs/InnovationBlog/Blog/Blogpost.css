@@ -1,46 +1,103 @@
 body {
     margin: 0;
-    padding: 0 20px;
+    padding: 0;
     min-height: 100vh;
     background-color: #f4f4f4;
-    align-items: center;
-    text-align: center;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Banner Section */
-.banner {
-    background-image: url('../../../../assets/bgbanner.png');
-    background-size: cover;
-    background-position: center;
-    padding: 60px 20px;
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Blog post content styles */
 .blog-post {
     color: #333;
-    line-height: 1.6;
-    max-width: 800px;
+    line-height: 1.8;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 0 120px;
-    text-align: center;
+    padding: 20px;
+ 
 }
 
-/* Responsive adjustments */
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    color: #00838f;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #00838f;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #444;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+ol, ul {
+    margin-bottom: 16px;
+    padding-left: 40px;
+    font-size: 1.5rem;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.list-decimal {
+    list-style-type: decimal;
+}
+
+.list-disc {
+    list-style-type: disc;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    
+}
+.large-img {
+    width: 100%; 
+    max-width: 800px; 
+    height: auto; 
+    border-radius: 8px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.pillar-section {
+    margin-bottom: 24px;
+    padding: 20px;
+
+}
+
+
 @media (max-width: 768px) {
-    body {
-        padding: 0 20px; /* Adjust padding on smaller screens */
-    }
-
     .blog-post {
-        padding: 0 20px; /* Reduce padding for better mobile view */
+        padding: 15px;
     }
 
-    .max-w-4xl {
-        padding: 1rem; /* Adjust padding on mobile */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
     }
 }

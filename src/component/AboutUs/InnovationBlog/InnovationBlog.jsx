@@ -46,7 +46,7 @@ const InnovationBlog = () => {
         <h2>Insights <span>for You</span></h2>
         <p>Stay informed and inspired!</p>
         <div className="slider-container">
-          <button className="nav-button left" onClick={handlePrev}>&lt;</button>
+        
           <div className="course-cards" style={{ justifyContent: visibleBlogs.length === 2 ? 'center' : 'flex-start' }}>
             {visibleBlogs.map((blog, index) => (
               <div 
@@ -64,7 +64,7 @@ const InnovationBlog = () => {
               </div>
             ))}
           </div>
-          <button className="nav-button right" onClick={handleNext}>&gt;</button>
+         
         </div>
       </div>
     </section>
