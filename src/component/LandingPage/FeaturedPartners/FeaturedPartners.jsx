@@ -1,6 +1,6 @@
 import React from 'react';
 import './FeaturedPartners.css';
-import airuniversity from "../../../assets/airuniversity.jpg"
+import airuniversity from "../../../assets/airlogo.png"
 import auc from "../../../assets/auc.png"
 import casee from "../../../assets/case.png"
 import skybees from "../../../assets/skybees.png"
