@@ -83,6 +83,8 @@ import Tprintings from './component/Programs/SpecializedCourses/Courses/Tprintin
 import IncubationProgram from './component/Programs/IncubationProgram/IncubationProgram';
 import EarlyStage from './component/Programs/EarlyStageAccelrators/EarlyStage';
 import BootcampProgram from './component/Programs/BootcampProgram/BootcampProgram';
+import DataScienceandAI from './component/Programs/SpecializedCourses/Courses/DataScienceandAI/DataScienceandAI';
+import GameDevelopment from './component/Programs/SpecializedCourses/Courses/GameDevelopment/GameDevelopment';
 
 function App() {
   return (
@@ -131,6 +133,8 @@ function App() {
          
          {/*COURSES*/}
           <Route path="/Tprintings" element={<Tprintings/>}/>
+          <Route path="/DataScienceandAI" element={<DataScienceandAI/>}/>
+          <Route path="/GameDevelopment" element={<GameDevelopment/>}/>
          
 
         </Routes>
