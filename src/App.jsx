@@ -78,7 +78,7 @@ import HealthCare from "./component/Verticals/HealthCare/HealthCare"
 import Robotics from "./component/Verticals/Robotics/Robotics"
 import CyberSecurity from "./component/Verticals/CyberSecurity/CyberSecurity"
 import BioTechnology from "./component/Verticals/BioTechnology/BioTechnology"
-import ArAndVr from "./component/Verticals/ARAndVR/ArAndVr"
+import ArAndVr from "./component/Verticals/ARandVR/ArAndVr"
 import AiandBigData from "./component/Verticals/AIandBigData/AiandBigData"
 import Corporate from './component/Collaborations/Corporate/Corporate';
 import Government from './component/Collaborations/Government/Government';
