@@ -86,6 +86,7 @@ import BootcampProgram from './component/Programs/BootcampProgram/BootcampProgra
 import DataScienceandAI from './component/Programs/SpecializedCourses/Courses/DataScienceandAI/DataScienceandAI';
 import GameDevelopment from './component/Programs/SpecializedCourses/Courses/GameDevelopment/GameDevelopment';
 import RoboticsandUAVs from './component/Programs/SpecializedCourses/Courses/RoboticsandUAVs/RoboticsandUAVs';
+import CyberSecurityy from './component/Programs/SpecializedCourses/Courses/CyberSecurity/CyberSecurity';
 
 function App() {
   return (
@@ -137,7 +138,7 @@ function App() {
           <Route path="/DataScienceandAI" element={<DataScienceandAI/>}/>
           <Route path="/GameDevelopment" element={<GameDevelopment/>}/>
           <Route path="/RoboticsandUAVs" element={<RoboticsandUAVs/>}/>
-         
+          <Route path="/CyberSecurityy" element={<CyberSecurityy/>}/>
 
         </Routes>
         </Router>

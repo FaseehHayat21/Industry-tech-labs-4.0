@@ -15,7 +15,7 @@ const SpecializedCourses = () => {
     { title: 'Data Science and AI Bootcamp', date: '16 December', mode: 'Online', duration: '12-16 weeks', price: 'PKR 100,000', image: dataScience, path:'/DataScienceandAI' },
     { title: 'Game Development Bootcamp', date: '10th January', mode: 'Online', duration: '6 Months', price: 'PKR 120,000', image: gameDevelopment, path:'/GameDevelopment' },
     { title: 'Robotics and UAVs Bootcamp', date: '5th February', mode: 'In-person', duration: '3 Months', price: 'PKR 110,000', image: roboticsUAV, path:'/RoboticsandUAVs' },
-    { title: 'Cybersecurity Bootcamp', date: '10th December', mode: 'Online', duration: '3 Months', price: 'PKR 75,000', image: cyberSecurity, path:'/CyberSecurity' },
+    { title: 'Cybersecurity Bootcamp', date: '10th December', mode: 'Online', duration: '3 Months', price: 'PKR 75,000', image: cyberSecurity, path:'/CyberSecurityy' },
     { title: 'BioTech and HealthTech Bootcamp', date: '20th January', mode: 'Hybrid', duration: '4 Months', price: 'PKR 95,000', image: biotechHealthtech, path:'/BioTechandHealthTech' },
     { title: 'Drone Flying Training Bootcamp', date: '12th March', mode: 'In-person', duration: '2 Weeks', price: 'PKR 50,000', image: droneFlying, path:'/DroneFlying' },
   ];
