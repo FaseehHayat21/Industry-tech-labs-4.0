@@ -15,12 +15,7 @@ export default function Robotics() {
         At Infinity Tech Labs, we support startups in the robotics and autonomous systems space by providing access to advanced technologies, expert mentorship, and strategic partnerships. Whether it’s developing cutting-edge robotic solutions, advancing autonomous vehicle technologies, or integrating AI for smarter systems, our ecosystem fosters innovation that pushes the limits of automation. With the backing of our global network, robotics and autonomous systems startups can scale faster and bring transformative solutions to life across industries.
         </p>
       </div>
-      <div className="links">
-        <a href="#experience">Founder Experience</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#events">Upcoming Events</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+      
     </section>
   );
 }

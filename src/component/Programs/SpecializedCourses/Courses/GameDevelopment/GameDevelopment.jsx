@@ -88,12 +88,7 @@ export default function GameDevelopment() {
           <li><p>• Anyone looking to gain hands-on experience in game development</p></li>
         </ul>
       </div>
-      <div className="links">
-        <a href="#projects">Projects</a>
-        <a href="#community">Join Our Community</a>
-        <a href="#faqs">FAQs</a>
-      </div>
-
+     
 
     </section>
   );

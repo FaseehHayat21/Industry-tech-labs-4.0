@@ -14,12 +14,7 @@ export default function ArAndVr() {
         At Infinity Tech Labs, we empower AR/VR startups by offering access to the latest technologies, mentorship from industry experts, and strategic partnerships that foster innovation. Whether it's developing cutting-edge applications or creating new virtual environments, our ecosystem supports startups in creating transformative experiences that push the boundaries of digital interaction. With the backing of our network, AR/VR startups can scale quickly and lead the next wave of immersive technology advancements.
         </p>
       </div>
-      <div className="links">
-        <a href="#experience">Founder Experience</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#events">Upcoming Events</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+      
     </section>
   );
 }

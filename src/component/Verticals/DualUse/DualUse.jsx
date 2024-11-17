@@ -14,12 +14,7 @@ export default function DualUse() {
         Infinity Tech Labs actively supports companies developing dual-use technologies, recognizing their potential to drive progress across multiple industries. By providing strategic guidance, access to funding, and networking opportunities, we empower entrepreneurs to bring transformative, adaptable solutions to the market. Through our network, these innovators are able to address critical needs across both public and private sectors, fostering resilience and security in an increasingly interconnected world."
         </p>
       </div>
-      <div className="links">
-        <a href="#experience">Founder Experience</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#events">Upcoming Events</a>
-        <a href="#faqs">FAQs</a>
-      </div>
+
     </section>
   );
 }
