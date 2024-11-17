@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import aiOrganization from '../../../../assets/scalingAI.webp';
-import ecommerce3D from '../../../../assets/ModellingEffect.jfif';
+import aiOrganization from '../../../../assets/scalingAI.png';
+import ecommerce3D from '../../../../assets/ModellingEffect.png';
 
 const BlogPost = () => {
   const { id } = useParams();

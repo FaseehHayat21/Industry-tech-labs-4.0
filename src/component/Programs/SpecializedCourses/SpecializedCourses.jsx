@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './SpecializedCourses.css';
 import printing from '../../../assets/3Dprinting.png';
-import dataScience from '../../../assets/DataScienceandAi.jfif';
-import gameDevelopment from '../../../assets/GameBootcamp.jfif';
+import dataScience from '../../../assets/DataScienceandAi.png';
+import gameDevelopment from '../../../assets/GameBootcamp.png';
 import roboticsUAV from '../../../assets/Robotics.jpg';
 import cyberSecurity from '../../../assets/cybersecurity.jpeg';
-import biotechHealthtech from '../../../assets/BioTech.jfif';
-import droneFlying from '../../../assets/DroneTraining.jfif'; 
+import biotechHealthtech from '../../../assets/BioTech.png';
+import droneFlying from '../../../assets/DroneTraining.png'; 
 import { useNavigate } from 'react-router-dom';
 const SpecializedCourses = () => {
   const navigate = useNavigate();
