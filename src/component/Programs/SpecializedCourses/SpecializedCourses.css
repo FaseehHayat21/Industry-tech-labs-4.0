@@ -1,0 +1,134 @@
+.founders-section {
+    font-family: Arial, sans-serif;
+  }
+  
+  .banner {
+    background-image: url('../../../assets/bgbanner.png'); 
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 10vh;
+  }
+
+.course-slider {
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+    position: relative;
+  }
+  
+  .course-slider h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    padding-top: 2rem;
+    font-weight: 700;
+  }
+  
+  .course-slider h2 span {
+    color: #f39c12;
+  }
+  
+  .course-slider p {
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  .slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .course-cards {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    width: 80%;
+  }
+  
+  .course-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    flex: 0 0 auto;
+  }
+  
+  .course-image {
+    position: relative;
+  }
+  
+  .course-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .course-type {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .course-details {
+    padding: 15px;
+  }
+  
+  .course-details h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .course-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px;
+    color: #6c757d;
+  }
+  
+  .course-details ul li {
+    margin-bottom: 5px;
+  }
+  
+  .course-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  .nav-button {
+    background-color:#00838f;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+  }
+  
+  .nav-button.left {
+    left: 10px;
+  }
+  
+  .nav-button.right {
+    right: 10px;
+  }
+  
+  .nav-button:hover {
+    background-color: #2980b9;
+  }
+  
