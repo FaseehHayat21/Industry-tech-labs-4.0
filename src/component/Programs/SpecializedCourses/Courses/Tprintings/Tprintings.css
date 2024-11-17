@@ -1,0 +1,82 @@
+.founders-section {
+    font-family: Arial, sans-serif;
+  }
+  
+  .banners {
+    background-image: url('../../../../../assets/bgbanner.png'); 
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 10vh;
+  }
+  
+  .banners h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .content {
+    max-width: 70%;
+    margin: 40px auto;
+    padding: 0 0;
+    text-align: justify;
+    color: #333;
+  }
+  
+  .content p {
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  .content strong {
+    color: #00838f; 
+  }
+  
+  .course-content {
+    max-width: 70%;
+    margin: 40px auto;
+    padding: 0 0;
+    text-align: justify;
+    color: #491010;
+  }
+  .course-content h1{
+    font-size: 2rem;
+  }
+  .course-content p {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  .course-content strong {
+    color: #000000; 
+  }
+  .course-content li{
+    text-align: justify;
+    margin-left: 2rem;
+  }
+  .links {
+    max-width: 70%;
+    margin: 40px auto;
+    padding: 0 0;
+    text-align: left;
+  }
+  
+  .links a {
+    margin:  0px;
+    font-size: 1.5rem;
+    color: #00838f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+  
+  }
+  
+  .links a:hover {
+    color: #005f6a; /* Darker shade on hover */
+  }
+  

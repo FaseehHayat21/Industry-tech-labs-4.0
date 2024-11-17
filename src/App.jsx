@@ -79,6 +79,7 @@ import Tprinting from './component/Verticals/Tprinting/Tprinting';
 import SpecializedCourses from './component/Programs/SpecializedCourses/SpecializedCourses'
 import InnovationBlog from './component/AboutUs/InnovationBlog/InnovationBlog';
 import BlogPost from './component/AboutUs/InnovationBlog/Blog/Blogpost'; 
+import Tprintings from './component/Programs/SpecializedCourses/Courses/Tprintings/Tprintings';
 
 function App() {
   return (
@@ -119,6 +120,9 @@ function App() {
           
          {/*Programs*/}
           <Route path="/SpecializedCourses" element={<SpecializedCourses/>}/>
+         {/*COURSES*/}
+          <Route path="/Tprintings" element={<Tprintings/>}/>
+         
 
         </Routes>
         </Router>

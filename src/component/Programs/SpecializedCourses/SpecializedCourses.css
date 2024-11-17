@@ -45,11 +45,14 @@
   .course-cards {
     display: flex;
     gap: 20px;
+    margin: 20px;
     overflow: hidden;
-    width: 80%;
+    width: 100%;
+    
   }
   
   .course-card {
+    margin: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -62,13 +65,13 @@
     position: relative;
   }
   
-  .course-image img {
+  /* .course-image img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-  }
+  } */
   
   .course-type {
     position: absolute;
@@ -107,7 +110,7 @@
     color: #3498db;
   }
   
-  .nav-button {
+  /* .nav-button {
     background-color:#00838f;
     color: #fff;
     border: none;
@@ -130,5 +133,81 @@
   
   .nav-button:hover {
     background-color: #2980b9;
+  }
+   */
+  /* Testimonial Css */
+  .courses-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .courses-slider-wrapper {
+    width: 80%;
+    overflow: hidden;
+  }
+  
+  .courses-slider-inner {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth sliding transition */
+    width: 50%;
+  }
+  
+  .courses-card {
+    margin: 13px 13px;
+    min-width: 80%; 
+    background-color: #e8f5f7;
+    border-radius: 23px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .courses-card p {
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;    
+  }
+  
+  .courses-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  
+  .courses-author h3 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .courses-author p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .arrow-button {
+    background: none;
+    border: none;
+    color: #d81b60;
+    font-size: 6rem;
+    cursor: pointer;
+    margin: 0 20px;
+    margin: 10px;
+    transition: color 0.3s;
+  }
+  
+  .arrow-button:hover {
+    color: #b21850;
+  }
+  
+  .left-arrow {
+    transform: rotate(180deg); /* Rotate left arrow */
   }
   
