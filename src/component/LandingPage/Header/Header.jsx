@@ -137,7 +137,7 @@ const Header = () => {
                 <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Incubation Programs</a></Link></li>
                 <li><Link to="/Experts" className="dropdown-item"><a to="/Experts" >Early Stage Accelerators</a></Link></li>
                 <li><Link to="/Investors" className="dropdown-item"><a to="/Investors">Bootcamp Program</a></Link></li>
-                <li><Link to="/founders" className="dropdown-item"><a to="/founders">Specialized Courses</a></Link></li>
+                <li><Link to="/SpecializedCourses" className="dropdown-item"><a to="/SpecializedCourses">Specialized Courses</a></Link></li>
                
               </ul>
             )}
@@ -170,7 +170,7 @@ const Header = () => {
               <ul className="dropdown-menu">
                 <li><Link to="/AboutUs" className="dropdown-item"><a to="/founders" >About Us</a></Link></li>
                 <li><Link to="/Diversity" className="dropdown-item"><a to="/founders" >Diversity</a></Link></li>
-                <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Innovation Blog</a></Link></li>
+                <li><Link to="/InnovationBlog" className="dropdown-item"><a to="/InnovationBlog" >Innovation Blog</a></Link></li>
               
                
               </ul>

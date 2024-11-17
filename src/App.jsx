@@ -76,6 +76,10 @@ import Universities from './component/Collaborations/Universities/Universities';
 import AboutUs from './component/AboutUs/AboutUs/AboutsUs';
 import Diversity from './component/AboutUs/Diversity/Diversity';
 import Tprinting from './component/Verticals/Tprinting/Tprinting';
+import SpecializedCourses from './component/Programs/SpecializedCourses/SpecializedCourses'
+import InnovationBlog from './component/AboutUs/InnovationBlog/InnovationBlog';
+import BlogPost from './component/AboutUs/InnovationBlog/Blog/Blogpost'; 
+
 function App() {
   return (
     <Router>
@@ -110,9 +114,12 @@ function App() {
           {/* AboutUs */}
           <Route path="/AboutUs" element={<AboutUs/>}/>
           <Route path="/Diversity" element={<Diversity/>}/>
+          <Route path="/InnovationBlog" element={<InnovationBlog/>}/>
+          <Route path="/blog/:id" element={<BlogPost />} />
           
-         
-          
+         {/*Programs*/}
+          <Route path="/SpecializedCourses" element={<SpecializedCourses/>}/>
+
         </Routes>
         </Router>
   );
