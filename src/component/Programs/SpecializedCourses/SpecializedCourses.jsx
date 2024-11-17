@@ -11,7 +11,7 @@ import { useNavigate } from 'react-router-dom';
 const SpecializedCourses = () => {
   const navigate = useNavigate();
   const courses = [
-    { title: '3D Printing and Additive Manufacturing Bootcamp', date: '15th December', mode: 'Online', duration: '3 Months', price: 'PKR 80,000', image: printing, path:'Tprintings' },
+    { title: '3D Printing and Additive Manufacturing Bootcamp', date: '15th December', mode: 'Online', duration: '3 Months', price: 'PKR 80,000', image: printing, path:'/Tprintings' },
     { title: 'Data Science and AI Bootcamp', date: '16 December', mode: 'Online', duration: '12-16 weeks', price: 'PKR 100,000', image: dataScience, path:'' },
     { title: 'Game Development Bootcamp', date: '10th January', mode: 'Online', duration: '6 Months', price: 'PKR 120,000', image: gameDevelopment, path:'' },
     { title: 'Robotics and UAVs Bootcamp', date: '5th February', mode: 'In-person', duration: '3 Months', price: 'PKR 110,000', image: roboticsUAV, path:'' },
@@ -85,7 +85,7 @@ const SpecializedCourses = () => {
           >
             {courses.map((course, index) => (
               <div className="courses-card" key={index}
-              onClick={() => navigate('/Tprintings')}>
+              onClick={() => navigate(course.path)}>
                <div className="course-image">
                 <img src={course.image} alt={course.title} />
                 <div className="course-type">Bootcamp</div>
