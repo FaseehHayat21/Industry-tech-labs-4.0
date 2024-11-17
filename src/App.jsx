@@ -76,7 +76,6 @@ import DualUse from './component/Verticals/DualUse/DualUse';
 import SustainableFood from "./component/Verticals/SustainableFood/SustainableFood"
 import HealthCare from "./component/Verticals/HealthCare/HealthCare"
 import Robotics from "./component/Verticals/Robotics/Robotics"
-import ThreeDPrinting from "./component/Verticals/ThreeDPrinting/ThreeDPrinting"
 import CyberSecurity from "./component/Verticals/CyberSecurity/CyberSecurity"
 import BioTechnology from "./component/Verticals/BioTechnology/BioTechnology"
 import ArAndVr from "./component/Verticals/ARAndVR/ArAndVr"
@@ -86,6 +85,7 @@ import Government from './component/Collaborations/Government/Government';
 import Universities from './component/Collaborations/Universities/Universities';
 import AboutUs from './component/AboutUs/AboutUs/AboutsUs';
 import Diversity from './component/AboutUs/Diversity/Diversity';
+import ThreeDPrinting from './component/Verticals/ThreeDPrinting/ThreeDPrinting';
 function App() {
   return (
     <Router>
@@ -95,7 +95,7 @@ function App() {
       
       
       
-     
+    
      
         <Routes>
           <Route path="/" element={<LandingPage />} />
@@ -113,7 +113,6 @@ function App() {
           <Route path="/Experts" element={<Expert />} />
           <Route path="/Investors" element={<Investors/>} />
           <Route path="/join" element={<Joins/>} />
-
           {/* VERTICAL ROUTES */}
           <Route path="/AiandBigData" element={<AiandBigData/>} />
           <Route path="/ArAndVr" element={<ArAndVr/>} />
