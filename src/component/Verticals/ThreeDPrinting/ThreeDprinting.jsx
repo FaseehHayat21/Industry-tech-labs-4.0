@@ -2,7 +2,7 @@
 import React from 'react';
 import './ThreeDPrinting.css';
 
-export default function ThreeDPrinting() {
+export default function ThreeDprinting() {
   return (
     <section className="founders-section">
       <div className="banner">
