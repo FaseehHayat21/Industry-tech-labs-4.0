@@ -1,0 +1,113 @@
+.bootcamp-section {
+    font-family: Arial, sans-serif;
+}
+
+.banners {
+    background-image: url('../../../../../assets/bgbanner.png');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.banners h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.content,
+.course-content,
+.prerequisites,
+.target-audience,
+.short-courses {
+    max-width: 70%;
+    margin: 40px auto;
+    text-align: justify;
+    color: #333;
+}
+
+.content p,
+.course-content p,
+.prerequisites p,
+.target-audience p,
+.short-courses p {
+    font-size: 1.5rem; 
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.content strong {
+    color: #00838f;
+}
+
+.course-content strong,
+.prerequisites strong,
+.target-audience strong,
+.short-courses strong {
+    color: #000000;
+}
+
+.course-content h1,
+.prerequisites h1,
+.target-audience h1,
+.short-courses h1 {
+    font-size: 2rem; 
+    color: #000;
+}
+
+.course-content ul li,
+.prerequisites ul li,
+.target-audience ul li,
+.short-courses ul li {
+    margin-left: 2rem;
+    text-align: justify;
+}
+
+.links {
+    max-width: 70%;
+    margin: 40px auto;
+    text-align: left;
+}
+
+.links a {
+    margin: 10px;
+    gap: 30px;
+    font-size: 1.5rem;
+    color: #00838f;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #005f6a;
+}
+
+.short-courses {
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.short-courses ul {
+    list-style: none;
+    padding: 0;
+}
+
+.short-courses ul li {
+    margin-bottom: 20px;
+}
+
+.short-courses ul li strong {
+    font-size: 1.5rem; 
+    display: block;
+    margin-bottom: 10px;
+}
+
+.short-courses ul li p {
+    margin: 5px 0;
+    font-size: 1.5rem; 
+    line-height: 1.4; 
+}

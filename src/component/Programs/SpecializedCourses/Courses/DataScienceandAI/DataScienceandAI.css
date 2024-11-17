@@ -58,6 +58,26 @@
     text-align: justify;
     margin-left: 2rem;
   }
+  .join-community, .future-proof-career {
+    max-width: 70%;
+    margin: 40px auto;
+    padding: 0 0;
+    text-align: justify;
+    color: #333;
+  }
+  
+  .join-community h1, .future-proof-career h1 {
+    font-size: 2rem;
+    color: #000000; 
+  }
+  
+  .join-community p, .future-proof-career p {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
   .links {
     max-width: 70%;
     margin: 40px auto;
@@ -78,6 +98,6 @@
   }
   
   .links a:hover {
-    color: #005f6a; /* Darker shade on hover */
+    color: #005f6a; 
   }
   

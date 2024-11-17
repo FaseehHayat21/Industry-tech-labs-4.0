@@ -63,7 +63,7 @@
     margin: 40px auto;
     padding: 0 0;
     text-align: justify;
-    color: #491010; /* Match the color used for the Course Curriculum */
+    color: #491010; 
   }
   
  
@@ -107,6 +107,5 @@
   }
   
   .links a:hover {
-    color: #005f6a; /* Darker shade on hover */
-  }
+    color: #005f6a; }
   
