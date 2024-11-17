@@ -41,7 +41,9 @@
     padding: 0 0;
     text-align: left;
   }
-  
+  .links-program li{
+    font-size: 1.3rem;
+  }
   .links a {
     margin:  0px;
     font-size: 1.5rem;

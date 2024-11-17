@@ -18,7 +18,7 @@ export default function EarlyStage() {
       </div>
       <div className="content">
         <h1><strong>How to apply</strong></h1>
-        <ul>
+        <ul className='links-program'>
             <li>• Sign up at <a href="" target='_blank'>https://bootcamp.infinitytechlabs.org</a> by creating your founder profile</li>
             <li>• Set up your startup profile</li>
             <li>• Complete and submit your application</li>

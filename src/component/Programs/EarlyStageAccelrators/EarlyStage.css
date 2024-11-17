@@ -52,7 +52,9 @@
     text-transform: uppercase;
   
   }
-  
+  .links-program li{
+    font-size: 1.3rem;
+  }
   .links a:hover {
     color: #005f6a; /* Darker shade on hover */
   }
