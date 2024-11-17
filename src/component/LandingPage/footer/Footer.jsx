@@ -32,7 +32,7 @@ const Footer = () => {
                 <div className="footer-center">
                     <div className="contact-info">
                         <a href="mailto:contact@masschallenge.org">contact@industrylabtach.org</a>
-                        <p>10 Fan Pier Blvd, 3rd floor Boston, MA 02210 USA</p>
+                        <p>Corporate Offices, Alpha Techno Square, National Aerospace Science And Technology Park (NASTP), Old Airport, Rawalpindi</p>
                         
                     </div>
                     <div className="social-icons">
