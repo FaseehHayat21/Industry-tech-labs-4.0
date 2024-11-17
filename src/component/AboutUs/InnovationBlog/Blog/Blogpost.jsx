@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import aiOrganization from '../../../../assets/scalingAI.png';
+import aiOrganization from '../../../../assets/ScalingAI.png';
 import ecommerce3D from '../../../../assets/ModellingEffect.png';
 
 const BlogPost = () => {
