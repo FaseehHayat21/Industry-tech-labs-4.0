@@ -10,10 +10,10 @@ export default function DataScienceandAI() {
       <div className="content">
         <h1><strong>Welcome to the Data Science and AI Bootcamp</strong></h1>
         <p>
-          "In today's rapidly evolving technological landscape, Data Science and Artificial 
+          In today's rapidly evolving technological landscape, Data Science and Artificial 
           Intelligence (AI) have emerged as the driving forces behind innovation and growth. To 
           address the increasing demand for skilled professionals in these fields, we are excited 
-          to introduce our comprehensive Data Science and AI Bootcamp."
+          to introduce our comprehensive Data Science and AI Bootcamp.
         </p>
         <p>
           This four-month-long intensive program is carefully designed to equip you with the 
@@ -74,9 +74,27 @@ export default function DataScienceandAI() {
           <li><p>• Final project presentations and evaluations</p></li>
         </ul>
       </div>
+      <div className="join-community">
+        <h1><strong>Join Our Community</strong></h1>
+        <p>
+          By enrolling in our Data Science and AI Bootcamp, you will become part of a vibrant 
+          community of like-minded professionals and experts. Our program is designed to ensure 
+          that you are not only equipped with the necessary skills but also prepared to tackle the 
+          challenges of a rapidly evolving industry.
+        </p>
+      </div>
+
+      <div className="future-proof-career">
+        <h1><strong>Future-Proof Your Career</strong></h1>
+        <p>
+          Join us on this exciting journey and discover the limitless possibilities in the fields 
+          of Data Science and AI. With a curriculum designed to align with industry demands and 
+          trends, this program will empower you to stay ahead and future-proof your career.
+        </p>
+      </div>
       <div className="links">
+        <a href="#projects">Projects</a>
         <a href="#community">Join Our Community</a>
-        <a href="#career">Future-Proof Your Career</a>
         <a href="#faqs">FAQs</a>
       </div>
     </section>
