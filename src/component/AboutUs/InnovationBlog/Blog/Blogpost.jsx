@@ -13,7 +13,7 @@ const BlogPost = () => {
       content: `
         <article class="blog-post">
          <h1 class="text-4xl font-bolder mb-8">A Leader's Guide to Scaling AI in Your Organization</h1>
-         <p><strong>Published on: </strong> 2024-03-05</p>
+         <p class="mb-4"><strong>Published on: </strong> 2024-03-05</p>
   <div class="mb-8">
     <img 
       src="${aiOrganization}" 
@@ -90,9 +90,9 @@ const BlogPost = () => {
               <h3 class="text-xl font-bold mb-2">1. Data</h3>
               <p class="mb-2">AI relies on high-quality, abundant, and easily accessible data.</p>
               <ul class="list-disc pl-6 mb-4">
-                <li>Ensure your data is clean, well-organized, and available across the organization.</li>
-                <li>Invest in Data Analytics expertise to manage and extract value from data.</li>
-                <li>Make sure the data is readily accessible to avoid silos that limit the impact of AI.</li>
+                <li class="list-item-lg">Ensure your data is clean, well-organized, and available across the organization.</li>
+                <li class="list-item-lg">Invest in Data Analytics expertise to manage and extract value from data.</li>
+                <li class="list-item-lg">Make sure the data is readily accessible to avoid silos that limit the impact of AI.</li>
               </ul>
             </div>
 
@@ -100,9 +100,9 @@ const BlogPost = () => {
               <h3 class="text-xl font-bold mb-2">2. Technology</h3>
               <p class="mb-2">Strong technology is the foundation of successful AI implementation.</p>
               <ul class="list-disc pl-6 mb-4">
-                <li>Cloud platforms, machine learning tools, and security systems are key to scaling AI.</li>
-                <li>Ensure your tech stack is capable of handling the demands of AI as your initiatives expand.</li>
-                <li>Invest in tools such as Large Language Models (LLMs) and other AI technologies to drive innovation.</li>
+                <li class="list-item-lg">Cloud platforms, machine learning tools, and security systems are key to scaling AI.</li>
+                <li class="list-item-lg" >Ensure your tech stack is capable of handling the demands of AI as your initiatives expand.</li>
+                <li class="list-item-lg">Invest in tools such as Large Language Models (LLMs) and other AI technologies to drive innovation.</li>
               </ul>
             </div>
 
@@ -110,9 +110,9 @@ const BlogPost = () => {
               <h3 class="text-xl font-bold mb-2">3. Processes</h3>
               <p class="mb-2">Your business processes need to adapt to incorporate AI effectively.</p>
               <ul class="list-disc pl-6 mb-4">
-                <li>Automate repetitive tasks to increase efficiency and reduce errors.</li>
-                <li>Integrate AI into decision-making processes to enable faster, data-driven actions.</li>
-                <li>Continuously refine workflows to stay aligned with evolving AI capabilities.</li>
+                <li class="list-item-lg">Automate repetitive tasks to increase efficiency and reduce errors.</li>
+                <li class="list-item-lg">Integrate AI into decision-making processes to enable faster, data-driven actions.</li>
+                <li class="list-item-lg">Continuously refine workflows to stay aligned with evolving AI capabilities.</li>
               </ul>
             </div>
 
@@ -120,9 +120,9 @@ const BlogPost = () => {
               <h3 class="text-xl font-bold mb-2">4. People</h3>
               <p class="mb-2">People are the driving force behind AI success.</p>
               <ul class="list-disc pl-6 mb-4">
-                <li>Recruit skilled professionals like data scientists, AI engineers, and other specialists.</li>
-                <li>Upskill and train your team to understand and effectively use AI tools.</li>
-                <li>Cultivate a company-wide culture of AI adoption, ensuring that everyone supports the transformation.</li>
+                <li class="list-item-lg">Recruit skilled professionals like data scientists, AI engineers, and other specialists.</li>
+                <li class="list-item-lg">Upskill and train your team to understand and effectively use AI tools.</li>
+                <li class="list-item-lg">Cultivate a company-wide culture of AI adoption, ensuring that everyone supports the transformation.</li>
               </ul>
             </div>
           </section>
@@ -137,10 +137,10 @@ const BlogPost = () => {
             
             <p class="mb-4">From there:</p>
             <ol class="list-decimal pl-6 mb-6">
-              <li>Identify specific business goals that AI will support.</li>
-              <li>Gain alignment from all key stakeholders—business leaders, IT, and end-users.</li>
-              <li>Establish clear metrics to measure the success of AI projects.</li>
-              <li>Begin with manageable projects that have high chances of success, building momentum from small wins to tackle more complex AI challenges.</li>
+              <li class="list-item-lg">Identify specific business goals that AI will support.</li>
+              <li class="list-item-lg">Gain alignment from all key stakeholders—business leaders, IT, and end-users.</li>
+              <li class="list-item-lg">Establish clear metrics to measure the success of AI projects.</li>
+              <li class="list-item-lg">Begin with manageable projects that have high chances of success, building momentum from small wins to tackle more complex AI challenges.</li>
             </ol>
           </section>
 
@@ -180,19 +180,19 @@ const BlogPost = () => {
           </section>
         </article>
       `,
-      },
+    },
    
     '3d-modeling-ecommerce': {
       title: '3D Modeling s Effects on the E-commerce Industry',
       content: `
         <article class="blog-post">
-          <h1 class="text-3xl font-bold mb-8">3D Modeling's Effects on the E-commerce Industry</h1>
-          <p><strong>Published on: </strong> 2024-03-20</p>
+          <h1 class="text-4xl  font-bold mb-8">3D Modeling's Effects on the E-commerce Industry</h1>
+          <p class="mb-4"><strong>Published on: </strong> 2024-03-20</p>
           <div class="mb-8">
             <img 
               src="${ecommerce3D}" 
               alt="3D Modeling in E-commerce" 
-              class="w-3/7 h-auto rounded-lg shadow-lg mb-4"
+              class="large-img"
             />
           </div>
           <section class="mb-8">
@@ -210,7 +210,7 @@ const BlogPost = () => {
             
             <div class="impact-section mb-6">
               <h3 class="text-xl font-bold mb-2">1. Reduced Return Rates</h3>
-              <p>
+              <p class="mb-4">
                 3D product models empower customers to make informed purchasing decisions. By providing accurate visuals of a product's size, 
                 dimensions, and texture, businesses can minimize mismatches between customer expectations and the delivered product. 
                 Additionally, 3D models allow for interactive demonstrations, such as zoom-ins and setting changes, to show how the product 
@@ -220,7 +220,7 @@ const BlogPost = () => {
 
             <div class="impact-section mb-6">
               <h3 class="text-xl font-bold mb-2">2. Cost Savings</h3>
-              <p>
+              <p class="mb-4">
                 By reducing return rates, 3D modelling directly cuts operational costs for businesses. Customers who can visualize 
                 their purchase accurately are less likely to request refunds or replacements, making this a cost-efficient solution 
                 for online retailers.
@@ -229,7 +229,7 @@ const BlogPost = () => {
 
             <div class="impact-section mb-6">
               <h3 class="text-xl font-bold mb-2">3. Increased Sales</h3>
-              <p>
+              <p class="mb-4">
                 3D modelling has proven to be a powerful tool for boosting sales, particularly for large or complex products like furniture. 
                 Customers can use 3D models to visualize items within their homes, helping them decide how to arrange or incorporate the 
                 product into their space. This immersive experience builds customer confidence, increasing the chances of completing a sale.
@@ -238,7 +238,7 @@ const BlogPost = () => {
 
             <div class="impact-section mb-6">
               <h3 class="text-xl font-bold mb-2">4. A Smart Investment</h3>
-              <p>
+              <p class="mb-4">
                 3D modelling offers a strong return on investment. For example, if you're selling items like window shades, 3D models can 
                 demonstrate functionality, such as light-blocking capabilities. Additionally, 3D models enhance advertising efforts. 
                 Businesses can incorporate them into digital marketing strategies, using platforms like social media and Google to showcase 
@@ -248,7 +248,7 @@ const BlogPost = () => {
 
             <div class="impact-section mb-6">
               <h3 class="text-xl font-bold mb-2">5. Easy Customization</h3>
-              <p>
+              <p class="mb-4">
                 Modern 3D modelling software simplifies product customization, enabling businesses to quickly adapt their offerings to meet 
                 customer needs. With user-friendly tools, companies can modify models to deliver enhanced value and personalization, staying 
                 competitive in a dynamic market.
@@ -258,7 +258,7 @@ const BlogPost = () => {
 
           <section class="mb-8">
             <h2 class="text-2xl font-bold mb-4">Conclusion</h2>
-            <p>
+            <p class="mb-4">
               3D modelling has revolutionized e-commerce, offering businesses an innovative way to stand out and increase sales. 
               While it isn't a standalone solution, when combined with effective marketing and advertising, it can significantly 
               elevate your business. Now is the time to embrace the advantages of 3D modelling to differentiate your brand, engage 
