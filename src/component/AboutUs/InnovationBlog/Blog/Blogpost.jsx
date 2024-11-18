@@ -180,7 +180,7 @@ const BlogPost = () => {
           </section>
         </article>
       `,
-    },
+      },
    
     '3d-modeling-ecommerce': {
       title: '3D Modeling s Effects on the E-commerce Industry',

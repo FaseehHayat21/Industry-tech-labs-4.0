@@ -98,7 +98,7 @@ const SpecializedCourses = () => {
                   <li>{course.mode}</li>
                   <li>{course.duration}</li>
                 </ul>
-                <div className="course-price">{course.price}</div>
+              {/* //  <div className="course-price">{course.price}</div> */}
               </div>
                 </div>
               </div>
