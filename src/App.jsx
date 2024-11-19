@@ -89,6 +89,7 @@ import RoboticsandUAVs from './component/Programs/SpecializedCourses/Courses/Rob
 import CyberSecurityy from './component/Programs/SpecializedCourses/Courses/CyberSecurity/CyberSecurity';
 import BioTechandHealthTech from './component/Programs/SpecializedCourses/Courses/BioTechandHealthTech/BioTechandHealthTech';
 import DroneFlying from './component/Programs/SpecializedCourses/Courses/DroneFlying/DroneFlying';
+import SevenReasonsWhy from './component/AboutUs/SevenReasonsWhy/SevenReasonsWhy';
 
 function App() {
   return (
@@ -125,6 +126,7 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs/>}/>
           <Route path="/Diversity" element={<Diversity/>}/>
           <Route path="/InnovationBlog" element={<InnovationBlog/>}/>
+          <Route path="/SevenReasonsWhy" element={<SevenReasonsWhy/>}/>
           <Route path="/blog/:id" element={<BlogPost />} />
           
          {/*Programs*/}
