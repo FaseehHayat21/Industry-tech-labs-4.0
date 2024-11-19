@@ -1,6 +1,6 @@
 import React from "react";
-import "./SevenReasonsWhy.css"; 
-import TeamCollab from "../../../assets/TeamCollab2.jpg"; 
+import "./SevenReasonsWhy.css";
+import TeamCollab from "../../../assets/TeamCollab2.jpg";
 
 const SevenReasonsWhy = () => {
   return (
@@ -8,7 +8,7 @@ const SevenReasonsWhy = () => {
       <div className="banner">
         <h1>Seven Reasons Why</h1>
       </div>
-      
+
       <div className="full-screen-layout">
         {/* Image Section */}
         <div className="image">
@@ -35,7 +35,7 @@ const SevenReasonsWhy = () => {
         </div>
       </div>
 
-      {/* Sub-description below the gradient section */}
+
       <p className="sub-description">
         Here are 7 reasons why our partners love collaborating with us.
       </p>
@@ -96,7 +96,7 @@ const SevenReasonsWhy = () => {
       <section className="join-us">
         <h2>Join Us</h2>
         <p>
-          Let’s connect and explore how we can fast-track your sustainability journey. Reach out to our team of experts or complete the contact form below.
+          Let’s connect and explore how we can fast-track your sustainability journey. Reach out to our team of experts and feel free to connect!
         </p>
       </section>
     </section>
