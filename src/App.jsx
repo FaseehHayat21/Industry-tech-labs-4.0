@@ -90,6 +90,7 @@ import CyberSecurityy from './component/Programs/SpecializedCourses/Courses/Cybe
 import BioTechandHealthTech from './component/Programs/SpecializedCourses/Courses/BioTechandHealthTech/BioTechandHealthTech';
 import DroneFlying from './component/Programs/SpecializedCourses/Courses/DroneFlying/DroneFlying';
 import SevenReasonsWhy from './component/AboutUs/SevenReasonsWhy/SevenReasonsWhy';
+import Team from './component/AboutUs/Team/Team';
 
 function App() {
   return (
@@ -127,6 +128,7 @@ function App() {
           <Route path="/Diversity" element={<Diversity/>}/>
           <Route path="/InnovationBlog" element={<InnovationBlog/>}/>
           <Route path="/SevenReasonsWhy" element={<SevenReasonsWhy/>}/>
+          <Route path="/Team" element={<Team/>}/>
           <Route path="/blog/:id" element={<BlogPost />} />
           
          {/*Programs*/}

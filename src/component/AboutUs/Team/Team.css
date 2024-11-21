@@ -1,0 +1,134 @@
+.banner {
+  background-image: url('../../../assets/bgbanner.png');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.team {
+  padding: 60px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2px;
+}
+
+.team h2 {
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Increased gap for better spacing */
+  width: 90%;
+}
+
+.team-member {
+  flex: 0 1 calc(30% - 20px); /* Consistent width */
+  max-width: 300px; /* Ensures same size for all cards */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Uniform vertical spacing */
+}
+
+.team-member img {
+  width: 120px; /* Fixed size for uniformity */
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover; /* Ensures proper aspect ratio */
+}
+
+.team-member h3 {
+  font-size: 2rem;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  color: #00838f;
+  font-weight: bold;
+}
+
+.team-member p {
+  font-size: 1.5rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.team-member .contact-info p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #333;
+  border-top: 2px solid #00838f;
+  padding-top: 5px;
+}
+
+.team-member .contact-info a {
+  text-decoration: underline;
+  color: #00838f;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .team-members {
+    gap: 15px; /* Adjust gap for medium screens */
+  }
+
+  .team-member {
+    flex: 1 1 calc(45% - 20px); /* Two cards per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .team-members {
+    width: 100%;
+  }
+
+  .team-member {
+    flex: 1 1 calc(50% - 20px); /* Adjust for small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .team-member {
+    flex: 1 1 100%; /* One card per row on very small screens */
+  }
+
+  .team-member img {
+    width: 80px; /* Reduce image size for small screens */
+    height: 80px;
+  }
+
+  .team-member h3 {
+    font-size: 1.2rem;
+  }
+
+  .team-member p {
+    font-size: 0.9rem;
+  }
+}
