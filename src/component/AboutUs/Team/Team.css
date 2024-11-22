@@ -32,14 +32,15 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  width: 90%;
+  width: 80%;
 }
 
 .team-member {
   flex: 0 1 calc(35% - 20px);
-  max-width: 400px;
+  max-width: 420px;
   background-color: #fff;
-  padding: 20px;
+  padding: 10px;
+  margin: 10px;
   border-radius: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -48,6 +49,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+}
+.team-member:hover {
+  transform: scale(1.10);
 }
 
 .team-member img {
@@ -73,7 +77,7 @@
 
 }
 
-.team-member .contact-info p {
+.team-member .contacts-info p {
   margin: 5px 0;
   font-size: 1rem;
   color: #333;
@@ -81,11 +85,14 @@
   padding-top: 0px;
 }
 
-.team-member .contact-info a {
+.team-member .contacts-info a {
   text-decoration: underline;
   color: #00838f;
   font-weight: bold;
   margin-top: 5px;
+}
+.contacts-info{
+  margin-top: 5vh;
 }
 
 .team-member .more-button {
@@ -99,6 +106,7 @@
   font-size: 1.1rem;
   margin-top: 0px;
   transition: background-color 0.3s;
+  margin-top: -20px;
 }
 
 .team-member .more-button:hover {
