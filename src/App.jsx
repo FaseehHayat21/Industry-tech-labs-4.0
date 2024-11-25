@@ -43,9 +43,9 @@
 //       <ContactUs/>
 //       <Footer/> 
 //     </div>
-   
+
 //    </>
-    
+
 //   );
 // }
 
@@ -80,7 +80,7 @@ import Diversity from './component/AboutUs/Diversity/Diversity';
 import Tprinting from './component/Verticals/Tprinting/Tprinting';
 import SpecializedCourses from './component/Programs/SpecializedCourses/SpecializedCourses'
 import InnovationBlog from './component/AboutUs/InnovationBlog/InnovationBlog';
-import BlogPost from './component/AboutUs/InnovationBlog/Blog/Blogpost'; 
+import BlogPost from './component/AboutUs/InnovationBlog/Blog/Blogpost';
 import Tprintings from './component/Programs/SpecializedCourses/Courses/Tprintings/Tprintings';
 import IncubationProgram from './component/Programs/IncubationProgram/IncubationProgram';
 import EarlyStage from './component/Programs/EarlyStageAccelrators/EarlyStage';
@@ -93,68 +93,78 @@ import BioTechandHealthTech from './component/Programs/SpecializedCourses/Course
 import DroneFlying from './component/Programs/SpecializedCourses/Courses/DroneFlying/DroneFlying';
 import SevenReasonsWhy from './component/AboutUs/SevenReasonsWhy/SevenReasonsWhy';
 import Team from './component/AboutUs/Team/Team';
+import ContactUs from './component/LandingPage/ContactUs/ContactUs';
 
 function App() {
   return (
     <Router>
       <div className="header">
         <Header />
-        
+
       </div>
-        <Routes>
-          {/* Landing Page ROUTES */}
-          <Route path="/" element={<LandingPage />} />
-          {/* VERTICAL ROUTES */}
-          <Route path="/founders" element={<Founders />} />
-          <Route path="/Experts" element={<Expert />} />
-          <Route path="/Investors" element={<Investors/>} />
-          <Route path="/join" element={<Joins/>} />
-          {/* VERTICAL ROUTES */}
-          <Route path="/AiandBigData" element={<AiandBigData/>} />
-          <Route path="/ArAndVr" element={<ArAndVr/>} />
-          <Route path="/climateTech" element={<ClimateTech/>} />
-          <Route path="/dualuse" element={<DualUse/>} />
-          <Route path="/SustainableFood" element={<SustainableFood/>} />
-          <Route path="/HealthCare" element={<HealthCare/>} />
-          <Route path="/ThreeDprinting" element={<Tprinting/>} />
-          <Route path="/Robotics" element={<Robotics/>} />
-          <Route path="/CyberSecurity" element={ <CyberSecurity/>} />
-          <Route path="/BioTechnology" element={ <BioTechnology/>} />
-          {/* Collaborations */}
-          <Route path="/Corporate" element={<Corporate/>} />
-          <Route path="/Government" element={<Government/>} />
-          <Route path="/Universities" element={<Universities/>}/>
+      <Routes>
+        {/* Landing Page ROUTES */}
+        <Route path="/" element={<LandingPage />} />
+        {/* VERTICAL ROUTES */}
+        <Route path="/founders" element={<Founders />} />
+        <Route path="/Experts" element={<Expert />} />
+        <Route path="/Investors" element={<Investors />} />
+        <Route path="/join" element={<Joins />} />
+        {/* VERTICAL ROUTES */}
+        <Route path="/AiandBigData" element={<AiandBigData />} />
+        <Route path="/ArAndVr" element={<ArAndVr />} />
+        <Route path="/climateTech" element={<ClimateTech />} />
+        <Route path="/dualuse" element={<DualUse />} />
+        <Route path="/SustainableFood" element={<SustainableFood />} />
+        <Route path="/HealthCare" element={<HealthCare />} />
+        <Route path="/ThreeDprinting" element={<Tprinting />} />
+        <Route path="/Robotics" element={<Robotics />} />
+        <Route path="/CyberSecurity" element={<CyberSecurity />} />
+        <Route path="/BioTechnology" element={<BioTechnology />} />
+        {/* Collaborations */}
+        <Route path="/Corporate" element={<Corporate />} />
+        <Route path="/Government" element={<Government />} />
+        <Route path="/Universities" element={<Universities />} />
 
-          {/* AboutUs */}
-          <Route path="/AboutUs" element={<AboutUs/>}/>
-          <Route path="/Diversity" element={<Diversity/>}/>
-          <Route path="/InnovationBlog" element={<InnovationBlog/>}/>
-          <Route path="/SevenReasonsWhy" element={<SevenReasonsWhy/>}/>
-          <Route path="/Team" element={<Team/>}/>
-          <Route path="/blog/:id" element={<BlogPost />} />
-          
-         {/*Programs*/}
-          <Route path="/SpecializedCourses" element={<SpecializedCourses/>}/>
-          <Route path="/BootcampProgram" element={ <BootcampProgram/>}/>
-          <Route path="/EarlyStage" element={ <EarlyStage/>}/>
-          <Route path="/Incubation" element={<IncubationProgram/>}/>
-          
-         
-         
-         {/*COURSES*/}
-          <Route path="/Tprintings" element={<Tprintings/>}/>
-          <Route path="/DataScienceandAI" element={<DataScienceandAI/>}/>
-          <Route path="/GameDevelopment" element={<GameDevelopment/>}/>
-          <Route path="/RoboticsandUAVs" element={<RoboticsandUAVs/>}/>
-          <Route path="/CyberSecurityy" element={<CyberSecurityy/>}/>
-          <Route path="/BioTechandHealthTech" element={<BioTechandHealthTech/>}/>
-          <Route path="/DroneFlying" element={<DroneFlying/>}/>
+        {/* AboutUs */}
+        <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/Diversity" element={<Diversity />} />
+        <Route path="/InnovationBlog" element={<InnovationBlog />} />
+        <Route path="/SevenReasonsWhy" element={<SevenReasonsWhy />} />
+        <Route path="/Team" element={<Team />} />
+        <Route path="/blog/:id" element={<BlogPost />} />
 
-        </Routes>
-        <div className="footer">
-          <Footer />
+        {/*Programs*/}
+        <Route path="/SpecializedCourses" element={<SpecializedCourses />} />
+        <Route path="/BootcampProgram" element={<BootcampProgram />} />
+        <Route path="/EarlyStage" element={<EarlyStage />} />
+        <Route path="/Incubation" element={<IncubationProgram />} />
+
+
+
+        {/*COURSES*/}
+        <Route path="/Tprintings" element={<Tprintings />} />
+        <Route path="/DataScienceandAI" element={<DataScienceandAI />} />
+        <Route path="/GameDevelopment" element={<GameDevelopment />} />
+        <Route path="/RoboticsandUAVs" element={<RoboticsandUAVs />} />
+        <Route path="/CyberSecurityy" element={<CyberSecurityy />} />
+        <Route path="/BioTechandHealthTech" element={<BioTechandHealthTech />} />
+        <Route path="/DroneFlying" element={<DroneFlying />} />
+
+      </Routes>
+      <div className="contactus">
+        <ContactUs />
         </div>
-        </Router>
+
+     
+      <div className="footer">
+        <Footer />
+        </div>
+
+      
+
+    </Router>
+
   );
 }
 
