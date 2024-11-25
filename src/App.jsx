@@ -55,6 +55,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './component/LandingPage/Header/Header';
+import Footer from './component/LandingPage/footer/Footer';
+
 import Founders from './component/Community/Founder/Founders';
 import "./App.css";
 import LandingPage from './pages/LandingPage';
@@ -149,6 +151,9 @@ function App() {
           <Route path="/DroneFlying" element={<DroneFlying/>}/>
 
         </Routes>
+        <div className="footer">
+          <Footer />
+        </div>
         </Router>
   );
 }
