@@ -32,7 +32,7 @@
   border-radius: 8px;
 }
 
-.description {
+.description-who {
   max-width: 70%;
   margin: 0 auto;
   text-align: left;
@@ -42,16 +42,16 @@
   text-align: justify;    
 }
 
-.description strong {
+.description-who strong {
   color: #d81b60; /* Highlighted text color */
 }
 
-.description a {
+.description-who a {
   color: #d81b60;
   text-decoration: none;
   font-weight: bold;
 }
 
-.description a:hover {
+.description-who a:hover {
   text-decoration: underline;
 }

@@ -11,7 +11,7 @@ const WhoWeAre = () => {
             <div className="image-container">
                 <img src={largeImage} alt="MassChallenge" />
             </div>
-            <div className="description">
+            <div className="description-who">
                 <p>
                 Infinity Tech Labs bridges startups, experts, corporations, and communities to foster growth and revolutionize industries. Our innovative approach empowers high-impact startups with bold, disruptive ideas, especially from unconventional backgrounds.
                 </p>
