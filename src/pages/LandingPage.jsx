@@ -21,8 +21,7 @@ export default function LandingPage() {
         <Testimonials/>
         <FeaturedPartners/>
         <Business/>
-        <ContactUs/>
-        <Footer />
+  
    </>
   )
 }

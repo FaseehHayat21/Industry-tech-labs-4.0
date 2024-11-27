@@ -5,7 +5,9 @@
     justify-content: center;
     align-items: center;
     
-    background-color: #f0fbfc;
+    background: linear-gradient(to left, #2f4156, #a2c8d7, #c8d9d6, #f5efeb);
+
+
 }
 .solve-with-us {
     display: flex;

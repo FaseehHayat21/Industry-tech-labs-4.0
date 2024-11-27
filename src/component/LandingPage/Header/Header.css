@@ -21,18 +21,31 @@
     z-index: 1000;
     transition: background-color 0.3s ease-in-out;
     background-color: transparent;  
-    background-color: #ffffff; /* Add background when scrolled */
+   /*background-color: #2f4156*/
+   background-color: white;
+  
 }
 
 .nav-list {
     display: flex;
     gap: .5rem;
     align-items: center;
+    color: black;
     list-style-type: none;
 }
 Link{
     text-decoration: none;
 }
+.nav-link-text {
+ 
+ /*   color: white; */
+    text-decoration: none; 
+  }
+  
+  .nav-link-text:hover {
+    color: #f0f0f0; 
+  }
+  
 .nav-link:link,
 .nav-link:visited {
     color: rgb(0, 0, 0);
@@ -46,6 +59,16 @@ Link{
     color: crimson;
 }
 
+.nav-link.dropdown-toggle {
+    color: black; 
+}
+  
+  .nav-link.dropdown-toggle:hover {
+    color: black;
+  }
+
+  
+  
 .nav-link.login:link,
 .nav-link.login:visited {
     background-color: rgb(203, 213, 224);
