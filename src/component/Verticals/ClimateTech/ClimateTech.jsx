@@ -2,6 +2,15 @@ import React from 'react';
 import './ClimateTech.css';
 
 export default function ClimateTech() {
+  const focusAreas = [
+    'AI & Big Data',
+    'Circular Manufacturing',
+    'Digital Twins for Advanced Manufacturing Innovation',
+    'Predictive Maintenance',
+    'Robotics & Automation',
+    'Supply Chain Visibility',
+    'Workforce Training',
+  ];
   return (
     <section className="founders-section">
       <div className="banner">
@@ -14,7 +23,22 @@ export default function ClimateTech() {
         Infinity Tech Labs is committed to supporting climate tech entrepreneurs who are tackling these complex issues. Through our Innovation Network, we provide startups with access to critical resources, mentorship, and collaboration opportunities. Our goal is to empower visionary teams to accelerate their impact and bring scalable solutions to market, ultimately contributing to a healthier planet and a sustainable economy."
         </p>
       </div>
-     
+    {/* Focus Areas Section */}
+    <div className="focus-areas">
+        <h2>Our Focus Areas</h2>
+        <ul>
+          {focusAreas.map((area, index) => (
+            <li key={index}>{area}</li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Journey Banner */}
+      <div className="journey-banner">
+        <h3>ADVANCED MANUFACTURING INNOVATION PLATFORM</h3>
+        <h2>Ready to start your innovation journey?</h2>
+        <button>Contact Us</button>
+      </div>
     </section>
   );
 }

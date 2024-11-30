@@ -1,59 +1,149 @@
 .founders-section {
-    font-family: Arial, sans-serif;
-  }
-  
-  .banner {
-    background-image: url('../../../assets/bgbanner.png'); 
-    background-size: cover;
-    background-position: center;
-    padding: 60px 20px;
-    text-align: center;
-    margin-top: 10vh;
-  }
-  
-  .banner h1 {
-    color: white;
-    font-size: 3.5rem;
-    font-weight: bold;
-  }
-  
-  .content {
-    max-width: 70%;
-    margin: 40px auto;
-    padding: 0 0;
-    text-align: justify;
-    color: #333;
-  }
-  
-  .content p {
-    font-size: 1.5rem;
-    line-height: 1.4;
-    margin-bottom: 20px;
-  }
-  
-  .content strong {
-    color: #00838f; 
-  }
-  
-  .links {
-    max-width: 70%;
-    margin: 40px auto;
-    padding: 0 0;
-    text-align: left;
-  }
-  
-  .links a {
-    margin:  0px;
-    font-size: 1.5rem;
-    color: #00838f;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-    text-transform: uppercase;
-  
-  }
-  
-  .links a:hover {
-    color: #005f6a; /* Darker shade on hover */
-  }
-  
+  font-family: Arial, sans-serif;
+}
+
+/* Banner Section */
+.banner {
+  background-image: url('../../../assets/bgbanner.png');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+/* Content Section */
+.content {
+  max-width: 70%;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: justify;
+  color: #333;
+}
+
+.content p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.content strong {
+  color: #00838f;
+}
+
+/* Focus Areas Section */
+/* Focus Areas Section */
+.focus-areas {
+  padding: 40px 20px;
+}
+
+.focus-areas h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #00838f;
+}
+
+.focus-areas ul {
+  list-style: none;
+  padding: 0;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.focus-areas li {
+  background: #e8edf9;
+  color: #333;
+  font-size: 1.5rem;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.focus-areas li:hover {
+  background: #d1e0ff;
+}
+
+.focus-area-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.focus-title {
+  flex-grow: 1;
+}
+
+.focus-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4b3fca;
+  font-size: 1.5rem;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #e8edf9;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.focus-button:hover {
+  background-color: #d1e0ff;
+}
+
+.focus-description {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+
+/* Journey Banner */
+.journey-banner {
+  background: linear-gradient(to right, #2f4156, #a2c8d7);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.journey-banner h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.journey-banner h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bo;
+}
+
+.journey-banner button {
+  background-color: white;
+  color: #6a5aff;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.journey-banner button:hover {
+  background-color: #fff4cc;
+  color: #6a5aff;
+}

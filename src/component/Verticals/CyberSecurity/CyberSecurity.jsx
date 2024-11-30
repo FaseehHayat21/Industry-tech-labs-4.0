@@ -2,6 +2,15 @@ import React from 'react';
 import './CyberSecurity.css';
 
 export default function CyberSecurity() {
+  const focusAreas = [
+    'AI & Big Data',
+    'Circular Manufacturing',
+    'Digital Twins for Advanced Manufacturing Innovation',
+    'Predictive Maintenance',
+    'Robotics & Automation',
+    'Supply Chain Visibility',
+    'Workforce Training',
+  ];
   return (
     <section className="founders-section">
       <div className="banner">
@@ -14,7 +23,22 @@ export default function CyberSecurity() {
         Infinity Tech Labs supports startups in the cyber and crypto sectors by providing access to cutting-edge technologies, expert guidance, and valuable industry connections. Whether it's developing secure systems, exploring blockchain applications, or navigating regulatory landscapes, we help startups drive innovation in cybersecurity and crypto solutions. With the strength of our global network, cyber and crypto startups can scale rapidly, creating a safer, more decentralized future for businesses and consumers alike.
         </p>
       </div>
-    
+    {/* Focus Areas Section */}
+    <div className="focus-areas">
+        <h2>Our Focus Areas</h2>
+        <ul>
+          {focusAreas.map((area, index) => (
+            <li key={index}>{area}</li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Journey Banner */}
+      <div className="journey-banner">
+        <h3>ADVANCED MANUFACTURING INNOVATION PLATFORM</h3>
+        <h2>Ready to start your innovation journey?</h2>
+        <button>Contact Us</button>
+      </div>
     </section>
   );
 }
