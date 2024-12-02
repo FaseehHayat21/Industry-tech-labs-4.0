@@ -30,7 +30,13 @@
     line-height: 1.4;
     margin-bottom: 20px;
   }
-  
+  .content h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #00838f;
+  }
   .content strong {
     color: #00838f; 
   }
@@ -62,7 +68,7 @@
   
   .focus-areas h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 20px;
     font-weight: bold;
     color: #00838f;
@@ -76,18 +82,25 @@
   }
   
   .focus-areas li {
-    background: #e8edf9;
     color: #333;
-    font-size: 1.5rem;
-    padding: 15px 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    font-size: 2rem; 
+    padding: 30px 30px; 
+    margin-bottom: 0px; 
+    border-radius: 35px;
     transition: background-color 0.3s ease;
+    width: 100%;
   }
   
-  .focus-areas li:hover {
-    background: #d1e0ff;
+
+  .focus-areas li:nth-child(odd) {
+    background: #ffffff; 
   }
+  
+  .focus-areas li:nth-child(even) {
+    background: lightblue; 
+  }
+  
+  
   
   /* Journey Banner */
   .journey-banner {
