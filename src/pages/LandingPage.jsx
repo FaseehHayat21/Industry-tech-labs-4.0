@@ -20,7 +20,7 @@ export default function LandingPage() {
         <Applications/>
         <Testimonials/>
         <FeaturedPartners/>
-        <Business/>
+        {/* <Business/> */}
   
    </>
   )

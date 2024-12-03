@@ -1,5 +1,6 @@
 import React from 'react';
 import './Founders.css';
+import Business from '../../LandingPage/Business/Business';
 
 export default function Founders() {
   return (
@@ -65,6 +66,7 @@ export default function Founders() {
           <a href="#">VIEW ALL EVENTS</a>
         </div>
       </div>
+      <Business/>
     </section>
   );
 }
