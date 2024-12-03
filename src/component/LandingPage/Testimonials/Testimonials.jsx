@@ -6,25 +6,25 @@ import  amna  from "../../../assets/amna.jpg"
 import  junaid  from "../../../assets/junaid.jpg"
 const testimonials = [
   {
-    text: "My internship at Infinity Tech Labs was an incredibly rewarding experience that pushed me beyond my comfort zone and allowed me to take on meaningful responsibilities. I had the opportunity to work on cutting-edge projects, including designing and implementing a real-time drone object tracking system using YOLO and the Jetson Xavier platform. I gained hands-on experience in data collection, model training, and system optimization, while also exploring innovative applications like tracking players in a football match from aerial views. This experience significantly enhanced my technical skills and gave me a deeper understanding of the real-world applications of AI and drone technology.",
+    text: "My internship at Infinity Tech Labs was an incredibly rewarding experience that pushed me beyond my comfort zone and allowed me to take on meaningful responsibilities. I gained hands-on experience in data collection, model training, and system optimization. This experience significantly enhanced my technical skills and gave me a deeper understanding of the real-world applications of AI and drone technology.",
     name: "Ammar Hussain",
     title: "National University of Science and Technology",
     image: ammar 
   },
   {
-    text: "During my internship at Infinity Tech Labs, I worked on an Industry 4.0 project focused on disruptive technologies. This research-driven R&amp;D task pushed me to sharpen my critical thinking and problem-solving skills. I also participated in design thinking workshops that emphasized transforming innovative concepts into viable startups. The two-month experience was both demanding and rewarding, providing me with valuable insights into cutting-edge technology and its potential for business development.",
+    text: "During my internship at Infinity Tech Labs, I worked on an Industry 4.0 project focused on disruptive technologies. I also participated in design thinking workshops that emphasized transforming innovative concepts into viable startups. The two-month experience was both demanding and rewarding, providing me with valuable insights into cutting-edge technology and its potential for business development",
     name: "Arooj Fatima",
     title: "Institute Of Space Technology",
     image: arooj 
   },
   {
-    text: "My internship at the Infinity Tech Labs has been an enriching experience, offering invaluable hands-on exposure to advanced aerospace systems. Working on the autopilot of the Pixhawk 6C allowed me to develop critical technical skills, collaborate with a talented team, and contribute to real-world projects. This experience has deepened my understanding of flight control systems and boosted my confidence as a graduate Electrical Engineer.",
+    text: "My internship at the Infinity Tech Labs has been an enriching experience, offering invaluable hands-on exposure to advanced aerospace systems. My assigned tasks allowed me to develop critical technical skills and collaborate with a talented team. This experience has deepened my understanding of state-of-the-art avionics systems and boosted my confidence as a graduate Electrical Engineer",
     name: "Muhammad Junaid",
     title: "Air University",
     image: junaid
   },
   {
-    text: "As an intern at Infinity Tech Labs, I had the unique opportunity to immerse myself inthe forefront of Industry 4.0 technologies, bridging the gap between academic research and practical industrial solutions. This experience sharpened my problem-solving abilities and gave me a head start inentrepreneurship, fostering a mindsetfor innovation and self-driven growth in the evolving tech landscape.",
+    text: "As an intern at Infinity Tech Labs, I had the unique opportunity to immerse myself in the forefront of Industry 4.0 technologies, bridging the gap between academic research and practical industrial solutions. This experience sharpened my problem-solving abilities and gave me a head start in entrepreneurship, fostering a mindset for innovation and self-driven growth in the evolving tech landscape",
     name: "Amna Qizilbash",
     title: "Institute of Space Technology",
     image: amna 
@@ -67,6 +67,17 @@ export default function Testimonials() {
                 </div>
               </div>
             ))}
+
+          <div className="testimonial-card">
+              <p>{testimonials[0].text}</p>
+              <div className="testimonial-author">
+                <img src={testimonials[0].image} alt={testimonials[0].name} />
+                <div>
+                  <h3>{testimonials[0].name}</h3>
+                  <p>{testimonials[0].title}</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <button onClick={handleNext} className="arrow-button right-arrow">❯</button>
