@@ -119,10 +119,7 @@ export default function AiandBigData() {
         <p>
         At Infinity Tech Labs, we support AI and Big Data startups by providing access to advanced tools, expert guidance, and strategic partnerships. Through our network, AI and Big Data startups can accelerate their growth and create transformative solutions for industries worldwide.
         </p>
-        <h2>Ready to Talk?</h2>
-        <p>
-          Organizations looking for innovative AI and Big Data solutions to address their challenges are invited to connect with Infinity Tech Labs today!
-        </p>
+
       </div>
 
       {/* Focus Areas Section */}
@@ -138,11 +135,20 @@ export default function AiandBigData() {
       </div>
 
       {/* Journey Banner */}
-      <div className="journey-banner">
-        <h3>ADVANCED MANUFACTURING INNOVATION PLATFORM</h3>
-        <h2>Ready to start your innovation journey?</h2>
-        <button>Contact Us</button>
-      </div>
+         {/* Journey Banner */}
+         <div className="journey-banner">
+  <div className="journey-banner-content">
+    <div className="text-section">
+      <h2>Ready to talk?</h2>
+      <h5>
+        Organizations looking for innovative AI and Big Data solutions to address their challenges are invited to connect with Infinity Tech Labs today!
+      </h5>
+    </div>
+    <div className="button-section">
+      <button>Contact Us</button>
+    </div>
+  </div>
+</div>
     </section>
   );
 }

@@ -71,10 +71,6 @@ export default function DualUse() {
         Infinity Tech Labs actively supports companies developing dual-use technologies, recognizing their potential to drive progress across multiple industries. Through our network, these innovators are able to address critical needs across both public and private sectors, fostering resilience and security in an increasingly interconnected world.
         </p>
         <p>
-        <h2>Ready to Talk?</h2>
-        <p>
-          Organizations looking for innovative Robotics & Autonomous Systems to address their challenges are invited to connect with Infinity Tech Labs today!
-        </p>
         </p>
       </div>
 
@@ -89,11 +85,20 @@ export default function DualUse() {
       </div>
 
       {/* Journey Banner */}
-      <div className="journey-banner">
-        <h3>ADVANCED MANUFACTURING INNOVATION PLATFORM</h3>
-        <h2>Ready to start your innovation journey?</h2>
-        <button>Contact Us</button>
-      </div>
+         {/* Journey Banner */}
+         <div className="journey-banner">
+  <div className="journey-banner-content">
+    <div className="text-section">
+      <h2>Ready to talk?</h2>
+      <h5>
+      Organizations seeking innovative, dual-use technologies to address their unique challenges are encouraged to connect with Infinity Tech Labs today!
+      </h5>
+    </div>
+    <div className="button-section">
+      <button>Contact Us</button>
+    </div>
+  </div>
+</div>
     </section>
   );
 }
