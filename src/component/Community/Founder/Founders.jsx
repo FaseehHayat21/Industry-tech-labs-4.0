@@ -9,32 +9,33 @@ export default function Founders() {
         <h1>Founders</h1>
       </div>
       <div className="content">
-        <p> <strong>Infinity Tech Labs</strong> empowers founders who challenge the norm and drive sustainable change, whether they follow traditional paths or forge their own. We fully support founders from diverse backgrounds with innovative ideas.
+        <p> <strong>Infinity Labs</strong> supports founders disrupting the status quo and create sustainable change – whether they fit the mold or break it. .
         </p>
         <p>
-        As a founder, being strategic with your time and energy is crucial. Our vast network provides mentorship and resources to support founders at every stage of the startup journey.
+        As a founder, it’s important to be strategic about where to spend your time and energy. Our vibrant network offers access to mentorship and resources that support founders through every stage of the startup lifecycle.
         </p>
 
       </div>
 
       <div className="content">
-        <h1><strong>Fueling Innovation and Transforming Ideas into Impact</strong> </h1>
-        <p> At Infinity Tech Labs, we understand that every founder&#39;s journey is unique. That&#39;s why
-            we offer tailored guidance and cutting-edge tools to turn bold visions into thriving
-            ventures. From refining your business model to navigating market challenges, we stand
-            by you with actionable insights and hands-on support. Our commitment goes beyond
-            growth—we aim to create a ripple effect of positive change, empowering founders to
-            shape industries and inspire communities.
+        <h1><strong>Why Infinity Labs?</strong> </h1>
+        <p> Infinity Labs evidence-based, outcome-focused acceleration model demonstrates that when founders are supported by a global community-driven network, they scale their startups more rapidly and profitably.
+          </p>
+        <p>Infinity Labs supports innovators from all backgrounds to create breakthrough change and accelerate their business without requiring financial stake in the success of the organization.
           </p>
 
       </div>
       <div className="content">
-          <h1><strong>Why Us?</strong> </h1>
-          <p>Infinity Tech Labs is an innovative accelerator program that helps founders scale their
-          startups quickly and profitably through a national, community-driven network. It supports
-          innovators from all backgrounds to drive impactful change without taking a financial
-          stake in their success.
+          <h1><strong>The Infinity Labs Advantage</strong> </h1>
+          <p>Infinity Tech Labs offers the most efficient pathway to connect startups, experts, corporations, and communities to grow and transform businesses and economies. For founders we have special offerings .
             </p>
+            <ul>
+              <li>•	Help entrepreneurs identify goals and key initiatives  </li>
+              <li>•	Provide access to a meaningful network of experts </li>
+              <li>•	Connect entrepreneurs with a deep peer network  </li>
+              <li>•	Live seminars and workshops</li>
+              <li>•	A digital curriculum library</li>
+            </ul>
       </div>
 
        <div className="upcoming-events">
