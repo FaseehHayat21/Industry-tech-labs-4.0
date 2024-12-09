@@ -75,7 +75,7 @@ margin-right: 2vh;
 .play-button {
     position: absolute;
     top: 50%;
-    left: 46%;
+    left: 54%;
     transform: translate(-50%, -50%);
     font-size: 2rem;
     color: rgba(255, 255, 255, 0.8);

@@ -57,7 +57,7 @@
 import React, { useState } from 'react';
 import './SolveWithUs.css';
 import thumbnailImage from "../../../assets/thumb.png"; // Placeholder for video thumbnail
-import sampleVideo from "../../../assets/bg.mp4"; // Replace with the path to your video file
+import sampleVideo from "../../../assets/we.mp4"; // Replace with the path to your video file
 
 const SolveWithUs = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
