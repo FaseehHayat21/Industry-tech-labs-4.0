@@ -63,7 +63,7 @@ import "./whatweoffer.css";
  import imageac from "../../../assets/acc.png"
 import imageco from "../../../assets/cor.png"
 import imagego from "../../../assets/gov.png"
-const whatweoffer = () => {
+const Whatweoffer = () => {
   const cards = [
     {
       image: imageac,
@@ -106,4 +106,4 @@ const whatweoffer = () => {
   );
 };
 
-export default whatweoffer;
+export default Whatweoffer;
