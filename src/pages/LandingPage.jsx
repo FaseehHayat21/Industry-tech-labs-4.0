@@ -8,6 +8,7 @@ import FeaturedPartners from '../component/LandingPage/FeaturedPartners/Featured
 import Testimonials from '../component/LandingPage/Testimonials/Testimonials'
 import ContactUs from '../component/LandingPage/ContactUs/ContactUs'
 import Footer from '../component/LandingPage/footer/Footer'
+import WhatWeOffer from '../component/LandingPage/WhatWeOffer/WhatWeOffer'
 export default function LandingPage() {
   return (
    
@@ -18,6 +19,7 @@ export default function LandingPage() {
      <SolveWithUs/>
         <WhoWeAre/>
         <Applications/>
+        <WhatWeOffer/>
         <Testimonials/>
         <FeaturedPartners/>
         {/* <Business/> */}

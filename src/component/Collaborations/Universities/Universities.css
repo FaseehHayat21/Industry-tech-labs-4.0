@@ -57,3 +57,14 @@
     color: #005f6a; /* Darker shade on hover */
   }
   
+  .uni-image{
+    width: 100%;
+    border-radius: 23px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 5vh;
+  }
+  .uni-image:hover{
+    transform: scale(1.01);
+    border: 2px solid black;
+    overflow: hidden;
+  }

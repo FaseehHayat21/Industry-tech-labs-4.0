@@ -11,10 +11,10 @@
 }
 .solve-with-us {
     display: flex;
-    width: 80%;
+    width: 90%;
     padding: 100px;
     flex-wrap: wrap-reverse;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -66,8 +66,9 @@ margin-right: 2vh;
 }
 
 .video-container img {
-    width: 90%;
-    height: 50vh;
+    width: 100%;
+    height: 60vh;
+    margin-left: 2rem;
     display: block;
 }
 

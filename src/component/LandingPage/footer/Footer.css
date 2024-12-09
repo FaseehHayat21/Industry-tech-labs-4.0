@@ -1,173 +1,61 @@
 .footer {
     background-color: #2f4156;
-    color: white;
-    padding: 70px 80px 20px;
-    font-family: 'Montserrat', sans-serif; /* Set the Montserrat font */
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.footer-left {
-    flex: 2;
-    padding-left: 9rem;
-}
-
-.footer-center {
-    flex: 1;
-    padding-right: 2rem;
-}
-
-.footer-right {
-    padding-right: 5rem;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 2px; /* Adds space between the logo and text */
-    padding-bottom: 3rem;
-}
-
-.logo-img {
-    width: 50px; /* Adjust the size of the logo */
-    height: auto;
-}
-
-.separator {
-    margin: 0 10px; /* Adds space around the separator */
-    font-weight: bold;
-    font-size: 1.5rem; /* Adjust size as necessary */
-}
-
-.infinity-lab {
-    font-family: 'Montserrat', sans-serif; /* Ensuring Montserrat is applied here too */
-    font-weight: bold;
-    font-size: 1.5rem; /* Adjust size as necessary */
-}
-
-.footer h1 {
-    font-family: 'Montserrat', sans-serif;
-    padding-bottom: 2rem;
-    font-weight: bold;
-    font-size: x-large;
-}
-
-.footer h2 {
-    font-size: 20px;
-    margin: 0 0 20px;
-}
-
-.footer p {
-    white-space: normal; /* Allows text to wrap naturally */
-    line-height: 1.5; /* Adjusts line spacing */
-    word-wrap: break-word; /* Ensures words break appropriately if needed */
-    max-width: 400px; /* Adjust this to control where the wrapping happens */
-    font-size: large;
-    padding-bottom: 3rem;
-}
-
-.footer-links {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-size: large;
-}
-
-.footer-links a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-.footer-links a:hover {
-    color: #cccccc;
-}
-
-.contact-info {
-    padding-right: 40px;
-    padding-top: 160px;
-    margin-bottom: 10px;
-}
-
-.contact-info a {
-    color: #D3D3D3;
-    text-decoration: none;
-    display: block;
-    font-size: large;
-}
-
-.contact-info p {
-    margin: 3px 0;
-    font-size: medium;
-    padding-top: 0;
-    font-size: large;
-    color: #D3D3D3;
-}
-
-.social-icons {
-    display: flex;
-    gap: 20px;
-}
-
-.social-icon {
-    width: 30px;
-    height: 30px;
-    color: white;
-    transition: color 0.2s;
-}
-
-.social-icon:hover {
-    color: #cccccc;
-}
-
-.nav-links {
-    padding-top: 160px;
-    padding-right: 80px;
-    display: flex;
-    gap: 40px;
-    font-size: large;
-}
-
-.nav-column {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.nav-column a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-.nav-column a:hover {
-    color: #cccccc;
-}
-
-.copyright {
-    margin-top: 40px;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 250px;
+    align-self: end;
+    margin-bottom: 4vh;
+  }
+  
+  .footer-column h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #00838f;
+    font-weight: bolder;
+  }
+  
+  .footer-column p,
+  .footer-column ul,
+  .footer-column li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     font-size: 14px;
-    padding-left: 550px;
-    font-size: small;
-    color: #ffffff;
-}
+    line-height: 1.6;
+  }
+  
+  .footer-column a {
+    text-decoration: none;
+    color: #66c2ca;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #bbb;
+  }
+  
 
-@media (max-width: 768px) {
-    .footer {
-        padding: 40px 20px 20px;
-    }
-
-    .footer-content {
-        flex-direction: column;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        gap: 20px;
-    }
-}
+  .footer-logo{
+    width: 60px;
+    height: 50px;
+  }

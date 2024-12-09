@@ -1,0 +1,158 @@
+/* .whatweoffer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    padding: 10%;
+}
+.whatweoffercard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: fit-content;
+    padding: 4%;
+    width: 100%;
+}
+.whatweoffergo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    padding: 4%;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 23px;
+    margin: 12px;
+    height: 80vh;
+}
+.whatweoffergo img{
+    height: 20vh;
+    width: 100%;
+}
+.whatweofferco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    padding: 4%;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 23px;
+    margin: 12px;
+    height: 80vh;
+}
+.whatweofferco img{
+    height: 20vh;
+    width: 100%;
+}
+.whatweofferac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    padding: 4%;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 23px;
+    margin: 12px;
+    height: 80vh;
+}
+.whatweofferac img{
+  height: 20vh;
+  width: 100%;
+}
+.whatweofferac ul{
+text-align: start;
+}
+.whatweofferac li{
+text-align: start;
+margin-right: 0;
+padding: 0%;
+}
+.whatweofferheading{
+   font-weight: bold;
+} */
+
+
+
+
+/* Container for cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Individual card styling */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 380px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 12px 12px;
+    border-radius: 30px;
+    border: 2px solid #2f4156;
+  }
+  .cardsss{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Card image styling */
+  .card-image {
+    padding: 2% 20% 2% 20%;
+    width: 100%;
+    height: 14vh;
+  }
+  
+  /* Card heading styling */
+  .card-heading {
+    font-size: 20px;
+    margin: 16px;
+    color: #333;
+    text-align: center;
+    font-weight: 900;
+    
+  }
+  
+  /* List styling */
+  .card-list {
+    list-style: none;
+    padding: 0 16px 16px;
+    margin: 0;
+  }
+  
+  .card-list li {
+    font-size: 20px;
+    margin: 8px 0;
+    color: #555;
+    text-align: center;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
+  .whatweofferheading{
+    font-size: 3rem;
+    color: #00838f;
+    margin-bottom: 1vh;
+  }

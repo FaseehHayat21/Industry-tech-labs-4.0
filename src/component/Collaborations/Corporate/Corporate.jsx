@@ -1,6 +1,6 @@
 import React from 'react';
 import './Corporate.css';
-
+import corporate from "../../../assets/corporate.png"
 export default function Corporate() {
   return (
     <section className="founders-section">
@@ -16,6 +16,8 @@ export default function Corporate() {
         Infinity Tech Labs fosters collaboration within its global network. It offers access to vetted startups, engagement opportunities across the ecosystem, and expert support to enhance corporate capabilities and drive business growth.
 
         </p>
+
+        <img className='uni-image' src={corporate} alt="" />
       </div>
      
     </section>
