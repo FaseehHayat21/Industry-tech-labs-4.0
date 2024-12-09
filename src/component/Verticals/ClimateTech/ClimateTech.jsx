@@ -85,12 +85,21 @@ export default function ClimateTech() {
         </ul>
       </div>
 
-      {/* Journey Banner */}
-      <div className="journey-banner">
-        <h3>CLIMATE TECH INNOVATION PLATFORM</h3>
-        <h2>Ready to start your innovation journey?</h2>
-        <button>Contact Us</button>
-      </div>
+
+        {/* Journey Banner */}
+        <div className="journey-banner">
+  <div className="journey-banner-content">
+    <div className="text-section">
+      <h2>Ready to talk?</h2>
+      <h5>
+      Organizations seeking innovative, dual-use technologies to tackle their unique challenges are invited to connect with Infinity Tech Labs today!
+      </h5>
+    </div>
+    <div className="button-section">
+      <button>Contact Us</button>
+    </div>
+  </div>
+</div>
     </section>
   );
 }

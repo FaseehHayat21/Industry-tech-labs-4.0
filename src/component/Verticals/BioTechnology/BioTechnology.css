@@ -106,24 +106,41 @@
     background: linear-gradient(to right, #2f4156, #a2c8d7);
     color: white;
     padding: 60px 20px;
-    text-align: center;
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
   }
   
-  .journey-banner h3 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+  .journey-banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70%; /* Adjust width as needed */
+    width: 100%;
   }
   
-  .journey-banner h2 {
+  .text-section {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .text-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     font-weight: bold;
   }
   
-  .journey-banner button {
+  .text-section h5 {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  .button-section {
+    flex-shrink: 0;
+  }
+  
+  .button-section button {
     background-color: white;
     color: #6a5aff;
     font-size: 1.2rem;
@@ -134,7 +151,8 @@
     transition: background 0.3s ease, color 0.3s ease;
   }
   
-  .journey-banner button:hover {
+  .button-section button:hover {
     background-color: #fff4cc;
     color: #6a5aff;
   }
+  

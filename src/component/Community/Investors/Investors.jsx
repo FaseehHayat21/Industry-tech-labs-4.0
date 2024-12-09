@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './Investors.css';
 
@@ -38,7 +37,22 @@ export default function Investors() {
 
         </p>
       </div>
-    
+
+      <div className="content">
+        <h1><strong>An Active Infinity Labs Community Member</strong></h1>
+        <p>
+          There are several more benefits to joining the Infinity Labs Investor Network:
+        </p>
+        <h2>Event Partnerships</h2>
+        <p>
+          Infinity Labs holds a number of in-person or virtual events throughout the year. These events include networking engagements, thought leadership talks, fireside chats and panels, and exhibition opportunities.
+        </p>
+
+        <h2>Ecosystem Access</h2>
+        <p>
+          Engaged investors will receive an invitation to participate in market access programs and ecosystem events where Infinity Labs has a strong presence throughout the year. These community events have the focused goal of enabling startups to network with key stakeholders within our physical communities and where we have clusters of active alumni, investors, and community partners.
+        </p>
+      </div>
     </section>
   );
 }
