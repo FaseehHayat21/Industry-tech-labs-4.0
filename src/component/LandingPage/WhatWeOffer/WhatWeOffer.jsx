@@ -59,7 +59,7 @@
 
 
 import React from "react";
-import "./whatweoffer.css";
+import "./Whatweoffer.css";
  import imageac from "../../../assets/acc.png"
 import imageco from "../../../assets/cor.png"
 import imagego from "../../../assets/gov.png"
