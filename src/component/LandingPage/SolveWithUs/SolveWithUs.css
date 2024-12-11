@@ -11,15 +11,17 @@
 }
 .solve-with-us {
     display: flex;
-    width: 80%;
-    padding: 100px;
+    width: 100%;
+    padding: 35px;
+    margin-top: 20vh;
+    margin-bottom: 4vh;
     flex-wrap: wrap-reverse;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .text-section {
-flex: 2 ;
+
 margin-right: 2vh;
 }
 
