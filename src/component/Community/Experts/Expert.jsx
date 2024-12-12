@@ -24,14 +24,13 @@ export default function Expert() {
 
       <div className="content">
         <h2>Eligibility Requirements</h2>
-        <ul>
-          <li>1. Entrepreneurs with a demonstrated track record of success.</li>
-          <li>2. Industry-specific professionals or investors with significant early-stage or industry experience.</li>
-          <li>3. General business professionals with significant management experience.</li>
-          <li>4. Technical Experts & University Experts with specific, topical expertise or academic credentials relevant to their field.</li>
-          <li>5. Executives from a partner firm with specific business, management, and operations expertise.</li>
-          <li>6. Consultants with employment at reputable firms – or – self-employed with a track record of work at reputable firms.</li>
-        </ul>
+          <p>1. Entrepreneurs with a demonstrated track record of success.</p>
+          <p>2. Industry-specific professionals or investors with significant early-stage or industry experience.</p>
+          <p>3. General business professionals with significant management experience.</p>
+          <p>4. Technical Experts & University Experts with specific, topical expertise or academic credentials relevant to their field.</p>
+          <p>5. Executives from a partner firm with specific business, management, and operations expertise.</p>
+          <p>6. Consultants with employment at reputable firms – or – self-employed with a track record of work at reputable firms.</p>
+      
       </div>
     </section>
   );

@@ -1,7 +1,5 @@
 import React from 'react';
 import './Founders.css';
-import Business from '../../LandingPage/Business/Business';
-
 export default function Founders() {
   return (
     <section className="founders-section">
@@ -9,7 +7,7 @@ export default function Founders() {
         <h1>Founders</h1>
       </div>
       <div className="content">
-        <p> <strong>Infinity Labs</strong> supports founders disrupting the status quo and create sustainable change – whether they fit the mold or break it. .
+        <p> <strong>Infinity Labs</strong> supports founders disrupting the status quo and create sustainable change – whether they fit the mold or break it.
         </p>
         <p>
         As a founder, it’s important to be strategic about where to spend your time and energy. Our vibrant network offers access to mentorship and resources that support founders through every stage of the startup lifecycle.
@@ -29,7 +27,7 @@ export default function Founders() {
           <h1><strong>The Infinity Labs Advantage</strong> </h1>
           <p>Infinity Tech Labs offers the most efficient pathway to connect startups, experts, corporations, and communities to grow and transform businesses and economies. For founders we have special offerings .
             </p>
-            <ul>
+            <ul className='links-program'>
               <li>•	Help entrepreneurs identify goals and key initiatives  </li>
               <li>•	Provide access to a meaningful network of experts </li>
               <li>•	Connect entrepreneurs with a deep peer network  </li>
@@ -67,7 +65,7 @@ export default function Founders() {
           <a href="#">VIEW ALL EVENTS</a>
         </div>
       </div>
-      <Business/>
+      {/* <Business/> */}
     </section>
   );
 }

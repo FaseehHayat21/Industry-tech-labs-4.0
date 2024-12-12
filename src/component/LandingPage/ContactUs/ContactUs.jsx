@@ -42,23 +42,19 @@ export default function ContactUs() {
             <div className="address details">
               <i className="fas fa-map-marker-alt"></i>
               <div className="topic">Website</div>
-              <div className="text-one"><FaLocationDot/> www.theinfinitylabs.org</div>
+              <div className="text-one"><a className='website-link' href="www.infinitytechlabs.org"><FaLocationDot/>www.infinitytechlabs.org</a></div>
               <div className="text-two"></div>
             </div>
-            <div className="phone details">
-              <i className="fas fa-phone-alt"></i>
-              <div className="topic">Phone</div>
-              <div className="text-one"> <IoIosCall></IoIosCall> +92-332-3033307</div>
-            </div>
+           
             <div className="email details">
               <i className="fas fa-envelope"></i>
               <div className="topic">Email</div>
-              <div className="text-one">info@ theinfinitylabs.org</div>
+              <div className="website-link">info@infinitytechlabs.org</div>
             </div>
           </div>
           <div className="right-side">
             <div className="topic-text"></div>
-            <p className='text'>If you have any work for me or any types of queries related to my skills, you can send me a message from here. It's my pleasure to help you.</p>
+            {/* <p className='text'>If you have any work for me or any types of queries related to my skills, you can send me a message from here. It's my pleasure to help you.</p> */}
             <form ref={form} onSubmit={"sendEmail"}>
               <div className="input-box">
                 <input type="text" name="user_name" placeholder="Enter your name" required />

@@ -32,7 +32,7 @@ export default function IncubationProgram() {
         <p>
         Simply applying to the accelerator program provides a valuable experience for startups. We ensure that every application is carefully reviewed by a diverse panel of judges, each representing a wide range of industries, giving startups an in-depth evaluation of their potential.
         </p>
-        <ul>
+        <ul  className='links-program'>
             <li>• Every applicant receives feedback from expert judges on their online applications.</li>
             <li>• All Semi-Finalists receive detailed feedback from expert judges on their in-person pitches.</li>
         </ul>
