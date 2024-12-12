@@ -9,6 +9,7 @@ import Testimonials from '../component/LandingPage/Testimonials/Testimonials'
 import ContactUs from '../component/LandingPage/ContactUs/ContactUs'
 import Footer from '../component/LandingPage/footer/Footer'
 import WhatWeOffer from '../component/LandingPage/WhatWeOffer/WhatWeOffer'
+import TrackSlider from '../component/LandingPage/TracksSlider/TrackSlider'
 export default function LandingPage() {
   return (
    
@@ -18,6 +19,7 @@ export default function LandingPage() {
     </div>
      <SolveWithUs/>
         <WhoWeAre/>
+        <TrackSlider/>
         <Applications/>
         <WhatWeOffer/>
         <Testimonials/>

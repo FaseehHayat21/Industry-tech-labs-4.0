@@ -94,7 +94,7 @@ padding: 0%;
   
   /* Individual card styling */
   .card {
-    background: linear-gradient(to left, #2f4156, #a2c8d7, #c8d9d6, #f5efeb);
+    background: linear-gradient(to left, #c8d9d6, #f5efeb);
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -127,6 +127,7 @@ padding: 0%;
     color: #333;
     text-align: center;
     font-weight: 900;
+    
     
   }
   

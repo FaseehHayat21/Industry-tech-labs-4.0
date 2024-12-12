@@ -11,12 +11,12 @@
 }
 .solve-with-us {
     display: flex;
-    width: 90%;
+    width: 100%;
     padding: 35px;
     margin-top: 20vh;
     margin-bottom: 4vh;
     flex-wrap: wrap-reverse;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -54,7 +54,7 @@ margin-right: 2vh;
 }
 
 .image-section {
-    flex: 2;
+    /* flex: 2;/ */
     
 }
 

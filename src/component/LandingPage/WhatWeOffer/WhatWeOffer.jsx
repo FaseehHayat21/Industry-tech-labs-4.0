@@ -61,7 +61,7 @@
 import React from "react";
 import "./WhatWeOffer.css";
  import imageac from "../../../assets/acc.png"
-import imageco from "../../../assets/cor.png"
+import imageco from "../../../assets/cop.png"
 import imagego from "../../../assets/gov.png"
 const Whatweoffer = () => {
   const cards = [
