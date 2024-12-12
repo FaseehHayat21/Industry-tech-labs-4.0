@@ -165,7 +165,7 @@ const Header = () => {
             onMouseEnter={() => setIsDropdownOpen(true)} 
             onMouseLeave={() => setIsDropdownOpen(false)}
           >
-            <span className="nav-link dropdown-toggle">About Us</span>
+            <span className="nav-link dropdown-toggle">About</span>
             {isDropdownOpen && (
               <ul className="dropdown-menu">
                 <li><Link to="/AboutUs" className="dropdown-item"><a to="/founders" >About Us</a></Link></li>
