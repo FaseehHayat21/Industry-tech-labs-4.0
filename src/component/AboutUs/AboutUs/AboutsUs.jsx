@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutUs.css';
 import video from "../../../assets/bg.mp4";
-
+import image from "../../../assets/space.jpg"
 export default function AboutUs() {
   return (
     <section className="founders-section">
@@ -10,7 +10,9 @@ export default function AboutUs() {
       </div>
       
       <div className="content">
-        <h1><strong>What is Infinity Tech Labs</strong></h1>
+        <div className="top-content">
+         <div className="text-top-content">
+            <h1><strong>What is Infinity Tech Labs</strong></h1>
         <p><strong>Infinity Tech Labs</strong> connects startups, experts, corporations, and communities to
             foster growth and drive transformative change in businesses and economies. We
             believe that entrepreneurship is a powerful force for progress, tackling humanity’s
@@ -19,6 +21,12 @@ export default function AboutUs() {
             collaborative innovation and support all founders, whether they align with or redefine
             the traditional venture model.
         </p>
+         </div>
+          <div className="image-top">
+          <img src={image} alt="" />
+          </div>
+        </div>
+      
         
         <h2><strong>About</strong></h2>
         <p>We are the Change – the dreamers, doers, thinkers, and leaders committed to building a just and
@@ -55,7 +63,34 @@ export default function AboutUs() {
 
         <h2><strong>ITL Team</strong></h2>
         <p>The ITL Team brings their unique professional backgrounds and expertise to support startups throughout the program.</p>
-        
+        {/*  */}
+        <div className="project-showcase">
+          <div className="heading-project">
+            <h1  className="heading-project">PROJECTS SHOWCASE</h1>
+          </div>
+          <div className="project-1" >
+            <div className="project-1-image">
+              <img src={image} alt=""  className="project-1-image-1"/>
+            </div>
+            <div className="project-1-content">
+              <h1>Our Program benefits include:</h1>
+              <p>• Developed a Blog Application using the MERN stack.
+                <br/>  • Implemented full CRUD operations for blog posts.
+                <br/>  • Created advanced search and filter functionalities.
+                <br/>  • Managed front-end and back-end development for seamless integration</p>
+            
+            </div>
+          </div>
+      
+
+      
+
+      {/* MAIN DIV ENDS HERE */}
+    </div>
+
+
+
+        {/*  */}
         <video className='video-about' width="100%" height="auto" autoPlay loop muted>
             <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
