@@ -12,14 +12,16 @@
 .solve-with-us {
     display: flex;
     width: 90%;
-    padding: 100px;
+    padding: 35px;
+    margin-top: 20vh;
+    margin-bottom: 4vh;
     flex-wrap: wrap-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .text-section {
-flex: 2 ;
+
 margin-right: 2vh;
 }
 
