@@ -64,7 +64,7 @@ export default function AboutUs() {
         <h2><strong>ITL Team</strong></h2>
         <p>The ITL Team brings their unique professional backgrounds and expertise to support startups throughout the program.</p>
         {/*  */}
-        <div className="project-showcase">
+        {/* <div className="project-showcase">
           <div className="heading-project">
             <h1  className="heading-project">PROJECTS SHOWCASE</h1>
           </div>
@@ -85,8 +85,8 @@ export default function AboutUs() {
 
       
 
-      {/* MAIN DIV ENDS HERE */}
-    </div>
+  
+    </div> */}
 
 
 
