@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Testimonials.css';
 import  arooj  from "../../../assets/arooj.jpg"
 import  ammar  from "../../../assets/ammar.jpg"
 import  amna  from "../../../assets/amna.jpg"
 import  junaid  from "../../../assets/junaid.jpg"
+import Aos from "aos"
+import "aos/dist/aos.css"
 const testimonials = [
+  
   {
     text: "My internship at Infinity Tech Labs was an incredibly rewarding experience that pushed me beyond my comfort zone and allowed me to take on meaningful responsibilities. I gained hands-on experience in data collection, model training, and system optimization. This experience significantly enhanced my technical skills and gave me a deeper understanding of the real-world applications of AI and drone technology.",
     name: "Ammar Hussain",
@@ -33,6 +36,9 @@ const testimonials = [
 ];
 
 export default function Testimonials() {
+  useEffect(()=> {
+                Aos.init({duration: 2000});
+            })
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
@@ -44,7 +50,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="testimonials-section">
+    <section className="testimonials-section"  data-aos="fade-left">
       <h2>The Infinity Tech Labs Experience</h2>
       <div className="testimonial-slider">
         <button onClick={handlePrev} className="arrow-button left-arrow">❯</button>
@@ -58,7 +64,8 @@ export default function Testimonials() {
             {testimonials.map((testimonial, index) => (
               <div className="testimonial-card" key={index}>
                 <p>{testimonial.text}</p>
-                <div className="testimonial-author">
+                <div className="testimonial-author"  data-aos="fade-left"
+                 data-aos-delay={index * 200}>
                   <img src={testimonial.image} alt={testimonial.name} />
                   <div>
                     <h3>{testimonial.name}</h3>
