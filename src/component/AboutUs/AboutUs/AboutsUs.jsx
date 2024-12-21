@@ -94,29 +94,30 @@ export default function AboutUs() {
 
            <div class="program-values">
   <h2 class="values-heading"><strong>Our Values</strong></h2>
-  <div class="cardsss">
-    <div class="cards">
-      <div class="card-content">
-        <h2 class="card-heading"><strong>Founder Friendly</strong></h2>
+  <div class="values-card-container">
+    <div class="value-card">
+      <div class="value-card-content">
+        <h2 class="value-card-heading"><strong>Founder Friendly</strong></h2>
         <p>We are committed to providing programming in the long-term interests of entrepreneurs. We do not take equity or fees from startups. Each core aspect of the program is in the best interests of founders before, during, and after the program.</p>
       </div>
     </div>
 
-    <div class="cards">
-      <div class="card-content">
-        <h2 class="card-heading"><strong>Inclusivity</strong></h2>
+    <div class="value-card">
+      <div class="value-card-content">
+        <h2 class="value-card-heading"><strong>Inclusivity</strong></h2>
         <p>We are committed to building an inclusive, equitable, and just community now and for our future. We will provide an environment that is free of bias, prejudice, discrimination, and harassment.</p>
       </div>
     </div>
 
-    <div class="cards">
-      <div class="card-content">
-        <h2 class="card-heading"><strong>Performance Orientation</strong></h2>
+    <div class="value-card">
+      <div class="value-card-content">
+        <h2 class="value-card-heading"><strong>Performance Orientation</strong></h2>
         <p>We are committed to (a) selecting founders with extraordinarily bold, new ideas, (b) providing intimate access to outstanding mentors, and (c) eliciting maximum effort from mentors and founders to accelerate the societal impact of breakthrough science.</p>
       </div>
     </div>
   </div>
 </div>
+
 
 
          <video className='video-about' width="100%" height="auto" autoPlay loop muted>
