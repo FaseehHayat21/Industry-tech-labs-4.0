@@ -221,12 +221,13 @@
   animation-delay: 1s;
 }
 
-.text-top-contents h1 {
+.text-top-contents .main-heading {
   font-size: 3rem;
   font-weight: bold;
   line-height: 1.2;
   text-align: left;
   margin-bottom: 20px;
+  color: #00838f;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
   opacity: 0;
   animation: slideInUp 2s forwards;
@@ -296,7 +297,7 @@ h2 {
   color: black;
 }
 
-.image-container {
+.image-containerr {
   max-width: 35%;
 }
 

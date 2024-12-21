@@ -13,7 +13,7 @@ export default function AboutUs() {
       <div className="contents">
         <div className="top-contents">
          <div className="text-top-contents">
-            <h1><strong>What is Infinity Tech Labs</strong></h1>
+            <h1 className='main-heading'><strong>What is Infinity Tech Labs</strong></h1>
         <p><strong>Infinity Tech Labs</strong> connects startups, experts, corporations, and communities to
             foster growth and drive transformative change in businesses and economies. We
             believe that entrepreneurship is a powerful force for progress, tackling humanity’s
@@ -34,7 +34,7 @@ export default function AboutUs() {
         We are the Change – the dreamers, doers, thinkers, and leaders committed to building a just and sustainable society. We’re united by a common purpose: build a regenerative economy where business and profit serve our people and the planet.
       </p>
     </div>
-    <div className="image-container">
+    <div className="image-containerr">
       <img src={image}></img>
     </div>
   </div>
