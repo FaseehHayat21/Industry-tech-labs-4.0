@@ -319,7 +319,7 @@
 .teamss {
   text-align: center;
   padding: 100px 20px;
-  background: linear-gradient(to left, #2f4156, #a2c8d7, #c8d9d6, #f5efeb);
+  background: linear-gradient(to right, #2f4156, #415a77, #f5f5f5);
   position: relative;
   overflow: hidden;
 }

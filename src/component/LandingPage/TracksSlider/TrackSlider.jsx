@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import "./TrackSlider.css"
-import slide_image_1 from '../../../assets/robot.jpg';
+import slide_image_1 from '../../../assets/roboticss.jpg';
 import slide_image_2 from'../../../assets/ai.jpg';
 import slide_image_4 from '../../../assets/BioTech.png';
 import slide_image_3 from'../../../assets/climate.png';
