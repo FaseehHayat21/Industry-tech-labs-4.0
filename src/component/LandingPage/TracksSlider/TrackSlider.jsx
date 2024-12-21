@@ -21,7 +21,7 @@ useEffect(()=> {
           })
   return (
     <div className="container" >
-    <h1 className="slider-heading" >TRACKS</h1>
+    <h2 className="whatweofferheadings" >TRACKS</h2>
     <Swiper
     z
       effect={'coverflow'}
