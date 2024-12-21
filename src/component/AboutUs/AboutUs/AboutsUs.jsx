@@ -250,20 +250,22 @@ export default function AboutUs() {
       </div>
 
       <div className="section-text">
-        <div className="text-and-image">
-          <div className="text-container">
-            <h2>About</h2>
-            <p className="about">
-              We are the Change – the dreamers, doers, thinkers, and leaders committed to building a just and sustainable
-              society. We’re united by a common purpose: build a regenerative economy where business and profit serve our
-              people and the planet.
-            </p>
-          </div>
-          <div className="image-containerr">
-            <img src={image} alt="Infinity Tech Labs" className="about-image" />
-          </div>
+      <div className="text-and-image">
+        <div className="text-container">
+          <h2>About Us</h2>
+          <p className="about">
+            We are the Change – the dreamers, doers, thinkers, and leaders committed to building a just and sustainable
+            society. United by a common purpose, we aim to create a regenerative economy where business and profit serve our
+            people and the planet.
+          </p>
+          <a href="#learn-more" className="learn-more-btn">Learn More</a>
+        </div>
+        <div className="image-containerr">
+          <img src={image} alt="Infinity Tech Labs" className="about-image" />
         </div>
       </div>
+    </div>
+
 
       <div className="teamss">
       <h2>Infinity Team in Action</h2>
