@@ -58,12 +58,17 @@
 
 
 
-import React from "react";
+import React, {useEffect } from 'react';
 import "./WhatWeOffer.css";
  import imageac from "../../../assets/acc.png"
 import imageco from "../../../assets/cop.png"
 import imagego from "../../../assets/gov.png"
+import Aos from "aos"
+import "aos/dist/aos.css"
 const Whatweoffer = () => {
+   useEffect(()=> {
+          Aos.init({duration: 2000});
+      })
   const cards = [
     {
       image: imageac,
@@ -85,13 +90,14 @@ const Whatweoffer = () => {
   return (
     <div className="card-container">
         <div>
-        <h2 className="whatweofferheading">WHAT WE OFFER</h2>
+        <h2 className="whatweofferheading" data-aos="fade-up">WHAT WE OFFER</h2>
           </div>
     
     
-            <div className="cardsss">
+            <div className="cardsss" >
             {cards.map((card, index) => (
-              <div className="card" key={index}>
+              <div className="card" key={index}  data-aos="fade-left"
+              data-aos-delay={index * 400} >
                 <img src={card.image} alt={card.heading} className="card-image" />
                 <h3 className="card-heading">{card.heading}</h3>
                 <ul className="card-list">

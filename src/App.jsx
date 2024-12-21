@@ -94,10 +94,12 @@ import DroneFlying from './component/Programs/SpecializedCourses/Courses/DroneFl
 import SevenReasonsWhy from './component/AboutUs/SevenReasonsWhy/SevenReasonsWhy';
 import Team from './component/AboutUs/Team/Team';
 import ContactUs from './component/LandingPage/ContactUs/ContactUs';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <div className="header">
         <Header />
 

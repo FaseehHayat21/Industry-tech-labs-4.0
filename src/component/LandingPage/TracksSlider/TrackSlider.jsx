@@ -13,8 +13,12 @@ import slide_image_3 from'../../../assets/climate.png';
 import slide_image_5 from '../../../assets/dual.jpg';
 import slide_image_6 from '../../../assets/vrai.jpg';
 import slide_image_7 from '../../../assets/CyberSecurity.jpeg';
+import Aos from "aos"
+import "aos/dist/aos.css"
 export default function TrackSlider() {
-
+useEffect(()=> {
+              Aos.init({duration: 2000});
+          })
   return (
     <div className="container" >
     <h1 className="slider-heading" >TRACKS</h1>
@@ -39,6 +43,8 @@ export default function TrackSlider() {
       }}
       modules={[EffectCoverflow, Pagination, Navigation]}
       className="swiper_container"
+      data-aos="fade-right"
+     
     >
       <SwiperSlide  className='image-1'>
         <h1 className='swiper-heading'>AI and Big Data</h1>
