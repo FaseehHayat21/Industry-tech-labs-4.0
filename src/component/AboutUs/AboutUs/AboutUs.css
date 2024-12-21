@@ -310,7 +310,7 @@ h2 {
 }
 
 .Team {
-  padding: 40px 20px;
+  padding: 140px 20px;
   margin-top: 20px;
   background: linear-gradient(to left, #2f4156, #a2c8d7, #c8d9d6, #f5efeb);
   text-align: center;
@@ -341,9 +341,9 @@ h2 {
 
 .benefit-cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  margin: 0 20px;
+  margin: 0 10%;
   margin-bottom: 50px;
 }
 
