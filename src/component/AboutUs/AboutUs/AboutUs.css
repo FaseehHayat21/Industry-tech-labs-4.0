@@ -579,18 +579,20 @@
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+.video-about-container{
 
+  background: linear-gradient(to right, #f5f7fa, #e4eef2);
+  padding: 10vh;
+}
 /* Video Styling */
 .video-about {
-  background: linear-gradient(to right, #f5f7fa, #e4eef2);
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  margin-top: 20px;
   margin:0 auto;
-  margin-bottom: 10vh;
+
 }
 
 @keyframes fadeInUp {

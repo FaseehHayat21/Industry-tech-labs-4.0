@@ -377,11 +377,12 @@ export default function AboutUs() {
   </div>
 </div>
 
-
+      <div className='video-about-container'> 
       <video className="video-about" autoPlay loop muted>
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      </div>
     </section>
   );
 }
