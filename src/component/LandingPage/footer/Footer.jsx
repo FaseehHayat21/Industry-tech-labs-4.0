@@ -103,7 +103,9 @@ const Footer = () => {
           <h3>Contact Us</h3>
           <ul>
             <li>Email: <a href="mailto:info@infinitytechlabs.org">info@infinitytechlabs.org</a></li>
-            <li>Address: 123 Business Street, City</li>
+              <li>Address: Corporate Offices, Alpha Techno Square,
+                National Aerospace Science & Technology Park (NASTP),
+                Old Airport, Rawalpindi</li>
           </ul>
         </div>
         <div className="social-icons">
