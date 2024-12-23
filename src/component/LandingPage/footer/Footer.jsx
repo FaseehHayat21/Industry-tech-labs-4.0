@@ -87,14 +87,10 @@ import Logo from '../../../assets/ILlogo_bg_removed.png';
 import { Link } from "react-router-dom";
 const Footer = () => {
     return (
-        <footer className="footer">
-      <div className="container">
+      <footer className="footer">
+      <div className="footer-container">
         <div className="footer-column">
-          <img className="footer-logo"  src={Logo} alt="" />
-          <h3>About Us</h3>
-          <p>
-          Infinity Tech Labs connects startups, experts, corporations, and communities to foster growth and drive transformative change in businesses and economies.
-          </p>
+          <img className="footer-logo" src={Logo} alt="Infinity Tech Labs Logo" />
         </div>
         <div className="footer-column">
           <h3>Quick Links</h3>
@@ -105,15 +101,31 @@ const Footer = () => {
         </div>
         <div className="footer-column">
           <h3>Contact Us</h3>
-          <p>Email: info@infinitytechlabs.org</p>
-
-          <p>Address: 123 Business Street, City</p>
+          <ul>
+            <li>Email: <a href="mailto:info@infinitytechlabs.org">info@infinitytechlabs.org</a></li>
+            <li>Address: 123 Business Street, City</li>
+          </ul>
+        </div>
+        <div className="social-icons">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-twitter"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram"></i>
+          </a>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Infinity tech Lab. All rights reserved.</p>
+        <p>&copy; 2024 Infinity Tech Labs. All rights reserved.</p>
       </div>
     </footer>
+    
   );
 };
 
