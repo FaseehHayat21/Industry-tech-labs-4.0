@@ -1,6 +1,6 @@
 import React from 'react';
 import './Corporate.css';
-import corporate from "../../../assets/corporate.png"
+import corporate from "../../../assets/corporate.jpg"
 export default function Corporate() {
   return (
     <section className="founders-section">

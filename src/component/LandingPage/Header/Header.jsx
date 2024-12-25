@@ -107,7 +107,7 @@ const Header = () => {
             onMouseEnter={() => setIsDropdownOpen(true)} 
             onMouseLeave={() => setIsDropdownOpen(false)}
           >
-            <span className="nav-link dropdown-toggle">Verticals</span>
+            <span className="nav-link dropdown-toggle">Tracks</span>
           
             {isDropdownOpen && (
               <ul className="dropdown-menu">

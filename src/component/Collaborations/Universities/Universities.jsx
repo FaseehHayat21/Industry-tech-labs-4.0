@@ -1,6 +1,6 @@
 import React from 'react';
 import './Universities.css';
-import studentmodel from "../../../assets/studentmodel.png"
+import studentmodel from "../../../assets/studentmodel.jpg"
 import studentmodel2 from "../../../assets/studentmodel2.png"
 export default function Universities() {
   return (
@@ -16,7 +16,7 @@ export default function Universities() {
         </p>
 
         <img className='uni-image' src={studentmodel} alt="" />
-        <img className='uni-image' src={studentmodel2} alt="" />
+        {/* <img className='uni-image' src={studentmodel2} alt="" /> */}
       </div>
       
     </section>
