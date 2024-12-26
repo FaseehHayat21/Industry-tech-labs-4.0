@@ -169,7 +169,7 @@ const Header = () => {
             {isDropdownOpen && (
               <ul className="dropdown-menu">
                 <li><Link to="/AboutUs" className="dropdown-item"><a to="/founders" >About Us</a></Link></li>
-                <li><Link to="/Diversity" className="dropdown-item"><a to="/founders" >Diversity</a></Link></li>
+                {/* <li><Link to="/Diversity" className="dropdown-item"><a to="/founders" >Diversity</a></Link></li> */}
                 <li><Link to="/InnovationBlog" className="dropdown-item"><a to="/InnovationBlog" >Innovation Blog</a></Link></li>
                 {/* <li><Link to="/SevenReasonsWhy" className="dropdown-item"><a to="/SevenReasonsWhy" >7 Reasons why</a></Link></li> */}
                 <li><Link to="/Team" className="dropdown-item"><a to="/Team" >Team</a></Link></li>

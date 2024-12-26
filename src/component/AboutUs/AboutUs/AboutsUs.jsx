@@ -237,17 +237,7 @@ import advisory from '../../../assets/whoweare2.png';
 export default function AboutUs() {
   return (
     <section className="founders-section">
-      <div className="top-contents">
-        <div className="text-top-contents">
-          <h1 className="main-heading">What is Infinity Tech Labs?</h1>
-          <p>
-            <strong>Infinity Tech Labs</strong> connects startups, experts, corporations, and communities to foster growth
-            and drive transformative change in businesses and economies. We believe that entrepreneurship is a powerful
-            force for progress, tackling humanity’s biggest challenges, creating opportunities, and generating jobs that
-            strengthen the economy.
-          </p>
-        </div>
-      </div>
+    
 
       <div className="section-text">
       <div className="text-and-image">
@@ -258,7 +248,7 @@ export default function AboutUs() {
             society. United by a common purpose, we aim to create a regenerative economy where business and profit serve our
             people and the planet.
           </p>
-          <a href="#learn-more" className="learn-more-btn">Learn More</a>
+          {/* <a href="#learn-more" className="learn-more-btn">Learn More</a> */}
         </div>
         <div className="image-containerr">
           <img src={image} alt="Infinity Tech Labs" className="about-image" />
@@ -279,7 +269,7 @@ export default function AboutUs() {
 
 
       <div className="program-benefits">
-        <h2>Our Program Benefits Include:</h2>
+        <h2>Our Program Benefits Include</h2>
         <div className="benefit-cards">
           {[
             {

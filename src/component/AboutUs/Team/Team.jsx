@@ -67,16 +67,14 @@ const teamMembers = [
   {
     name: "Azhar Naeem",
     role: "Founder",
-    phone: "0333-1234567",
-    email: "azhar.naeem@example.com",
+    email: "azhar.naeem@infinitytechlab.org",
     imgSrc: sirazhar,
     link: "/about/azhar"
   },
   {
     name: "Mansoor Ahsan",
     role: "Co-Founder",
-    phone: "0300-1234567",
-    email: "mansoor.ahsan@example.com",
+    email: "mansoor.ahsan@infinitytechlab.org",
     imgSrc:sirmansoor,
     link: "/about/mansoor"
   }
@@ -101,9 +99,9 @@ export default function Team() {
             {teamMembers.map((member, index) => (
               <div className="team-member" key={index}>
                 <img src={member.imgSrc} alt={member.name} />
-                <Link to={member.link} className="more-button">
+                {/* <Link to={member.link} className="more-button">
                   More about me
-                </Link>
+                </Link> */}
                 <h3>{member.name}</h3>
                 <p>({member.role})</p>
                 <div className="contacts-info">

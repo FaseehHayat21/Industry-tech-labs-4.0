@@ -11,11 +11,12 @@ export default function Universities() {
       <div className="content">
      
         <p>Rooted in an industry-academia model, Infinity Tech Labs offers tailored solutions to universities, bridging the gap between academia and industry. We encourage pushing boundaries to connect university researchers, entrepreneurs, and businesses, fostering innovation that drives growth and transforms economies</p>
+        <img className='uni-image' src={studentmodel} alt="" />
         <p>
         At Universities, the students’ engagement model has been defined, covering Technology Readiness Level (TRL), model validation and scalability. The Pre-Incubation, Incubation and Acceleration stages are illustrated here.
         </p>
 
-        <img className='uni-image' src={studentmodel} alt="" />
+     
         {/* <img className='uni-image' src={studentmodel2} alt="" /> */}
       </div>
       

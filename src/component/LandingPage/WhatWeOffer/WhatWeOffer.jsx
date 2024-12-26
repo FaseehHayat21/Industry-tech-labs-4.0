@@ -90,7 +90,7 @@ const Whatweoffer = () => {
   return (
     <div className="card-container">
         <div>
-        <h2 className="whatweofferheading" data-aos="fade-up">WHAT WE OFFER</h2>
+        <h2 className="whatweofferheading" data-aos="fade-up">What We Offer</h2>
           </div>
     
     

@@ -1,28 +1,28 @@
-.SolveWithUs{
+.SolveWithUs {
     margin-top: 10vh;
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
-    
     background: linear-gradient(to left, #2f4156, #a2c8d7, #c8d9d6, #f5efeb);
-
-
 }
+
 .solve-with-us {
     display: flex;
     width: 100%;
     padding: 35px;
     margin-top: 20vh;
     margin-bottom: 4vh;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
+    justify-content: space-between; /* Space between video and text */
     align-items: center;
+    flex-wrap: wrap; 
+    gap: 10px;
 }
 
 .text-section {
-
-margin-right: 2vh;
+    margin-left: 2vh;
+    text-align: left;
+    flex: 1; 
 }
 
 .text-section h1 {
@@ -35,7 +35,7 @@ margin-right: 2vh;
     font-size: 1.5rem;
     color: #555;
     margin-bottom: 20px;
-    text-align: justify;    
+    text-align: justify;
 }
 
 .button-group {
@@ -53,7 +53,19 @@ margin-right: 2vh;
     cursor: pointer;
 }
 
+.video-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: left;
+    flex: 1; 
+}
 
+video {
+    width: 100%; 
+    height: auto;
+}
 
 .video-container {
     position: relative;
@@ -67,22 +79,7 @@ margin-right: 2vh;
 .video-container img {
     width: 100%;
     height: 60vh;
-    margin-left: 2rem;
-    display: block;
-}
 
-.play-button {
-    position: absolute;
-    top: 50%;
-    left: 54%;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
-    color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-}
 
 /* Modal styling */
 .modal-overlay {
@@ -91,7 +88,10 @@ margin-right: 2vh;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7);    display: block;
+}
+
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,9 +116,11 @@ margin-right: 2vh;
     cursor: pointer;
 }
 
-
 @media (max-width: 700px) {
     .solve-with-us {
-        flex-direction: column-reverse;
+        flex-direction: column; /* Stack video and text vertically on smaller screens */
+    }
+    .video-container {
+        width: 80%; /* Adjust video size for smaller screens */
     }
 }

@@ -10,7 +10,7 @@ const WhoWeAre = () => {
     return (
         <div className="who-is-mass-challenge">
             <div className='heading-who-div' data-aos="fade-right">
-            <h2 className='heading-who'>What We Do</h2>
+            <h2 className='heading-who'>ITL  at  Work</h2>
             </div>
             <div className="image-container" data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom">
@@ -24,10 +24,10 @@ const WhoWeAre = () => {
                 <p>
                     We provide diverse <strong>programs, accelerators, and partnerships</strong> year-round for those who share our passion for transformative innovation. Discover more about our journey!
                 </p> */}
-               <p> We are an <i> <strong>Integrated National Network</strong></i> of <i> <b>Innovation Spaces & SMEs</b></i> bonded with Academia & Industry. <br/>
+               {/* <p> We are an <i> <strong>Integrated National Network</strong></i> of <i> <b>Innovation Spaces & SMEs</b></i> bonded with Academia & Industry. <br/>
                 We <b> <u>Connect</u> Startups, Experts, Corporates, Govt and Communities to grow and transform.</b> <br/>
                 We <b> <u>Accelerate</u> high-impact startups</b> with bold, disruptive ideas linked to the Industry 4.0 Technologies.<br/>
-                </p>
+                </p> */}
             </div>
         </div>
     );
