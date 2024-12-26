@@ -138,7 +138,7 @@ const Header = () => {
                 <li><Link to="/EarlyStage" className="dropdown-item"><a to="/EarlyStage" >Early Stage Accelerators</a></Link></li>
                 <li><Link to="/BootcampProgram" className="dropdown-item"><a to="/BootcampProgram">Bootcamp Program</a></Link></li>
                 <li><Link to="/SpecializedCourses" className="dropdown-item"><a to="/SpecializedCourses">Specialized Courses</a></Link></li>
-               
+                <li><Link to="/Announcement" className="dropdown-item"><a to="/Announcement">Announcement</a></Link></li>
               </ul>
             )}
           </li>

@@ -20,8 +20,8 @@ export default function LandingPage() {
     </div>
     <About/>
      <SolveWithUs/>
+     <TrackSlider/>
         <WhoWeAre/>
-        <TrackSlider/>
         {/* <Applications/> */}
         <WhatWeOffer/>
         <Testimonials/>

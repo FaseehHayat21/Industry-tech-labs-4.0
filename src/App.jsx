@@ -95,6 +95,7 @@ import SevenReasonsWhy from './component/AboutUs/SevenReasonsWhy/SevenReasonsWhy
 import Team from './component/AboutUs/Team/Team';
 import ContactUs from './component/LandingPage/ContactUs/ContactUs';
 import ScrollToTop from './ScrollToTop';
+import Announcement from './component/Programs/Announcement/Announcement'
 
 function App() {
   return (
@@ -141,6 +142,7 @@ function App() {
         <Route path="/BootcampProgram" element={<BootcampProgram />} />
         <Route path="/EarlyStage" element={<EarlyStage />} />
         <Route path="/Incubation" element={<IncubationProgram />} />
+        <Route path="/Announcement" element={<Announcement />} />
 
 
 

@@ -10,7 +10,7 @@ const WhoWeAre = () => {
     return (
         <div className="who-is-mass-challenge">
             <div className='heading-who-div' data-aos="fade-right">
-            <h2 className='heading-who'>ITL  at  Work</h2>
+            <h2 className='heading-who'>ITL  At  Work</h2>
             </div>
             <div className="image-container" data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom">

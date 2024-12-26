@@ -78,7 +78,7 @@ const Whatweoffer = () => {
     {
       image: imageco,
       heading: "CORPORATE",
-      items: ["∞ Corporate Innovation", "∞ Digital Transformation", "∞ Talent Placements", "∞ Skills Development", "∞ Startup Meets / Demos <br /> Hackathons / Events","∞ Cross-Vertical Network Immersion" ],
+      items: ["∞ Corporate Innovation", "∞ Digital Transformation", "∞ Talent Placements", "∞ Skills Development", "∞ Startup Meets / Demos  Hackathons / Events","∞ Cross-Vertical Network Immersion" ],
     },
     {
       image: imagego,
