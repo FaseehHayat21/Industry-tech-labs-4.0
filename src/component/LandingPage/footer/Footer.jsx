@@ -83,7 +83,7 @@
 
 import React from "react";
 import "./Footer.css";
-import Logo from '../../../assets/itllogo1.png';
+import Logos from '../../../assets/itllogo1.png';
 // import Logo from '../../../assets/ILlogo_bg_removed.png';
 import { Link } from "react-router-dom";
 const Footer = () => {
@@ -91,7 +91,7 @@ const Footer = () => {
       <footer className="footer">
       <div className="footer-container">
         <div className="footer-column">
-          <img className="footer-logo" src={Logo} alt="Infinity Tech Labs Logo" />
+          <img className="footer-logo" src={Logos} alt="Infinity Tech Labs Logo" />
         </div>
         <div className="footer-column">
           <h3>Quick Links</h3>
