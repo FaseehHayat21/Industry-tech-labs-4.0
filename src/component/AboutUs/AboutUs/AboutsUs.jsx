@@ -229,7 +229,7 @@
 
 import React from 'react';
 import './AboutUs.css';
-import video from '../../../assets/bg.mp4';
+import video from '../../../assets/we.mp4';
 import image from '../../../assets/space.jpg';
 import advisory from '../../../assets/whoweare2.png';
 

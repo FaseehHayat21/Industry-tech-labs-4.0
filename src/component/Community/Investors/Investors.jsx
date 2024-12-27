@@ -9,8 +9,8 @@ export default function Investors() {
       </div>
       <div className="content">
     
-        <p>The ITL Investor network is designed to connect accredited investors with promising startups in the Incubation and
-        Acceleration programs. All investors in the network will receive regular portfolio updates on a periodic basis.
+        <p>The ITL network is designed to connect accredited investors with promising startups in the incubation and
+        acceleration programs. All investors in the network will receive regular portfolio updates on a periodic basis.
       </p>
       <h1><strong>Become an Infinity Tech Labs Investor</strong></h1>
       <h3 className='investor-h'><strong>∞ Financial Return</strong></h3>

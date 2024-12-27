@@ -150,7 +150,9 @@
 .view-all a:hover {
   background-color: #ff3377;
 }
-
+.paragraph-heading{
+  font-size: 1.5rem;
+}
 /* Media Query for Responsiveness */
 @media (max-width: 768px) {
   .events {
@@ -168,3 +170,4 @@
     padding: 10px 20px;
   }
 }
+

@@ -1,68 +1,8 @@
-// import React, { useState, useEffect } from 'react';
-// import './Header.css'; // Main styles
-// import logo from "../../assets/logobg.png"
-// import { Link } from 'react-scroll'; // Importing Link from react-scroll
-// const Header = () => {
-//   const [isNavOpen, setIsNavOpen] = useState(false);
-//   const [hasScrolled, setHasScrolled] = useState(false);
-
-//   // Toggle menu on click
-//   const toggleNav = () => {
-//     setIsNavOpen(!isNavOpen);
-//   };
-
-//   // Handle background color on scroll
-//   // useEffect(() => {
-//   //   const handleScroll = () => {
-//   //     if (window.scrollY > 50) {
-//   //       setHasScrolled(true);
-//   //     } else {
-//   //       setHasScrolled(false);
-//   //     }
-//   //   };
-
-//   //   window.addEventListener('scroll', handleScroll);
-
-//   //   // Cleanup event listener on unmount
-//   //   return () => {
-//   //     window.removeEventListener('scroll', handleScroll);
-//   //   };
-//   // }, []);
-
-//   return (
-//     <header className={`main-header ${isNavOpen ? 'open-nav' : ''} ${hasScrolled ? 'scrolled' : ''}`}>
-//       <a className="logo" href="">
-//         <img className='logo-img' src={logo} alt="logo" />
-//       </a>
-//       <nav className="main-nav">
-//         <ul className="nav-list">
-//           <li><a className="nav-link" to="home">Home</a></li>
-         
-//           <li><Link className="nav-link" to="about-us">About Us</Link></li>
-//           <li><Link className="nav-link" to="verticals">Technology Verticals</Link></li>
-//           <li><Link className="nav-link" to="team">Our Team</Link></li>
-//           <li><Link className="nav-link" to="#">Feature</Link></li>
-//           <li><Link className="nav-link" to="#">Contact Us</Link></li>
-//           {/*   <li><a className="nav-link login" href="#">Login</a></li> */}
-//         </ul>
-//       </nav>
-
-//       <button className="menu-btn" onClick={toggleNav}>
-//         {isNavOpen ? (
-//           <ion-icon name="close-outline"></ion-icon>
-//         ) : (
-//           <ion-icon name="menu-outline"></ion-icon>
-//         )}
-//       </button>
-//     </header>
-//   );
-// };
-
-// export default Header;
 
 import React, { useState } from 'react';
 import './Header.css';
-import logo from "../../../assets/ILlogo_bg_removed.png";
+import logo from "../../../assets/itllogo3.png";
+// import logo from "../../../assets/ILlogo_bg_removed.png";
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -90,7 +30,7 @@ const Header = () => {
             onMouseEnter={() => setIsDropdownOpen(true)} 
             onMouseLeave={() => setIsDropdownOpen(false)}
           >
-            <span className="nav-link dropdown-toggle">Community</span>
+            <span className="nav-link dropdown-toggle">Our Network</span>
             {isDropdownOpen && (
               <ul className="dropdown-menu">
                 <li><Link to="/founders" className="dropdown-item"><a to="/founders" >Founders</a></Link></li>

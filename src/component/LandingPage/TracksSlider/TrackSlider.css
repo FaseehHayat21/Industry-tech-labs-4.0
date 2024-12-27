@@ -12,13 +12,13 @@
 .track-slider-title {
   font-size: 2.5rem;
   color: #00796b;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   font-weight: bold;
   letter-spacing: 1px;
 }
 
 .track-slider-swiper {
-  padding: 2rem 0;
+   padding-bottom: 2rem;
 }
 
 .track-slider-slide {
@@ -78,7 +78,10 @@
 .swiper-button-prev:hover {
   background-color: #004d40;
 }
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+.swiper-button-next:after, .swiper-rtl{
+  font-size: larger;
+}
+.swiper-button-prev:after{
   font-size: larger;
 }
 .swiper-pagination-bullet {

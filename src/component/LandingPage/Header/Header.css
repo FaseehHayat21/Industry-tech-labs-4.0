@@ -1,9 +1,8 @@
 
 .logo-header-img{
-    width: 70px;
-    
-    margin-bottom: 15px;
-    padding: 2px 3px;
+  width: 140px;
+  height: 9vh;
+  padding: 2px 6px;
 
 }
 .main-header {
@@ -11,9 +10,9 @@
     justify-content: start;
     align-items: center;
     padding: 20px 20px;
-    height: 10vh;
-    padding-left: 10vh;
-    padding-top: 5vh;
+    height: 12vh;
+    /* padding-left: 10vh; */
+    padding-top: 3vh;
     width: 100%;
     position: fixed;
     top: 0;
@@ -101,10 +100,15 @@ Link{
     font-size: 1.1em ;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 850px) {
     .menu-btn {
         display: block;
         width: fit-content;
+        width: 100%;
+        align-items: end;
+        align-self: center;
+        display: flex;
+        justify-content: end;
     }
 
     .main-nav {
@@ -181,4 +185,9 @@ Link{
   }
   li{
     text-decoration: none;
+  }
+
+  .nav-list{
+    margin-bottom: 0px;
+    margin-top: 0%;
   }

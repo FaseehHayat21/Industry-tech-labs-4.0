@@ -18,6 +18,7 @@
     background-position: center;
     position: relative;
     overflow: hidden;
+    width: 100%;
   }
   
   .top-contents::before {
@@ -35,6 +36,7 @@
     position: relative; /* Ensures content is above the overlay */
     z-index: 2; /* Places text above the overlay */
     color: #fff; 
+    width: 100%;
   }
   
   .text-top-contents .main-heading {
@@ -46,7 +48,7 @@
   }
   
   .text-top-contents p {
-    max-width: 800px;
+    max-width: 100%;
     margin: 0 auto;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Adds subtle text shadow */
     

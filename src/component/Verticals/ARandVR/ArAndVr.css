@@ -231,8 +231,8 @@
 .cta-text h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  font-weight: bold;
-  color: #00796b;
+  font-weight: bolder;
+  color: #ffffff;
 }
 
 .cta-text p {
@@ -250,7 +250,7 @@
 }
 
 .cta-button button {
-  background-color: #00796b;
+  background-color: #d81b60;
   color: #ffffff;
   font-size: 1.3rem;
   font-weight: bold;
@@ -263,6 +263,6 @@
 }
 
 .cta-button button:hover {
-  background-color: #ffc107;
+  background-color: #d81b60;
   transform: scale(1.1);
 }

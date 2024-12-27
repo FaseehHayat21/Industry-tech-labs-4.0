@@ -83,7 +83,8 @@
 
 import React from "react";
 import "./Footer.css";
-import Logo from '../../../assets/ILlogo_bg_removed.png';
+import Logo from '../../../assets/itllogo1.png';
+// import Logo from '../../../assets/ILlogo_bg_removed.png';
 import { Link } from "react-router-dom";
 const Footer = () => {
     return (
@@ -103,9 +104,7 @@ const Footer = () => {
           <h3>Contact Us</h3>
           <ul>
             <li>Email: <a href="mailto:info@infinitytechlabs.org">info@infinitytechlabs.org</a></li>
-              <li>Address: Corporate Offices, Alpha Techno Square,
-                National Aerospace Science & Technology Park (NASTP),
-                Old Airport, Rawalpindi</li>
+              <li>Address: Corporate Offices, Air University Science & Technology Park, BIC Building, Air University Islamabad</li>
           </ul>
         </div>
         <div className="social-icons">

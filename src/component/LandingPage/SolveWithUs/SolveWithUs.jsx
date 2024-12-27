@@ -27,7 +27,6 @@ const SolveWithUs = () => {
                     <video
                         width="100%"
                         height="auto"
-                        controls
                         autoPlay
                         muted // Optionally mute the video
                         loop // Optionally loop the video
