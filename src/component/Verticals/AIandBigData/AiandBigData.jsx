@@ -95,7 +95,7 @@
 
 import React from 'react';
 import './AiandBigData.css';
-
+import aiimage from "../../../assets/ai.jpg"
 export default function AiandBigData() {
   const focusAreas = [
     'Infrastructure & Information Technology',
@@ -112,7 +112,7 @@ export default function AiandBigData() {
       </div>
 
       {/* Content Section */}
-      <div className="content">
+      {/* <div className="content">
         <p>
           <strong>AI and Big Data</strong> are reshaping industries by enabling businesses to make data-driven decisions, optimize operations, and create personalized experiences. 
         </p>
@@ -120,6 +120,22 @@ export default function AiandBigData() {
         At Infinity Tech Labs, we support AI and Big Data startups by providing access to advanced tools, expert guidance, and strategic partnerships. Through our network, AI and Big Data startups can accelerate their growth and create transformative solutions for industries worldwide.
         </p>
 
+      </div> */}
+      <div className="intro-section">
+        <div className="intro-container">
+          <div className="intro-text">
+           
+            <p>
+              <strong>AI and Big Data</strong> are reshaping industries by enabling businesses to make data-driven decisions, optimize operations, and create personalized experiences.
+            </p>
+            <p>
+              At <strong>Infinity Tech Labs</strong>, we support AI and Big Data startups by providing access to advanced tools, expert guidance, and strategic partnerships. Through our network, AI and Big Data startups can accelerate their growth and create transformative solutions for industries worldwide.
+            </p>
+          </div>
+          <div className="intro-image">
+            <img src={aiimage} alt="AI and Big Data Innovation" />
+          </div>
+        </div>
       </div>
 
       {/* Focus Areas Section */}
@@ -135,20 +151,34 @@ export default function AiandBigData() {
       </div>
 
       {/* Journey Banner */}
+      <div className="cta-banner">
+        <div className="cta-banner-content">
+          <div className="cta-text">
+            <h2>Ready to talk?</h2>
+            <p>
+                Organizations looking for innovative Cyber Security to address their challenges are invited to connect with Infinity Tech Labs today!
+            </p>
+          </div>
+          <div className="cta-button">
+            <button onClick={() => alert('Redirecting to Contact Page!')}>Get in Touch</button>
+          </div>
+        </div>
+      </div>
+
          {/* Journey Banner */}
-         <div className="journey-banner">
-  <div className="journey-banner-content">
-    <div className="text-section">
-      <h2>Ready to talk?</h2>
-      <h5>
-        Organizations looking for innovative AI and Big Data solutions to address their challenges are invited to connect with Infinity Tech Labs today!
-      </h5>
-    </div>
-    <div className="button-section">
-      <button>Contact Us</button>
-    </div>
-  </div>
-</div>
+         {/* <div className="journey-banner">
+          <div className="journey-banner-content">
+            <div className="text-section">
+              <h2>Ready to talk?</h2>
+              <h5>
+                Organizations looking for innovative AI and Big Data solutions to address their challenges are invited to connect with Infinity Tech Labs today!
+              </h5>
+            </div>
+            <div className="button-section">
+              <button>Contact Us</button>
+            </div>
+          </div>
+        </div> */}
     </section>
   );
 }
