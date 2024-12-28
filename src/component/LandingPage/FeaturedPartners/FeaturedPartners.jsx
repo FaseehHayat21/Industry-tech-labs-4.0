@@ -62,7 +62,6 @@ const partners = [
   { src: auc, alt: "Buhler" },
   { src: skybee, alt: "KPMG" },
   { src: foxit, alt: "LDC" },
-  { src: nih, alt: "LDC" },
   { src: densefusion, alt: "MassMutual" },
   { src: logo128, alt: "128 Technologies" },
   { src: cyberleap, alt: "cyberleap" },
