@@ -103,7 +103,6 @@ function App() {
       <ScrollToTop/>
       <div className="header">
         <Header />
-
       </div>
       <Routes>
         {/* Landing Page ROUTES */}
