@@ -73,7 +73,7 @@ const Whatweoffer = () => {
     {
       image: imageac,
       heading: "ACADEMIA",
-      items: ["∞ Incubation / Acceleration", "∞ Venture Funding", "∞ FYPs Support", "∞ Internships / Placements", "∞ COEs / Sponsored Labs", "∞ Hackathons / Events ", "∞ Key Business Workshops", "∞ Key Business Workshops"],
+      items: ["∞ Incubation / Acceleration", "∞ Venture Funding", "∞ FYPs Support", "∞ Internships / Placements", "∞ COEs / Sponsored Labs", "∞ Hackathons / Events ", "∞ Key Business Workshops"],
     },
     {
       image: imageco,

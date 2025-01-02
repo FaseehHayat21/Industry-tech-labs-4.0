@@ -96,3 +96,57 @@
     transform: rotate(180deg); /* Rotate left arrow */
   }
   
+
+  /* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .testimonials-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .testimonial-card {
+    padding: 15px;
+  }
+
+  .testimonial-card p {
+    font-size: 0.9rem;
+  }
+
+  .testimonial-author img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .testimonial-author h3 {
+    font-size: 1.2rem;
+  }
+
+  .arrow-button {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial-card{
+    min-width:  150%;
+  }
+  .testimonials-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-card {
+    padding: 10px;
+  }
+
+  .testimonial-card p {
+    font-size: 0.8rem;
+  }
+
+  .testimonial-author h3 {
+    font-size: 1rem;
+  }
+
+  .arrow-button {
+    font-size: 1.2rem;
+  }
+}
