@@ -153,7 +153,7 @@
           
           .courses-slider-inner {
             display: flex;
-            width: calc(400%); /* Based on duplication */
+            width: calc(400%); 
           }
           
           
@@ -224,4 +224,61 @@
   
 
 
-            /* adml casjndjasnjodn */
+          /* General styles remain the same */
+
+/* Media Query for Mobile Phones */
+@media (max-width: 768px) {
+  /* Slider wrapper adjustment for small screens */
+  .courses-slider-wrapper {
+    width: 100%; /* Use full width for mobile */
+    overflow: hidden;
+  }
+
+  /* Slider inner adjustment */
+  .courses-slider-inner {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    transition: transform 0.5s ease-in-out; /* Smooth sliding */
+  }
+
+  /* Each card takes full width */
+  .courses-card {
+    flex: 0 0 100%; /* Each card takes up 100% of the width */
+    max-width: 100%; /* Ensure it doesn't exceed full width */
+    margin: 0 auto; /* Center the card */
+  }
+
+  /* Card content adjustments */
+  .courses-card img {
+    width: 100%; /* Images take full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .course-details h3 {
+    font-size: 1.2rem; /* Reduce title size */
+  }
+
+  .course-details ul li {
+    font-size: 1rem; /* Adjust list font size */
+  }
+
+  /* Arrow buttons adjustments */
+  .arrow-button {
+    font-size: 2rem; /* Adjust size of navigation buttons */
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+
+  .arrow-button.left-arrow {
+    left: 10px; /* Position left arrow */
+  }
+
+  .arrow-button.right-arrow {
+    right: 10px; /* Position right arrow */
+  }
+}
+

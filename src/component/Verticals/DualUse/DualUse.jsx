@@ -65,7 +65,7 @@ export default function DualUse() {
       {/* Content Section */}
       <div className="content">
         <p>
-          <strong>Dual-use</strong> technology encompasses innovations that serve both civilian and defense applications, creating versatile solutions that can enhance public welfare while also strengthening security. This field includes advancements in areas like cybersecurity, artificial intelligence, autonomous systems, and communication technologies, which have broad applications in everything from public infrastructure to national defense. Dual-use technology bridges the gap between commercial and defense sectors, allowing for innovations that can be adapted for a range of purposes.
+          <strong>Dual Use</strong> technology encompasses innovations that serve both civilian and defense applications, creating versatile solutions that can enhance public welfare while also strengthening security. This field includes advancements in areas like cybersecurity, artificial intelligence, autonomous systems, and communication technologies, which have broad applications in everything from public infrastructure to national defense. Dual-use technology bridges the gap between commercial and defense sectors, allowing for innovations that can be adapted for a range of purposes.
         </p>
         <p>
         Infinity Tech Labs actively supports companies developing dual-use technologies, recognizing their potential to drive progress across multiple industries. Through our network, these innovators are able to address critical needs across both public and private sectors, fostering resilience and security in an increasingly interconnected world.

@@ -83,7 +83,7 @@ const Whatweoffer = () => {
     {
       image: imagego,
       heading: "GOVERNMENT",
-      items: ["∞ Digital Transformation", "∞ Growth via Tech Founders", "∞ Skills Dev & Job Creation ", "∞ Technology Deletion & Dev", "∞ Technology linkage with SDGs", "∞ Key Business Workshops", "∞ Cross-Vertical Network"],
+      items: ["∞ Digital Transformation", "∞ Growth via Tech Founders", "∞ Skills Dev & Job Creation ", "∞ Technology Deletion & Dev", "∞ Technology Linkage with SDGs", "∞ Key Business Workshops", "∞ Cross-Vertical Network"],
     },
   ];
 
