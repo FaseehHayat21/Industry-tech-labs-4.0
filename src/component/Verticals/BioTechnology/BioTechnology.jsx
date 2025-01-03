@@ -64,6 +64,7 @@
 
 import React from 'react';
 import './BioTechnology.css';
+import BioTech from '../../../assets/BioTech.png';
 
 export default function BioTechnology() {
   const focusAreas = [
@@ -82,7 +83,10 @@ export default function BioTechnology() {
       </div>
 
       {/* Content Section */}
-      <div className="content">
+      <div className="intro-section">
+        <div className="intro-container">
+          <div className="intro-text">
+           
         <p>
           <strong>Infinity Tech Labs</strong> drives innovation in healthcare and biotechnology by connecting startups with industry leaders to tackle key challenges. Our community brings together experts from diverse fields, fostering collaboration to redefine health and wellness through cutting-edge solutions.
         </p>
@@ -90,7 +94,11 @@ export default function BioTechnology() {
           We harness the power of biotechnology to transform healthcare, agriculture, and sustainability. From genetic engineering to bioinformatics, we work with researchers and biotech firms to turn groundbreaking discoveries into real-world applications, shaping a future powered by science.
         </p>
       </div>
-
+<div className="intro-image">
+            <img src={BioTech} alt="AI and Big Data Innovation" />
+          </div>
+        </div>
+      </div>
       {/* Focus Areas Section */}
       <div className="focus-areas">
         <h2>Our Focus Areas</h2>

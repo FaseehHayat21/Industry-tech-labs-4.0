@@ -44,6 +44,8 @@
 // }
 import React from 'react';
 import './ClimateTech.css';
+import aiimage from "../../../assets/ai.jpg";
+import  climate from '../../../assets/climate.png';
 
 export default function ClimateTech() {
   const focusAreas = [
@@ -62,7 +64,9 @@ export default function ClimateTech() {
       </div>
 
       {/* Content Section */}
-      <div className="content">
+      <div className="intro-section">
+        <div className="intro-container">
+          <div className="intro-text">
         <p>
           <strong>Climate tech</strong> is at the forefront of addressing the world’s most urgent environmental challenges, from reducing greenhouse gas emissions to enhancing resilience against climate impacts. 
         </p>
@@ -74,6 +78,11 @@ export default function ClimateTech() {
           Organizations seeking innovative, dual-use technologies to tackle their unique challenges are invited to connect with Infinity Tech Labs today!
         </p>
       </div>
+      <div className="intro-image">
+                  <img src={climate} alt="AI and Big Data Innovation" />
+                </div>
+              </div>
+            </div>
 
       {/* Focus Areas Section */}
       <div className="focus-areas">

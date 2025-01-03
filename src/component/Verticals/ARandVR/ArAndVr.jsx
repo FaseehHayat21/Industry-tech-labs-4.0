@@ -49,8 +49,30 @@
 //   );
 // }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from 'react';
 import './ArAndVr.css';
+import vrai from '../../../assets/vrai.jpg';
 
 export default function ArAndVr() {
   const focusAreas = [
@@ -69,7 +91,9 @@ export default function ArAndVr() {
       </div>
 
       {/* Content Section */}
-      <div className="content">
+      <div className="intro-section">
+        <div className="intro-container">
+          <div className="intro-text">
         <p>
           <strong>AR and VR</strong> are revolutionizing how we experience and interact with the world by blending digital content with the physical environment (AR) or immersing users in entirely virtual worlds (VR).
         </p>
@@ -77,6 +101,13 @@ export default function ArAndVr() {
           At Infinity Tech Labs, we empower AR/VR startups by offering access to the latest technologies, mentorship from industry experts, and strategic partnerships that foster innovation. With the backing of our network, AR/VR startups can scale quickly and lead the next wave of immersive technology advancements.
         </p>
       </div>
+
+<div className="intro-image">
+            <img src={vrai} alt="AI and Big Data Innovation" />
+          </div>
+          </div>
+        </div>
+      
 
       {/* Focus Areas Section */}
       <div className="focus-areas">
@@ -88,27 +119,13 @@ export default function ArAndVr() {
         </ul>
       </div>
 
-        {/* Journey Banner */}
-        {/* <div className="journey-banner">
-        <div className="journey-banner-content">
-          <div className="text-section">
-            <h2>Ready to talk?</h2>
-            <h5>
-            Organizations looking for innovative AR/VR solutions to address their challenges are invited to connect with Infinity Tech Labs today!
-            </h5>
-          </div>
-          <div className="button-section">
-            <button>Contact Us</button>
-          </div>
-        </div>
-      </div> */}
-         {/* Journey Banner */}
-         <div className="cta-banner">
+      {/* Call-to-Action Banner */}
+      <div className="cta-banner">
         <div className="cta-banner-content">
           <div className="cta-text">
             <h2>Ready to talk?</h2>
             <p>
-                Organizations looking for innovative Cyber Security to address their challenges are invited to connect with Infinity Tech Labs today!
+              Organizations looking for innovative AR/VR solutions to address their challenges are invited to connect with Infinity Tech Labs today!
             </p>
           </div>
           <div className="cta-button">

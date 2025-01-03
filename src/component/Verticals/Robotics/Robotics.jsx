@@ -47,6 +47,7 @@
 
 import React from 'react';
 import './Robotics.css';
+import robotics from '../../../assets/roboticss.jpg';
 
 export default function Robotics() {
   const focusAreas = [
@@ -65,7 +66,9 @@ export default function Robotics() {
       </div>
 
       {/* Content Section */}
-      <div className="content">
+      <div className="intro-section">
+        <div className="intro-container">
+          <div className="intro-text">
         <p>
           <strong>Robotics and autonomous systems</strong>  are revolutionizing industries by automating tasks, improving efficiency, and creating innovative solutions across sectors such as manufacturing, healthcare, logistics, and agriculture. 
         </p>
@@ -73,7 +76,11 @@ export default function Robotics() {
         At Infinity Tech Labs, we support startups in the robotics and autonomous systems space by providing access to advanced technologies, expert mentorship, and strategic partnerships. With the backing of our network, robotics and autonomous systems startups can scale faster and bring transformative solutions to life across industries.
         </p>
       </div>
-
+ <div className="intro-image">
+            <img src={robotics} alt="AI and Big Data Innovation" />
+          </div>
+        </div>
+      </div>
       {/* Focus Areas Section */}
       <div className="focus-areas">
         <h2>Our Focus Areas</h2>

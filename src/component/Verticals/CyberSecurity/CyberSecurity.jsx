@@ -44,6 +44,7 @@
 // }
 import React from 'react';
 import './CyberSecurity.css';
+import cybersecurity from '../../../assets/CyberSecurity.jpeg';
 
 export default function CyberSecurity() {
   const focusAreas = [
@@ -60,7 +61,9 @@ export default function CyberSecurity() {
         <h1>Cybersecurity</h1>
       </div>
 
-      <div className="content">
+      <div className="intro-section">
+        <div className="intro-container">
+          <div className="intro-text">
         <p>
           <strong>Cybersecurity and cryptography</strong> are at the forefront of the digital revolution, addressing critical issues in data protection and financial systems. As cyber threats grow in complexity, businesses need robust security solutions to safeguard sensitive information and maintain trust. 
         </p>
@@ -68,6 +71,11 @@ export default function CyberSecurity() {
          
         </p>
       </div>
+       <div className="intro-image">
+                  <img src={cybersecurity} alt="AI and Big Data Innovation" />
+                </div>
+              </div>
+            </div>
 
       {/* Focus Areas Section */}
       <div className="focus-areas">

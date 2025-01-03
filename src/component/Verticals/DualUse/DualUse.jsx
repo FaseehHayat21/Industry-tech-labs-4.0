@@ -45,7 +45,7 @@
 
 import React from 'react';
 import './DualUse.css';
-
+import dual from '../../../assets/dual.jpg';
 export default function DualUse() {
   const focusAreas = [
     'Artificial Intelligence',
@@ -63,7 +63,9 @@ export default function DualUse() {
       </div>
 
       {/* Content Section */}
-      <div className="content">
+      <div className="intro-section">
+        <div className="intro-container">
+          <div className="intro-text">
         <p>
           <strong>Dual Use</strong> technology encompasses innovations that serve both civilian and defense applications, creating versatile solutions that can enhance public welfare while also strengthening security. This field includes advancements in areas like cybersecurity, artificial intelligence, autonomous systems, and communication technologies, which have broad applications in everything from public infrastructure to national defense. Dual-use technology bridges the gap between commercial and defense sectors, allowing for innovations that can be adapted for a range of purposes.
         </p>
@@ -73,6 +75,11 @@ export default function DualUse() {
         <p>
         </p>
       </div>
+       <div className="intro-image">
+                  <img src={dual} alt="AI and Big Data Innovation" />
+                </div>
+              </div>
+            </div>
 
       {/* Focus Areas Section */}
       <div className="focus-areas">
