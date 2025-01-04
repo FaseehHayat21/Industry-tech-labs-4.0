@@ -343,3 +343,113 @@
   background-color: #d81b60;
   transform: scale(1.1);
 }
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 768px) {
+  .banner {
+    margin-top: 5vh;
+    padding: 40px 10px;
+  }
+
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+
+  .content {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+
+  .content h2 {
+    font-size: 1.8rem;
+  }
+
+  .content p {
+    font-size: 1.2rem;
+  }
+
+  .focus-areas {
+    padding: 20px 10px;
+  }
+
+  .focus-areas h2 {
+    font-size: 1.8rem;
+  }
+
+  .focus-areas ul {
+    max-width: 90%;
+  }
+
+  .focus-areas li {
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+
+  .journey-banner {
+    padding: 40px 10px;
+  }
+
+  .journey-banner-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-section {
+    margin-bottom: 20px;
+  }
+
+  .text-section h2 {
+    font-size: 2rem;
+  }
+
+  .text-section h5 {
+    font-size: 1rem;
+  }
+
+  .button-section button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .intro-section {
+    padding: 30px 10px;
+  }
+
+  .intro-container {
+    flex-direction: column;
+  }
+
+  .intro-text h2 {
+    font-size: 2rem;
+  }
+
+  .intro-text p {
+    font-size: 1rem;
+  }
+
+  .intro-image img {
+    max-width: 100%;
+  }
+
+  .cta-banner {
+    padding: 50px 10px;
+  }
+
+  .cta-banner-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .cta-text p {
+    font-size: 1rem;
+  }
+
+  .cta-button button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+}
