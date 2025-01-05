@@ -19,27 +19,27 @@
 }
 
 /* Content Section */
-.content {
-  max-width: 70%;
+.content-climate {
+  max-width: 90%;
   margin: 40px auto;
   padding: 0 20px;
   text-align: justify;
   color: #333;
 }
-.content h2{
+.content-climate h2{
   /* text-align: center; */
   font-size: 2rem;
   margin-bottom: 20px;
   font-weight: bold;
   color: #00838f;
 }
-.content p {
+.content-climate p {
   font-size: 1.5rem;
   line-height: 1.8;
   margin-bottom: 20px;
 }
 
-.content strong {
+.content-climate strong {
   color: #00838f;
 }
 
@@ -354,17 +354,17 @@
     font-size: 2.5rem;
   }
 
-  .content {
+  .content-climate {
     max-width: 90%;
     margin: 20px auto;
     padding: 0 10px;
   }
 
-  .content h2 {
+  .content-climate h2 {
     font-size: 1.8rem;
   }
 
-  .content p {
+  .content-climate p {
     font-size: 1.2rem;
   }
 
@@ -452,4 +452,8 @@
     font-size: 1.2rem;
     padding: 10px 20px;
   }
+}
+
+.climate-tech-image{
+  height: 60vh;
 }

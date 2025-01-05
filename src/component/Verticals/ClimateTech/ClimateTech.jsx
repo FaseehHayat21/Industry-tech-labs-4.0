@@ -73,17 +73,21 @@ export default function ClimateTech() {
         <p>
         Infinity Tech Labs is committed to supporting climate tech entrepreneurs who are tackling these complex issues. Through our Innovation Network, we provide startups with access to critical resources, mentorship, and collaboration opportunities. 
         </p>
-        <h2>Want to Get Involved?</h2>
-        <p>
-          Organizations seeking innovative, dual-use technologies to tackle their unique challenges are invited to connect with Infinity Tech Labs today!
-        </p>
+     
       </div>
       <div className="intro-image">
-                  <img src={climate} alt="AI and Big Data Innovation" />
+                  <img className='climate-tech-image' src={climate} alt="AI and Big Data Innovation" />
                 </div>
               </div>
             </div>
 
+          
+    <div className="content-climate">
+    <h2>Want to Get Involved?</h2>
+        <p>
+          Organizations seeking innovative, dual-use technologies to tackle their unique challenges are invited to connect with Infinity Tech Labs today!
+        </p>
+    </div>
       {/* Focus Areas Section */}
       <div className="focus-areas">
         <h2>Our Focus Areas</h2>
