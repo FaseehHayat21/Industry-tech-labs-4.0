@@ -130,11 +130,11 @@ const SpecializedCourses = () => {
 
   return (
     <section className="founders-section">
-      <div className="banner">
+      {/* <div className="banner">
         <h1>Specialized Courses</h1>
-      </div>
+      </div> */}
 
-      <div className="course-slider">
+      {/* <div className="course-slider">
         <h2>Learning <span>begins</span> here.</h2>
         <p>Scale up and stay ahead!</p>
 
@@ -174,7 +174,7 @@ const SpecializedCourses = () => {
           </div>
           <button onClick={handleNext} className="arrow-button right-arrow">❯</button>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -57,7 +57,8 @@ export default function BootcampProgram() {
       </div>
 
       <div className="course-slider">
-
+      <h2>Learning <span>begins</span> here.</h2>
+      <p>Scale up and stay ahead!</p>
         <div className="courses-slider">
           <button onClick={handlePrev} className="arrow-button left-arrow">❯</button>
           <div className="courses-slider-wrapper">
