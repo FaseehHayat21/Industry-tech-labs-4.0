@@ -13,7 +13,7 @@ export default function Investors() {
         acceleration programs. All investors in the network will receive regular portfolio updates on a periodic basis.
       </p>
       <h1><strong>Become an Infinity Tech Labs Investor</strong></h1>
-      <h3 className='investor-h'><strong>∞ Financial Return</strong></h3>
+      <h3 className='investor-h'><strong>∞ Financial Returns</strong></h3>
         <p className='investor-p'>
         ∞ Equity in Startups: Gain stakes in high-potential startups
         <br />∞ Portfolio Diversification: Exposure to a diverse range of Industry 4.0 cutting-edge

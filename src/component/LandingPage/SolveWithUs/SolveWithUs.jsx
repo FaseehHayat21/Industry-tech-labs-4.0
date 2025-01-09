@@ -13,7 +13,7 @@ const SolveWithUs = () => {
         <div className="SolveWithUs">
             <div className="solve-with-us">
                 <div className="text-section" data-aos="fade-right">
-                    <h1>Join Us to create IMPACT!</h1>
+                    <h1>Join us to create IMPACT!</h1>
                     <p className='text'>
                         We are dedicated to the growth of <strong>Industry 4.0 Technologies</strong> &amp; <strong>Entrepreneurship Ecosystem</strong>
                     </p>

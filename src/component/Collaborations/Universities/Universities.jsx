@@ -13,8 +13,7 @@ export default function Universities() {
         <p>Focusing on impact based industry-academia model, ITL offers professional programs to the universities, bridging the gap between academia and industry. We encourage pushing boundaries to connect university researchers, entrepreneurs, and businesses, fostering innovation that drives growth and create an impact.</p>
         <img className='uni-image' src={studentmodel} alt="" />
         <p>
-       Our student engagement model covers all aspect of Pre-Incubation, Incubation and Acceleration stages are illustrated here.
-        </p>
+       Our student engagement model covers all aspect of Pre-Incubation, Incubation and Acceleration stages.</p>
 
      
         <img className='uni-image' src={studentmodel2} alt="" />
