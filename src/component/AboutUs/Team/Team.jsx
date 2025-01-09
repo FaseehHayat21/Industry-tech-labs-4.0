@@ -125,7 +125,7 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import sirazhar from "../../../assets/sirazhar.jpg";
 import sirmansoor from "../../../assets/sirmansoor.jpg";
-
+import khayam from "../../../assets/khayamkhan.jpg"
 const teamData = {
   foundingTeam: [
     {
@@ -161,10 +161,10 @@ const teamData = {
   ],
   mentorsAndExperts: [
     {
-      name: "Michael Brown",
+      name: "Khayam Khan",
       role: "Industry Expert",
       email: "michael.brown@infinitytechlab.org",
-      imgSrc: sirazhar,
+      imgSrc: khayam,
       link: "/about/michael"
     },
     {
