@@ -104,7 +104,7 @@ const Footer = () => {
           <h3>Contact Us</h3>
           <ul>
             <li>Email: <a href="mailto:info@infinitytechlabs.org">info@infinitytechlabs.org</a></li>
-              <li>Address: Corporate Offices, Air University Science & Technology Park, BIC Building, Air University Islamabad</li>
+              <li>Address: Corporate Offices, AUSTP, Business Incubation Center, Air University Islamabad</li>
           </ul>
         </div>
         <div className="social-icons">
