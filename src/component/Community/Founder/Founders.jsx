@@ -7,7 +7,7 @@ export default function Founders() {
         <h1>Founders</h1>
       </div>
       <div className="content">
-        <p> <strong className='paragraph-heading'>Infinity Tech Labs</strong> supports founders disrupting the status quo and create sustainable change – whether they fit the mold or break it.
+        <p> <strong className='paragraph-heading'>Infinity Tech Labs</strong> support founders disrupting the status quo and create sustainable change – whether they fit the mold or break it.
         </p>
         <p>
         As a founder, it’s important to be strategic about where to spend your time and energy. Our vibrant network offers access to mentorship and resources that support founders through every stage of the startup lifecycle.
@@ -17,7 +17,7 @@ export default function Founders() {
 
       <div className="content">
         <h1><strong>Why ITL?</strong> </h1>
-        <p> Our evidence-based, outcome-focused acceleration model demonstrates that when founders are supported by a global community-driven network, they scale their startups more rapidly and profitably.
+        <p> Our evidence-based, outcome-focused acceleration model demonstrates that when founders are supported by a community-driven network, they scale their startups more rapidly and profitably.
           </p>
         <p>We support innovators from all backgrounds to create breakthrough change and accelerate their business without requiring financial stake in the success of the organization.
           </p>

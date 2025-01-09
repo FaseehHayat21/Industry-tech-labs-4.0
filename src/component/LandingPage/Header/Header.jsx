@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
-import logo from "../../../assets/itllogo3.png";
+import logo from "../../../assets/itllogo33.png";
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -72,7 +72,7 @@ const Header = () => {
               <ul className="dropdown-menu">
                 <li><Link to="/Incubation" className="dropdown-item" onClick={closeNav}>Incubation Programs</Link></li>
                 <li><Link to="/EarlyStage" className="dropdown-item" onClick={closeNav}>Early Stage Accelerators</Link></li>
-                <li><Link to="/BootcampProgram" className="dropdown-item" onClick={closeNav}>Bootcamp Program</Link></li>
+                <li><Link to="/BootcampProgram" className="dropdown-item" onClick={closeNav}>Bootcamp</Link></li>
                 {/* <li><Link to="/SpecializedCourses" className="dropdown-item" onClick={closeNav}>Specialized Courses</Link></li> */}
                 <li><Link to="/Announcement" className="dropdown-item" onClick={closeNav}>Announcement</Link></li>
               </ul>

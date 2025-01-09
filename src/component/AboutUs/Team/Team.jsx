@@ -136,7 +136,7 @@ const teamData = {
       link: "/about/azhar"
     },
     {
-      name: "Mansoor Ahsan",
+      name: "Dr Mansoor Ahsan",
       role: "Co-Founder",
       email: "mansoor.ahsan@infinitytechlab.org",
       imgSrc: sirmansoor,

@@ -183,20 +183,6 @@
 }
 
 /* Top Contents */
-.top-contents {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  height: 100vh;
-  background-image: url('../../../assets/bg-business.jpeg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-}
-
 .top-contents::before {
   content: '';
   position: absolute;

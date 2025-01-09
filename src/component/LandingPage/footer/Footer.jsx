@@ -83,7 +83,7 @@
 
 import React from "react";
 import "./Footer.css";
-import Logos from '../../../assets/itllogof.png';
+import Logos from '../../../assets/itllogoff.png';
 // import Logo from '../../../assets/ILlogo_bg_removed.png';
 import { Link } from "react-router-dom";
 const Footer = () => {

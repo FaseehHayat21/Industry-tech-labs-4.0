@@ -8,7 +8,7 @@ export default function IncubationProgram() {
         <h1>Incubation Program</h1>
       </div>
       <div className="content">
-        <p>The <strong>Incubation Program</strong> at Infinity Tech Labs is designed to provide University students and fresh graduates, with a comprehensive support system to help them grow and scale. Participants in this program receive personalized mentorship, access to essential resources, and strategic guidance to refine their products and services. Our goal is to create an environment where partakers can develop their ideas and business models while receiving expert advice from industry leaders.</p>
+        <p>The <strong>Incubation Program</strong> at Infinity Tech Labs is designed to provide university students and fresh graduates, with a comprehensive support system to help them grow and scale. Participants in this program receive personalized mentorship, access to essential resources, and strategic guidance to refine their products and services. Our goal is to create an environment where partakers can develop their ideas and business models while receiving expert advice from industry leaders.</p>
        
         <p>
         Additionally, our key geographical hubs that are strategically placed to maximize impact serve as pivotal locations where startups can access resources, collaborate with partners, and engage in regional opportunities. By connecting startups with local ecosystems and fostering cross-border collaborations, Infinity Tech Labs accelerates the growth of visionary companies on a global scale.

@@ -11,7 +11,7 @@ export default function Expert() {
       <div className="content">
         <h1><strong>Become an ITL Expert</strong></h1>
         <p>
-          The Infinity Labs expert community is a national network of successful entrepreneurs, seasoned industry leaders, and other professionals seeking to help startups succeed. Our experts and mentors are the catalysts of our network, providing invaluable insight, guidance, and feedback. Experts support startups in different roles and in different capacities throughout the accelerator.
+          The Infinity Labs expert community is a national network of successful entrepreneurs, seasoned industry leaders, and other professionals seeking to help startups succeed. They are the catalysts of our network, providing invaluable insight, guidance, and feedback. Experts support startups in different roles and in different capacities throughout the accelerator.
         </p>
       </div>
 

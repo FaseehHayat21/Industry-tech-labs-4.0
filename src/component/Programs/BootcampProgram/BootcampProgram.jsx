@@ -52,7 +52,7 @@ export default function BootcampProgram() {
       </div>
       <div className="content">
         <p>
-          Our <strong>Bootcamp Program</strong> focuses on practical, real-world applications, helping entrepreneurs strengthen their product-market fit, optimize their go-to-market strategies, and overcome common challenges faced in the early stages. By the end of the Bootcamp, participants leave with the knowledge and confidence to take their ventures to the next level.
+          Our <strong>Bootcamps</strong> focus on practical, real-world applications, helping entrepreneurs strengthen their product-market fit, optimize their go-to-market strategies, and overcome common challenges faced in the early stages. At the end of each Bootcamp, participants leave with the knowledge and confidence to take their ventures to the next level.
         </p>
       </div>
 
