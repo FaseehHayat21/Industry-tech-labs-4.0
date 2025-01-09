@@ -9,7 +9,6 @@ export default function Announcement() {
      
 
        <div className="upcoming-events">
-        <h2>Upcoming Events</h2>
         <div className="events">
           <div className="event-card">
             {/*  <h3>Event 1</h3> */} 

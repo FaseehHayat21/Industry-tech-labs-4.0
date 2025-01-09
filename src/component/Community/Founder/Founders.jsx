@@ -23,7 +23,7 @@ export default function Founders() {
           </p>
 
       </div>
-      <div className="content">
+      {/* <div className="content">
           <h1><strong>The ITL Advantage</strong> </h1>
           <p>Infinity Tech Labs offers the most efficient pathway to connect startups, experts, corporations, and communities to grow and transform businesses and economies. For founders we have special offerings .
             </p>
@@ -34,7 +34,34 @@ export default function Founders() {
               <li>•	Live seminars and workshops</li>
               <li>•	A digital curriculum library</li>
             </ul>
+      </div> */}
+      <div className="content-1">
+      <div className="advantage-header">
+        <h1 className="title"><strong>The ITL Advantage</strong></h1>
+        <p className="descriptionss">
+          Infinity Tech Labs offers the most efficient pathway to connect startups, experts, corporations, and communities to grow and transform businesses and economies. For founders, we have special offerings:
+        </p>
       </div>
+      <div className="advantage-content">
+        <ul className="links-program">
+          <li>
+            <span className="icon">🚀</span> Help entrepreneurs identify goals and key initiatives
+          </li>
+          <li>
+            <span className="icon">🤝</span> Provide access to a meaningful network of experts
+          </li>
+          <li>
+            <span className="icon">🌐</span> Connect entrepreneurs with a deep peer network
+          </li>
+          <li>
+            <span className="icon">🎓</span> Live seminars and workshops
+          </li>
+          <li>
+            <span className="icon">📚</span> A digital curriculum library
+          </li>
+        </ul>
+      </div>
+    </div>
 
        
     </section>
