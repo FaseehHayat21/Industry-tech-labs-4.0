@@ -18,7 +18,7 @@ const SolveWithUs = () => {
                         We are dedicated to the growth of <strong>Industry 4.0 Technologies</strong> &amp; <strong>Entrepreneurship Ecosystem</strong>
                     </p>
                     <div className="button-group">
-                        <button className="join-network">JOIN THE NETWORK</button>
+                        <button   onClick={() => window.open("https://forms.gle/Qg8wt1E6MrdTuokAA", "_blank")}  className="join-network" >JOIN THE NETWORK</button>
                     </div>
                 </div>
 

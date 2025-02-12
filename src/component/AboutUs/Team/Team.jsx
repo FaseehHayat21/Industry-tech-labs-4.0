@@ -144,36 +144,36 @@ const teamData = {
     }
   ],
   technologyLeads: [
-    {
-      name: "John Doe",
-      role: "Tech Lead",
-      email: "john.doe@infinitytechlab.org",
-      imgSrc: sirazhar,
-      link: "/about/john"
-    },
-    {
-      name: "Jane Smith",
-      role: "Lead Engineer",
-      email: "jane.smith@infinitytechlab.org",
-      imgSrc: sirmansoor,
-      link: "/about/jane"
-    }
+    // {
+    //   name: "John Doe",
+    //   role: "Tech Lead",
+    //   email: "john.doe@infinitytechlab.org",
+    //   imgSrc: sirazhar,
+    //   link: "/about/john"
+    // },
+    // {
+    //   name: "Jane Smith",
+    //   role: "Lead Engineer",
+    //   email: "jane.smith@infinitytechlab.org",
+    //   imgSrc: sirmansoor,
+    //   link: "/about/jane"
+    // }
   ],
   mentorsAndExperts: [
-    {
-      name: "Khayam Khan",
-      role: "Industry Expert",
-      email: "michael.brown@infinitytechlab.org",
-      imgSrc: khayam,
-      link: "/about/michael"
-    },
-    {
-      name: "Emily Davis",
-      role: "Mentor",
-      email: "emily.davis@infinitytechlab.org",
-      imgSrc: sirmansoor,
-      link: "/about/emily"
-    }
+    // {
+    //   name: "Khayam Khan",
+    //   role: "Industry Expert",
+    //   email: "michael.brown@infinitytechlab.org",
+    //   imgSrc: khayam,
+    //   link: "/about/michael"
+    // },
+    // {
+    //   name: "Emily Davis",
+    //   role: "Mentor",
+    //   email: "emily.davis@infinitytechlab.org",
+    //   imgSrc: sirmansoor,
+    //   link: "/about/emily"
+    // }
   ]
 };
 
